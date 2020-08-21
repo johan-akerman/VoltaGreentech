@@ -1,0 +1,28 @@
+.table tbody {
+  color: white;
+  border-bottom: 1px solid white !important;
+}
+
+.table tr:first-child {
+  border-top: 2px solid transparent;
+}
+
+.table td {
+  padding-left: 0 !important;
+}
+
+.title {
+  color: white;
+}
+
+.text {
+  color: #bfbfbf;
+}
+
+.table {
+  border-top: none !important;
+
+  font-family: "muli", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}

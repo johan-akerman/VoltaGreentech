@@ -1,0 +1,39 @@
+.table tbody {
+  color: white;
+}
+
+.table tr:first-child {
+  border-top: 2px solid transparent;
+}
+
+.table td {
+  padding-left: 0 !important;
+}
+
+.text {
+  font-family: "Share Tech Mono", monospace !important;
+  font-size: 15px;
+
+  letter-spacing: 1.25px;
+  padding-top: 18px !important;
+}
+
+.table th {
+  padding-left: 0 !important;
+}
+
+.table tr {
+  height: 75px !important;
+}
+
+.table tbody tr:hover {
+  color: yellow !important;
+  cursor: pointer;
+}
+.table {
+  border-top: none !important;
+
+  font-family: "muli", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}

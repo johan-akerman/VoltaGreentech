@@ -1,0 +1,33 @@
+.navbar {
+  background-color: transparent !important;
+  padding: 16px 10%;
+}
+
+.navbar img {
+  height: 20px;
+  padding: 0 !important;
+}
+
+.navLink {
+  display: inline-block;
+  padding: 0px 16px;
+  font-size: 16px !important;
+  color: white !important;
+  text-align: center !important;
+  letter-spacing: 0.07em;
+
+  font-family: "muli", sans-serif;
+}
+
+.rightContent {
+  margin-bottom: 0 !important;
+}
+
+.navLink:hover {
+  color: #ffe633 !important;
+  text-decoration: none;
+}
+
+.navLink.active {
+  color: #ffe633;
+}

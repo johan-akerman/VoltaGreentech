@@ -1,0 +1,85 @@
+.container {
+  text-align: center !important;
+  margin: 125px auto 75px auto;
+  max-width: 650px;
+}
+
+.myForm {
+  max-width: 600px;
+  margin: 64px auto 0 auto;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  padding: 0 0 12px 0;
+  line-height: 16px;
+}
+
+#footerMyForm {
+  margin-top: 0 !important;
+}
+
+.infoText {
+  font-family: "Muli", sans-serif;
+  padding-top: 18px;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.inputField {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 0;
+  float: left;
+  margin-bottom: 0;
+  width: 70%;
+  color: white !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-decoration: none !important;
+  color: #bfbfbf !important;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  text-decoration: none !important;
+  color: #bfbfbf !important;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  text-decoration: none !important;
+  color: #bfbfbf !important;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="email"] {
+  text-decoration: none !important;
+  color: #ffe633 !important;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subscribeBtn {
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+
+.subscribeBtn:hover {
+  color: #ffe633 !important;
+}

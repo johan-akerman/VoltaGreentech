@@ -1,0 +1,46 @@
+.footerContainer {
+  width: 100%;
+  padding: 75px 10% 16px 10%;
+}
+
+.link {
+  display: inline-block;
+}
+
+ul {
+  list-style: none !important;
+  padding-left: 0;
+}
+
+.logo {
+  font-size: 100px !important;
+  font-family: "Share Tech Mono", monospace !important;
+  opacity: 1 !important;
+  line-height: 1 !important;
+  color: #fff !important;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #bfbfbf !important;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: none !important;
+  color: #ffe633 !important;
+}
+
+.footerTitle {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  line-height: 24px;
+  color: #fff !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

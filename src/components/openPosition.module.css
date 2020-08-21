@@ -1,0 +1,44 @@
+.container {
+  margin: 175px auto 150px auto;
+  max-width: 750px;
+}
+
+.jobTitle {
+  font-size: 68px;
+  color: white !important;
+  font-family: "Asket", sans-serif !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1 !important;
+}
+
+.jobSubTitle {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  font-size: 24px;
+  color: #bfbfbf !important;
+  margin-bottom: 16px;
+  font-family: "muli", sans-serif;
+}
+
+.secondaryTitle {
+  font-size: 32px;
+  color: white !important;
+  font-family: "muli", sans-serif;
+  margin-top: 32px;
+}
+
+.ul {
+  list-style: disc !important;
+  padding-left: 32px;
+  color: #bfbfbf;
+  font-family: "muli", sans-serif;
+  font-size: 18px;
+}
+
+.ul li {
+  padding-bottom: 8px;
+}

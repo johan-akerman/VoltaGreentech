@@ -1,0 +1,12 @@
+.image {
+  width: 100%;
+}
+
+.cardContent {
+  padding-top: 16px;
+  width: 95%;
+}
+
+a {
+  text-decoration: none !important;
+}

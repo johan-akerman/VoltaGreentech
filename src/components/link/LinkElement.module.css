@@ -1,0 +1,22 @@
+.link {
+  color: #ffe633 !important;
+  font-size: 17px;
+  font-family: "Muli", sans-serif;
+
+  letter-spacing: 2px;
+}
+
+.link:hover {
+  color: #ffe633;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.arrow {
+  padding-left: 2px;
+  transition: 0.2s;
+}
+
+.link:hover .arrow {
+  padding-left: 8px;
+}

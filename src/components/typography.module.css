@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Asket";
+  src: url("../../static/fonts/asket.condensed-extrabold.otf");
+}
+
+.heroTitle {
+  font-family: "Asket", sans-serif !important;
+  font-size: 40px;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.lowerLevelHeader {
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase !important;
+  margin-bottom: 12px !important;
+  letter-spacing: 2.5px;
+  color: #bfbfbf !important;
+}
+
+.chapterTitle {
+  font-family: "Asket", sans-serif !important;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.imageCaption {
+  font-family: "Muli", sans-serif;
+  padding-top: 8px;
+
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.btnContainer {
+  margin: 46px auto;
+  max-width: 450px;
+  text-align: center !important;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: white !important;
+  user-select: none;
+  border: 1px solid white;
+  padding: 12px 24px;
+  font-weight: 700;
+  background-color: transparent !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 30px !important;
+}

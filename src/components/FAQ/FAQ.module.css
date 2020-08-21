@@ -1,0 +1,62 @@
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+}
+
+.accordion {
+  border-radius: 0 !important;
+}
+
+.card {
+  background-color: transparent;
+  margin: 0 !important;
+  border: none;
+  color: white;
+  border-radius: 0 !important;
+  text-align: left !important;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.question {
+  padding: 40px 0 8px 0;
+  margin-bottom: 16px;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 0 !important;
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.header {
+  border-radius: 0 !important;
+  background-color: transparent;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  border-bottom: 1.25px solid transparent;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 0;
+  border-bottom: 1.25px solid white;
+  background-color: #141517 !important;
+  border-radius: 0 !important;
+}
+
+.arrow {
+  float: right;
+}
+
+.bodyText {
+  padding-left: 0 !important;
+  padding-top: 16px;
+  margin-bottom: 0;
+  color: #bfbfbf;
+  font-family: "muli", sans-serif;
+  font-size: 18px;
+  border: none !important;
+}

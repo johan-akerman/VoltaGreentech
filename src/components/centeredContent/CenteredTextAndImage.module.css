@@ -1,0 +1,13 @@
+.container {
+  padding: 64px 10% 32px 10%;
+  text-align: center;
+}
+.textContainer {
+  margin: 0 auto 45px auto;
+  max-width: 950px;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
