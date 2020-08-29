@@ -13,14 +13,22 @@
   padding-right: 16px !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .row {
     margin-top: 0px;
     padding: 0px;
   }
 
+  .textColumn {
+    padding: 0 !important;
+  }
+
+  .imageColumn img {
+    padding-right: 0 !important;
+  }
+
   .gridContent {
     margin: 0 auto;
-    padding: 15px 15px 20px 15px !important;
+    padding: 8px 0px !important;
   }
 }

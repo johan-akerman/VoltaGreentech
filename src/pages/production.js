@@ -1,22 +1,24 @@
+/* Importing essentials */
 import React from "react"
-import Layout from "../components/Layout"
-import IconColumnContainer from "../components/columns/IconColumnContainer"
 
+/* Importing components */
+import IconColumnContainer from "../components/columns/IconColumnContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-
-import HalfCard from "../components/halfCard/HalfCard"
 import Table from "../components/table/ComparisonTable"
-
 import FAQ from "../components/FAQ/FAQ"
-import backgroundImage from "../../static/factory_01_concept.jpg"
-import image from "../../static/articles/solution.png"
-import production from "../../static/production.png"
+
+/* Importing styling */
+import Layout from "../components/Layout"
+
+/* Importing images */
+import backgroundImage from "../../static/images/factory_01_concept.jpg"
+import production from "../../static/images/heroImages/production.png"
 
 export default function Production() {
   return (
     <Layout>
-      <Jumbotron image={backgroundImage} />
+      <Jumbotron image={backgroundImage} page="production" />
       <div className="layoutContainer">
         <CenteredTextAndImage
           lowerLevelHeader="Production"

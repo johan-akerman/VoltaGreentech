@@ -3,15 +3,6 @@
   padding: 75px 10% 16px 10%;
 }
 
-.link {
-  display: inline-block;
-}
-
-ul {
-  list-style: none !important;
-  padding-left: 0;
-}
-
 .logo {
   font-size: 100px !important;
   font-family: "Share Tech Mono", monospace !important;
@@ -23,24 +14,40 @@ ul {
 .link {
   text-decoration: none !important;
   color: #bfbfbf !important;
-  line-height: 1.5;
+  line-height: 1.75;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
+  display: block !important;
 }
 
-.link:hover,
-.link:focus {
+a.link:hover,
+a.link:focus {
   text-decoration: none !important;
   color: #ffe633 !important;
 }
 
 .footerTitle {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 8px;
-  margin-top: 10px;
-  line-height: 24px;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase !important;
+  margin-bottom: 12px !important;
+  letter-spacing: 2.5px;
   color: #fff !important;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    padding: 0px 16px 46px 16px;
+    margin-bottom: 0;
+  }
+
+  .footerTitle {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
 }

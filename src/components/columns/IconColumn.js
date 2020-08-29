@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./IconColumn.module.css"
-import typography from "../typography.module.css"
 
 export default function IconColumn(props) {
   return (
@@ -10,10 +9,7 @@ export default function IconColumn(props) {
         src={props.illustration}
         alt="column icon"
       />
-
-      <h4 className={styles.title}>Title goes here</h4>
-
-      <p>Short text about this step goes here. </p>
+      <h4 className={styles.title}>{props.title}</h4> <p>{props.text}</p>
     </div>
   )
 }

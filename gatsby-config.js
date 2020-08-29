@@ -7,3 +7,6 @@
 module.exports = {
   plugins: [],
 }
+module.exports = {
+  pathPrefix: "/VoltaGreentech",
+}

@@ -1,31 +1,40 @@
+/* Importing essentials */
 import React from "react"
-import typography from "../components/typography.module.css"
 
-import Layout from "../components/Layout"
+/* Importing components */
 import CardContainer from "../components/pressCard/CardContainer"
-import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import Jumbotron from "../components/jumbotron/Jumbotron"
-import heroImage from "../../static/press.jpeg"
-
+import Newsletter from "../components/newsletter/index.js"
+import Grid from "../components/grid/Grid"
+import FeaturedIn from "../components/featuredIn/FeaturedIn"
 import NewsContainer from "../components/newsContainer/NewsContainer"
+
+/* Importing styling */
+import Layout from "../components/Layout"
+
+/* Importing images */
+import heroImage from "../../static/images/heroImages/press.png"
+import leoAndAngelo from "../../static/images/team/leo_and_angelo.jpeg"
 
 export default function Press() {
   return (
     <Layout>
-      <Jumbotron image={heroImage} />
+      <Jumbotron image={heroImage} page="press" />
       <div className="layoutContainer">
-        <CardContainer />
-
-        <NewsContainer />
-        <CenteredTextAndImage
-          lowerLevelHeader="Press"
+        <FeaturedIn />
+        <Grid
+          positionLeft={true}
+          image={leoAndAngelo}
           chapterTitle="Press contact and press kit"
-          text="A collection of assets for our product, production, team and logos. For press inquires, contact Fredrik Åkerman, Co- founder & CEO, at fredrik@voltagreentech.com. "
+          text="For press inquires, contact Leo Wezelius, Co- founder & CMO, at leo@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos. "
+          link="Download press kit"
+          caption="Leo & Angelo on stage"
+          href="/solution/"
         />
 
-        <div className={typography.btnContainer}>
-          <a className={typography.btn}>Download</a>
-        </div>
+        <CardContainer />
+        <NewsContainer />
+        <Newsletter />
       </div>
     </Layout>
   )

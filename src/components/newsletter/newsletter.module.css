@@ -5,33 +5,34 @@
 }
 
 .myForm {
-  max-width: 600px;
+  max-width: 550px;
   margin: 64px auto 0 auto;
+  height: 50px;
+
   background-color: transparent;
-  border-bottom: 1px solid white;
+  border-bottom: 1.25px solid #ccc;
   border-radius: 0px;
-  padding: 0 0 12px 0;
-  line-height: 16px;
 }
 
 #footerMyForm {
-  margin-top: 0 !important;
+  width: 85%;
+  height: 30px;
+  margin: 0 auto 8px 0;
+  padding-bottom: 32px;
+  opacity: 0.5;
+  border-color: #ccc;
 }
 
-.infoText {
-  font-family: "Muli", sans-serif;
-  padding-top: 18px;
-  letter-spacing: 1px;
-  font-size: 13px;
+#footerMyForm .inputField {
+  padding-top: 0;
 }
 
 .inputField {
   background-color: transparent;
   border: none;
-  padding-bottom: 0;
+  padding-top: 12px;
   float: left;
-  margin-bottom: 0;
-  width: 70%;
+
   color: white !important;
 }
 
@@ -41,7 +42,7 @@
   color: #bfbfbf !important;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 :-ms-input-placeholder {
@@ -50,7 +51,7 @@
   color: #bfbfbf !important;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 ::-ms-input-placeholder {
@@ -59,7 +60,7 @@
   color: #bfbfbf !important;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 input:focus {
@@ -68,18 +69,49 @@ input:focus {
 
 input[type="email"] {
   text-decoration: none !important;
-  color: #ffe633 !important;
+  color: #bfbfbf !important;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px !important;
+}
+
+#submitBtn {
+  float: right;
+  margin-bottom: 12px !important;
 }
 
 .subscribeBtn {
-  text-align: left;
   border: none;
   background-color: transparent;
 }
 
-.subscribeBtn:hover {
-  color: #ffe633 !important;
+.textDecorationContainer {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.textDecorationImageContainer {
+  box-sizing: border-box;
+  height: 150%;
+  width: 100%;
+  left: 0;
+}
+
+.textDecorationImage {
+  display: block;
+  width: 100%;
+  left: 0;
+  bottom: -5px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 36px auto 0px auto;
+    text-align: left !important;
+  }
+
+  .myForm {
+    margin: 32px auto 0 auto;
+  }
 }

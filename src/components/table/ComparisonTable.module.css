@@ -21,8 +21,18 @@
 
 .table {
   border-top: none !important;
-
   font-family: "muli", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .table {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  #firstColumn {
+    margin-bottom: 0;
+  }
 }

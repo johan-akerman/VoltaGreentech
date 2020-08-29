@@ -1,8 +1,7 @@
 import React from "react"
 import typography from "./typography.module.css"
 import styles from "./centeredContent/CenteredTextAndImage.module.css"
-import Graph from "../components/graphs/Graph"
-import { Button } from "react-bootstrap"
+import graph from "../../static/images/illustrations/graph.png"
 
 export default function CenteredTextAndImage(props) {
   return (
@@ -27,7 +26,21 @@ export default function CenteredTextAndImage(props) {
           take a massive leap in going sustainable.
         </p>
       </div>
-      <Graph />
+
+      <img src={graph} className="img img-fluid" alt="Graph" />
+      <br />
+      <br />
+      <p className={typography.imageCaption}>
+        Graph based on{" "}
+        <a
+          href="https://www.gatesnotes.com/energy/my-plan-for-fighting-climate-change"
+          target="_blank"
+          className={typography.inlineLink}
+          rel="noreferrer"
+        >
+          Gates Notes
+        </a>
+      </p>
     </div>
   )
 }

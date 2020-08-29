@@ -12,7 +12,7 @@ export default function ComparisonTable(props) {
         <h1 className={typography.chapterTitle}>Factory 01 specifications</h1>
       </div>
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-6" id={styles.firstColumn}>
           <Table className={styles.table}>
             <tbody>
               <tr>

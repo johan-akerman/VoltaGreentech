@@ -17,9 +17,13 @@ p {
   padding: 0px 10% 50px 10%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .layoutContainer {
-    padding: 50px 15px 100px 15px;
+    padding: 16px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
 

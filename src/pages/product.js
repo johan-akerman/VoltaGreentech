@@ -1,30 +1,41 @@
+/* Importing essentials */
 import React from "react"
-import Layout from "../components/Layout"
-import milk from "../../static/illustrations/milk.png"
-import hero from "../../static/milk.png"
-import FAQ from "../components/FAQ/FAQ"
-import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-import Graph from "../components/graphs/Graph"
-import Table from "../components/table/ContentTable"
-import Jumbotron from "../components/jumbotron/Jumbotron"
 
+/* Importing components */
+import FAQ from "../components/FAQ/FAQ"
+import Table from "../components/table/ContentTable"
+import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
+import Quote from "../components/quote/Quote"
+// import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
-import oatly from "../../static/oatly.png"
-import map from "../../static/cowMap.png"
-import diagram from "../../static/illustrations/diagram.png"
-import production from "../../static/production.png"
+
+/* Importing styling */
+import Layout from "../components/Layout"
+
+/* Importing images */
+// import planetMilk from "../../static/images/texts/planetMilk.png"
+// import supermarket from "../../static/images/heroImages/supermarket.jpg"
+import oatly from "../../static/images/oatly.png"
+import map from "../../static/images/cowMap.png"
 
 export default function Product() {
   return (
     <Layout>
-      <Jumbotron image={hero} />
+      {/* <Jumbotron image={supermarket} text={planetMilk} page="product" /> */}
       <div className="layoutContainer">
-        <CenteredTextAndImage
-          lowerLevelHeader="Our first consumer product"
-          chapterTitle="Have you met Planetmjölk? It's swedish milk, reimagined. "
+        <Grid
+          positionLeft={true}
+          image={oatly}
+          chapterTitle="Planetmilk: swedish milk, reimagined. "
           text="Planetmjölk är precis som vilken mellanmjölk som helst, förutom en viktig skillnad: det har möjliggjort att metanustläppen från en liter mjölk har minskats."
-          image={production}
-          caption="Image caption goes here"
+          link="Find reseller"
+          href="/map/"
+        />
+
+        <Grid
+          positionLeft={true}
+          chapterTitle="Volta Greentech's lösning på problemet"
+          text="Genom att mata kor ett naturligt tillskott av ca 100 gram röda alger tillverkade på västkusten kan Volta Greentech eliminera majoriteten av bakterierna, förbättra kornas hälsa och samtiditg minska utsläpp av växthusgaser. Bakom innovationen ligger mångårig forskning som visar den positiva effekten på korna. "
         />
 
         <CenteredTextAndImage
@@ -32,25 +43,32 @@ export default function Product() {
           text="Visste du att mikroorganismer som tagit sig in i kors matsmältning idag står för 5% av de globala utsläppen av växthusgaser? Det är mer än dubbelt så mycket växthusgasutsläpp som alla världens flygplan skapar tillsammans. Bakterierna stjäl dessutom energi från korna och gör dem gasiga i magen."
         />
 
-        <Graph />
-
-        <Grid
-          positionLeft={true}
-          image={diagram}
-          chapterTitle="Volta Greentech's lösning på problemet"
-          text="Genom att mata kor ett naturligt tillskott av ca 100 gram röda alger tillverkade på västkusten kan Volta Greentech eliminera majoriteten av bakterierna, förbättra kornas hälsa och samtiditg minska utsläpp av växthusgaser. Bakom innovationen ligger mångårig forskning som visar den positiva effekten på korna. "
+        <Quote
+          text="När våra kor mår bra mår världen bra. "
+          person="Jens & Matilda, Vismalövsgården"
         />
+
+        <br />
+        <br />
+        <br />
+        <br />
 
         <Table />
 
-        <div className="row">
-          <div className="col-lg-6 col-md-12">
-            <img className="img img-fluid" src={milk} />
-          </div>
-          <div className="col-lg-6 col-md-12">
-            <FAQ />
-          </div>
-        </div>
+        <br />
+        <br />
+        <br />
+
+        <FAQ
+          q1="Is the seaweed harmful for the cow in any way? "
+          a1="No. Rather, studies show that the seaweed has positive effects on the cow’s health, wellbeing and life expectancy."
+          q2="Does it really work? "
+          a2="Answer"
+          q3="Where does the methane go?"
+          a3="Answer"
+          q4="Do the cows like the Seafeed?"
+          a4="Answer"
+        />
 
         <CenteredTextAndImage
           chapterTitle="Mu eller aldrig"

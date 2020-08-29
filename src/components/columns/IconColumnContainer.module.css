@@ -1,15 +1,19 @@
 .container {
   padding: 80px 0 72px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .text {
-  max-width: 70%;
-  margin: 0 auto 91px auto !important;
+  max-width: 65%;
+  margin-bottom: 72px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+  .text {
+    max-width: 100% !important;
+  }
+
   .container {
-    padding: 50px 15px 100px 15px;
+    padding: 0;
   }
 }

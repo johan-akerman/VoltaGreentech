@@ -2,15 +2,16 @@ import React from "react"
 import typography from "../typography.module.css"
 import styles from "./CardContainer.module.css"
 import Card from "./Card"
-import brilliantMinds from "../../../static/articles/brilliantMinds.png"
-import solution from "../../../static/articles/solution.png"
-import flask from "../../../static/articles/flask.png"
+import brilliantMinds from "../../../static/images/articles/brilliantMinds.png"
+import solution from "../../../static/images/articles/solution.png"
+import flask from "../../../static/images/articles/flask.png"
 
 export default function CenteredTextAndImage(props) {
   return (
     <div className={styles.container}>
       <p className={typography.lowerLevelHeader}>Press</p>
       <h1 className={typography.chapterTitle}>Latest press releases</h1>
+
       <div className="row">
         <Card
           image={brilliantMinds}

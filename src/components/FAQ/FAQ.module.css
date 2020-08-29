@@ -1,7 +1,5 @@
-.container {
-  margin: 0 auto;
-  max-width: 750px;
-  text-align: center;
+#titleContainer {
+  padding-right: 8%;
 }
 
 .accordion {
@@ -23,32 +21,65 @@
 
 .question {
   padding: 40px 0 8px 0;
-  margin-bottom: 16px;
+
   background-color: transparent;
   border: none !important;
   border-radius: 0 !important;
-  color: white;
+  color: inherit;
   font-weight: 300;
   font-size: 22px;
   margin-top: 0;
 }
 
 .header {
-  border-radius: 0 !important;
   background-color: transparent;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  border-bottom: 1.25px solid transparent;
-  font-family: "Muli", sans-serif;
-  margin-bottom: 0;
-  border-bottom: 1.25px solid white;
-  background-color: #141517 !important;
+  border-bottom: 1px solid #ccc;
   border-radius: 0 !important;
+  color: #fff;
+  font-family: "Asket", sans-serif !important;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  margin: 0 !important;
+  text-transform: uppercase;
+  padding: 36px 0 8px 0;
 }
 
-.arrow {
+.header:hover {
+  color: #ffe633;
+}
+
+#icon {
+  color: inherit;
   float: right;
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f067";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f068";
+}
+
+.textDecorationContainer {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.textDecorationImageContainer {
+  box-sizing: border-box;
+  height: 150%;
+  width: 100%;
+  left: 0;
+}
+
+.textDecorationImage {
+  display: block;
+  width: 100%;
+  left: 0;
+  bottom: -5px;
+  position: absolute;
 }
 
 .bodyText {
@@ -59,4 +90,24 @@
   font-family: "muli", sans-serif;
   font-size: 18px;
   border: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #titleContainer {
+    margin-bottom: 0 !important;
+  }
+
+  .header {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  #icon {
+    padding-left: 8px;
+  }
+
+  .bodyText {
+    font-size: 16px;
+    padding-bottom: 0 !important;
+  }
 }

@@ -1,25 +1,53 @@
+/* Importing essentials */
 import React from "react"
-import Layout from "../components/Layout"
+
+/* Importing components */
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import IconColumnContainer from "../components/columns/IconColumnContainer"
-
-import HalfCard from "../components/halfCard/HalfCard"
+import Quote from "../components/quote/Quote"
 import FAQ from "../components/FAQ/FAQ"
-import backgroundImage from "../../static/solution.jpeg"
-import image from "../../static/articles/solution.png"
+import Grid from "../components/grid/Grid"
+
+/* Importing styling */
+import Layout from "../components/Layout"
+
+/* Importing images */
+import backgroundImage from "../../static/images/solution.jpeg"
+import seaweed from "../../static/images/heroImages/seaweed.jpg"
 
 export default function Solution() {
   return (
     <Layout>
-      <Jumbotron image={backgroundImage} />
+      <Jumbotron
+        image={seaweed}
+        title="Straight out of the bottom of the ocean."
+        page="solution"
+      />
       <div className="layoutContainer">
         <CenteredTextAndImage
           lowerLevelHeader="Our solution"
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
           text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams reduces methane emissions by up to 80%. The feed is based on a mix of red seaweeds and include natural bioactive compounds that block one of the enzymes that microbial methanogens in the rumen use to produce methane."
           image={backgroundImage}
-          caption="A cows daily dose of Volta Seafeed (100g)"
+          caption="A cows daily dose of Volta Seafeed"
+        />
+
+        <Quote
+          text="We’re not up against the insurance companies of the world. We’re up against people’s fear of loss."
+          person="Lucas Carlsén, CEO & Co-foundeR"
+        />
+        <br />
+
+        <Grid
+          positionLeft={true}
+          image={seaweed}
+          lowerLevelHeader="Seaweed"
+          chapterTitle="About asparagopsis taxiformis"
+          text="Asparagopsis is a _____, _____ and _____. It was originally discovered at ____ and after years of research at ____, ____, ____ scientists came to the conclusion that the seaweed could reduce cows methane emissions up to ____. The seaweed have never been produced at scale. So the team over at Volta are working on developing a scalable production on land."
+          link="About our factory"
+          href="/solution/"
+          caption="Asparagopsis taxiformis growing in the wild"
         />
         <IconColumnContainer
           lowerLevelHeader="How it works"
@@ -28,7 +56,16 @@ export default function Solution() {
         dose of 100 grams reduces methane emissions by up to 80%"
         />
 
-        <FAQ />
+        <FAQ
+          q1="Is the seaweed harmful for the cow?"
+          a1="No. Rather, studies show that the seaweed has positive effects on the cow’s health, wellbeing and life expectancy."
+          q2="Does it really work? "
+          a2="Answer"
+          q3="Where does the methane go?"
+          a3="Answer"
+          q4="Do the cows like the Seafeed?"
+          a4="Answer"
+        />
       </div>
     </Layout>
   )

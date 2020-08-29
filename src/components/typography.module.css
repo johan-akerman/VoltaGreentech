@@ -3,6 +3,11 @@
   src: url("../../static/fonts/asket.condensed-extrabold.otf");
 }
 
+@font-face {
+  font-family: "Volta";
+  src: url("../../static/fonts/VOLTA GT HAND-Regular.otf");
+}
+
 .heroTitle {
   font-family: "Asket", sans-serif !important;
   font-size: 40px;
@@ -36,7 +41,7 @@
 
   letter-spacing: 1px;
   font-size: 13px;
-  text-align: left;
+  text-align: inherit;
 }
 
 .btnContainer {
@@ -45,19 +50,59 @@
   text-align: center !important;
 }
 
+.inlineLink {
+  color: #ffe633;
+  font-family: "Volta";
+  text-transform: uppercase;
+}
+
+.inlineLink:hover {
+  color: #ffe633;
+  text-decoration: none;
+  border-bottom: 1px solid #ffe633;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  color: white !important;
+  color: #ffe633 !important;
   user-select: none;
-  border: 1px solid white;
-  padding: 12px 24px;
-  font-weight: 700;
+  border: 1px solid #ffe633;
+
   background-color: transparent !important;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 17px;
   border-radius: 30px !important;
+  padding: 6px 20px 8px 20px;
+
+  font-family: "Volta";
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lowerLevelHeader {
+    font-size: 14px;
+    margin-bottom: 8px !important;
+  }
+
+  .chapterTitle {
+    font-family: "Asket", sans-serif !important;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .imageCaption {
+    font-size: 11px;
+  }
+
+  .btn {
+    padding: 6px 20px 8px 0px;
+  }
 }

@@ -1,9 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
 import styles from "../components/openPosition.module.css"
-import typography from "../components/typography.module.css"
-
-import Quote from "../components/quote/Quote"
 
 export default function About() {
   return (

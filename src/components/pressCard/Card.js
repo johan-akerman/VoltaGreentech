@@ -5,7 +5,12 @@ import LinkElement from "../link/LinkElement"
 export default function CenteredTextAndImage(props) {
   return (
     <div className="col-sm-12 col-md-6 col-lg-4">
-      <a href={props.href} target="_blank" rel="noopener noreferrer">
+      <a
+        className={styles.wrapperAnchor}
+        href={props.href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className={styles.card}>
           <img
             className={styles.image}

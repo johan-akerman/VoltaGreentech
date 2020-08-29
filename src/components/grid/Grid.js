@@ -8,13 +8,14 @@ export default function grid(props) {
     return (
       <div className={styles.gridContent}>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-sm-12 col-md-6 col-lg-6">
             <div className={styles.textColumn}>
               <p className={typography.lowerLevelHeader}>
                 {props.lowerLevelHeader}
               </p>
               <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>
               <p>{props.text}</p>
+              <p>{props.text2}</p>
               <LinkElement to={props.href} text={props.link} />
             </div>
           </div>
@@ -45,6 +46,7 @@ export default function grid(props) {
             </p>
             <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>
             <p>{props.text}</p>
+            <p>{props.text2}</p>
 
             <LinkElement to={props.href} text={props.link} />
           </div>

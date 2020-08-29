@@ -20,6 +20,7 @@
   padding-top: 0 !important;
   font-size: 24px;
   color: #bfbfbf !important;
+
   margin-bottom: 16px;
   font-family: "muli", sans-serif;
 }
@@ -27,7 +28,8 @@
 .secondaryTitle {
   font-size: 32px;
   color: white !important;
-  font-family: "muli", sans-serif;
+  font-family: "Asket", sans-serif !important;
+  letter-spacing: 0.5px;
   margin-top: 32px;
 }
 

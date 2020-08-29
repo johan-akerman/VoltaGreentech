@@ -10,14 +10,6 @@
   padding-left: 0 !important;
 }
 
-.text {
-  font-family: "Share Tech Mono", monospace !important;
-  font-size: 15px;
-
-  letter-spacing: 1.25px;
-  padding-top: 18px !important;
-}
-
 .table th {
   padding-left: 0 !important;
 }
@@ -36,4 +28,18 @@
   font-family: "muli", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .table {
+    font-size: 15px;
+  }
+
+  #thDate {
+    display: none;
+  }
+
+  #tdDate {
+    display: none;
+  }
 }
