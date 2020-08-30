@@ -1,3 +1,7 @@
+.container {
+  margin-bottom: 0 !important;
+}
+
 .table tbody {
   color: white;
 }
@@ -36,10 +40,10 @@
   }
 
   #thDate {
-    display: none;
+    display: none !important;
   }
 
   #tdDate {
-    display: none;
+    display: none !important;
   }
 }

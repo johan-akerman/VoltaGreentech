@@ -1,7 +1,7 @@
 import React from "react"
 import typography from "../typography.module.css"
 import NewsTable from "./NewsTable"
-import styles from "./NewsContainer.module.css"
+import styles from "./NewsTable.module.css"
 
 export default function NewsContainer(props) {
   return (

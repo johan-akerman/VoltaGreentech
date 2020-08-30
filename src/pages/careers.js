@@ -5,6 +5,7 @@ import React from "react"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import JobsContainer from "../components/jobsContainer/JobsContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
+import ValueColumnContainer from "../components/values/ValueColumnContainer"
 
 /* Importing styling */
 import Layout from "../components/Layout"
@@ -30,9 +31,8 @@ export default function Careers() {
           image={flask}
           caption="Team image"
         />
-        <br />
-        <br />
-        <br />
+
+        <ValueColumnContainer />
 
         <JobsContainer />
       </div>

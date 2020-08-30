@@ -2,10 +2,11 @@ import React from "react"
 import typography from "../typography.module.css"
 import solution from "../../../static/images/team/angelo.jpeg"
 import Card from "./TeamMemberCard"
+import styles from "./TeamMemberCard.module.css"
 
 export default function teamContainer(props) {
   return (
-    <React.Fragment>
+    <div className={styles.container}>
       <p className={typography.lowerLevelHeader}>Founders</p>
       <h1 className={typography.chapterTitle}>Meet the founders</h1>
       <p>
@@ -32,6 +33,6 @@ export default function teamContainer(props) {
           email="angelo@voltagreentech.com"
         />
       </div>
-    </React.Fragment>
+    </div>
   )
 }

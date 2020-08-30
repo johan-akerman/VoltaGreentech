@@ -1,12 +1,12 @@
 .navbar {
-  padding: 16px 8%;
+  padding: 24px 60px;
   box-shadow: none !important;
 
   background-color: transparent !important;
 }
 
 .navbar img {
-  height: 20px;
+  height: 24px;
   padding: 0 !important;
 }
 
@@ -17,8 +17,12 @@
   color: white !important;
   text-align: center !important;
   letter-spacing: 0.07em;
+  text-transform: uppercase;
 
-  font-family: "muli", sans-serif;
+  font-family: "Muli", sans-serif;
+
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .rightContent {

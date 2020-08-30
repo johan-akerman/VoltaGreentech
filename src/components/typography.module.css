@@ -28,7 +28,8 @@
 
 .chapterTitle {
   font-family: "Asket", sans-serif !important;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 52px;
   letter-spacing: 1.5px;
   margin-bottom: 8px;
   color: #fff;

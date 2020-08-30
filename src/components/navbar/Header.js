@@ -34,7 +34,6 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav" className={styles.rightContent}>
         <Nav className="mr-auto"></Nav>
         <Nav>
-          <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/product/">Planet food</ListLink>
           <ListLink to="/solution/">Seafeed</ListLink>

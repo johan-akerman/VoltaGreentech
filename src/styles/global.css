@@ -14,7 +14,8 @@ p {
 }
 
 .layoutContainer {
-  padding: 0px 10% 50px 10%;
+  padding: 0px 4% 50px 4%;
+  /* padding: 0px 10% 50px 10%; */
 }
 
 @media only screen and (max-width: 600px) {
