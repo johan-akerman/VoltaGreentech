@@ -8,6 +8,10 @@
   text-align: left;
 }
 
+#rightTextColumn {
+  padding-left: 32px !important;
+}
+
 .imageColumn img {
   width: 100%;
 }
@@ -16,6 +20,10 @@
   .row {
     margin-top: 0px;
     padding: 0px;
+  }
+
+  #rightTextColumn {
+    padding-left: 0 !important;
   }
 
   .textColumn {

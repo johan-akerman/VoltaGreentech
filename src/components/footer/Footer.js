@@ -37,17 +37,17 @@ export default function Footer(props) {
           <br />
 
           <ListLink to="/solution/" className={styles.link}>
-            Labs
+            Seafeed
           </ListLink>
-          <br />
+          {/* <br />
 
           <ListLink to="/product/" className={styles.link}>
             Planetmilk
-          </ListLink>
+          </ListLink> */}
           <br />
 
           <ListLink to="/production/" className={styles.link}>
-            Factory
+            Production
           </ListLink>
           <br />
 

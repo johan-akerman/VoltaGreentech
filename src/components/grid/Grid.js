@@ -40,7 +40,7 @@ export default function grid(props) {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className={styles.textColumn}>
+          <div className={styles.textColumn} id={styles.rightTextColumn}>
             <p className={typography.lowerLevelHeader}>
               {props.lowerLevelHeader}
             </p>

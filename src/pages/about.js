@@ -15,9 +15,9 @@ import Layout from "../components/Layout"
 
 /* Importing images */
 import solution from "../../static/images/solution.svg"
+import brilliantMinds from "../../static/images/brilliantMinds.gif"
 import production from "../../static/images/heroImages/production.png"
 import graph2 from "../../static/images/illustrations/graph_2.png"
-import brilliantMinds from "../../static/images/brilliantMinds.png"
 
 export default function About() {
   return (
@@ -29,14 +29,15 @@ export default function About() {
       />
       <div className="layoutContainer">
         <CenteredTextAndImage
+          video={true}
           lowerLevelHeader="Who we are"
           chapterTitle="A swedish greentech company"
           text="Some may call us a swedish greentech company that reduce emissions
           from the meat & dairy industry. But we are more than that. We are a
           team of innovators who take climate inventions to the market. We are a
-          tech company by heart and all we do is for the planet."
+          tech company by heart and all we do is for the planet. Sounds interesting? Watch Fredrik, one of the co-founders, present Volta below."
           image={brilliantMinds}
-          caption="Volta Greentech presented at Brilliant Minds 2019"
+          caption="Volta Greentech explained at Brilliant Minds 2019"
         />
 
         <Grid
@@ -46,7 +47,6 @@ export default function About() {
           chapterTitle="REDUCE METHANE EMISSIONS FROM COWS"
           text="There are 1.5 billion cows on the planet that together burp out 5% of the world’s greenhouse gas emissions. That’s 2x more emissions than the world’s fleet of airplanes."
           text2="Volta Greentech is on a mission to work with the beef and dairy industry to reduce emissions to mitigate global warming. By providing farmers with the means to drastically reduce the methane emissions produced by dairy cows and beef cattle, the agriculture sector can take a massive leap in going sustainable."
-          caption="Illustation based on Gates notes"
         />
         <Quote
           text="If cattle were a country, they would rank third in greenhouse gas emissions."

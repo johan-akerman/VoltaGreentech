@@ -56,8 +56,7 @@ export default function Home() {
         <CenteredTextAndImage
           lowerLevelHeader="Production"
           chapterTitle="Volta Factory 01"
-          text="Volta Greentech is developing a scalable, sustainable and automated land based seaweed cultivation system - tailored for the selected species of seaweed that are key ingredients in Volta Seafeed."
-          text2="Land based systems enables optimization of temperature, light and nutrients to maximize the growth rate of the seaweed, while ensuring a high and standardised quality of the feed supplement."
+          text="Volta Greentech is developing a scalable, sustainable and automated land based seaweed cultivation system - tailored for the selected species of seaweed that are key ingredients in Volta Seafeed. Land based systems enables optimization of temperature, light and nutrients to maximize the growth rate of the seaweed, while ensuring a high and standardised quality of the feed supplement."
           image={factory}
           caption="Concept visualization of Volta Factory 01"
           href="/production/"

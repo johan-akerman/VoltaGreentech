@@ -3,13 +3,51 @@
   text-align: center;
 }
 .textContainer {
-  margin: 0 auto 45px auto;
-  max-width: 950px;
+  margin: 0 auto 32px auto;
+  max-width: 850px;
   text-align: center;
 }
 
 .img {
   width: 100%;
+}
+
+.videoContainer {
+  position: relative;
+
+  padding: 0;
+  width: 100%;
+  max-width: 1050px;
+  margin: -32px auto 72px auto;
+  text-align: left;
+}
+
+.playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+
+  font-size: 32px;
+  border: 5px solid #ffe633;
+
+  width: 75px;
+  line-height: 40px;
+  height: 75px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 100%;
+  text-align: center;
+
+  font-weight: 400;
+  color: #ffe633 !important;
+}
+
+.playBtn:hover {
+  background-color: #ffe633;
+  color: #141517 !important;
 }
 
 @media only screen and (max-width: 600px) {

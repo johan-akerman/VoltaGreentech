@@ -34,8 +34,8 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav" className={styles.rightContent}>
         <Nav className="mr-auto"></Nav>
         <Nav>
-          <ListLink to="/about/">About</ListLink>
-          <ListLink to="/product/">Planet food</ListLink>
+          <ListLink to="/about/">About Volta</ListLink>
+          {/* <ListLink to="/product/">Planet food</ListLink> */}
           <ListLink to="/solution/">Seafeed</ListLink>
           <ListLink to="/production/">Production</ListLink>
           <ListLink to="/press/">Press</ListLink>
