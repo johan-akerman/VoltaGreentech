@@ -7,46 +7,48 @@ export default function NewsContainer(props) {
     <div>
       <p className={typography.lowerLevelHeader}>Join us</p>
       <h1 className={typography.chapterTitle}>Open positions</h1>
-      <p>
+      <p style={{ maxWidth: "750px" }}>
         If you feel that you belong at Volta Greentech but don’t see a relevant
-        open position listed below. Send an email to fredrik@voltagreentech.com
+        open position listed below. Send an email to{" "}
+        <span>
+          <a
+            className={typography.link}
+            href="mailto:fredrik@voltagreentech.com"
+          >
+            fredrik@voltagreentech.com
+          </a>
+        </span>
       </p>
 
       <div className="row" style={{ marginTop: "72px" }}>
         <JobCard
           jobTitle="Production engineer"
           location="Stockholm, Sweden"
-          href="/open-position/"
+          href="/open-positions/production_engineer"
         />
 
         <JobCard
           jobTitle="Business developer"
           location="Stockholm, Sweden"
-          href="/open-position/"
+          href="/open-positions/business_developer"
         />
 
         <JobCard
           jobTitle="Marine Biologist"
           location="Stockholm, Sweden"
-          href="/open-position/"
+          href="/open-positions/marine_biologist"
         />
 
         <JobCard
           jobTitle="Head of Manufacturing"
           location="Stockholm, Sweden"
-          href="/open-position/"
+          href="/open-positions/head_of_manufacturing"
         />
 
         <JobCard
           jobTitle="Algae Cultivation Technician"
           location="Lysekil, Sweden"
-          href="/open-position/"
-        />
-
-        <JobCard
-          jobTitle="Open application"
-          location="Stockholm, Sweden"
-          href="/open-position/"
+          href="/open-positions/algae_cultivation_technician"
         />
       </div>
     </div>

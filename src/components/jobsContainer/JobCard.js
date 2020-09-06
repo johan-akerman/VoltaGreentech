@@ -9,7 +9,7 @@ export default function NewsTable(props) {
       <div className={styles.container}>
         <h1 className={styles.title}>{props.jobTitle}</h1>
         <p className={styles.location}>{props.location}</p>
-        <LinkElement to="/open-positions/production_engineer" text="Apply" />
+        <LinkElement to={props.href} text="Apply" />
       </div>
     </div>
   )

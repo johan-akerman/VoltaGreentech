@@ -1,11 +1,17 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../../components/Layout"
+import typography from "../../components/typography.module.css"
 import styles from "../../components/openPosition.module.css"
+import goBack from "../../../static/images/illustrations/goBack.png"
 
 export default function About() {
   return (
     <Layout>
       <div className={styles.container}>
+        <Link to="/careers">
+          <img className={styles.goBack} src={goBack} />
+        </Link>
         <h1 className={styles.jobTitle}>Production Engineer</h1>
         <h2 className={styles.jobSubTitle}>Full time, Stockholm Sweden</h2>
         <h2 className={styles.secondaryTitle}>About the role</h2>
@@ -67,7 +73,15 @@ export default function About() {
         <p>
           If you are ready to take on some of our generations greatest
           challenges and feel that you are the one we are looking for, please
-          send us your CV and a personal letter to fredrik@voltagreentech.com
+          send us your CV and a personal letter to{" "}
+          <span>
+            <a
+              className={typography.link}
+              href="mailto:fredrik@voltagreentech.com"
+            >
+              fredrik@voltagreentech.com
+            </a>
+          </span>
         </p>
       </div>
     </Layout>

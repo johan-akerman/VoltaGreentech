@@ -12,10 +12,12 @@
 
 .table td {
   padding-left: 0 !important;
+  vertical-align: bottom;
 }
 
 .table th {
   padding-left: 0 !important;
+  vertical-align: bottom;
 }
 
 .table tr {
@@ -28,7 +30,6 @@
 }
 .table {
   border-top: none !important;
-
   font-family: "muli", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;

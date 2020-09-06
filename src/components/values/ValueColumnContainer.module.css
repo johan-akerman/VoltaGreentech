@@ -5,15 +5,17 @@
 
 .text {
   max-width: 65%;
-  margin-bottom: 72px;
+  margin-bottom: 102px;
 }
 
 @media only screen and (max-width: 600px) {
   .text {
     max-width: 100% !important;
+    margin-bottom: 32px;
   }
 
   .container {
     padding: 0;
+    padding-top: 32px;
   }
 }

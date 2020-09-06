@@ -26,7 +26,8 @@ export default function CenteredTextAndImage(props) {
           take a massive leap in going sustainable.
         </p>
       </div>
-
+      <br />
+      <br />
       <img src={graph} className="img img-fluid" alt="Graph" />
       <br />
       <br />
@@ -35,7 +36,7 @@ export default function CenteredTextAndImage(props) {
         <a
           href="https://www.gatesnotes.com/energy/my-plan-for-fighting-climate-change"
           target="_blank"
-          className={typography.inlineLink}
+          className={typography.link}
           rel="noreferrer"
         >
           Gates Notes

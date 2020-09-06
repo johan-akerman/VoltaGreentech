@@ -17,7 +17,7 @@ export default function teamMemberCard(props) {
             <div className={styles.position}>{props.position}</div>
             <a
               id={styles.link}
-              className={typography.inlineLink}
+              className={typography.link}
               href={`mailto:${props.email}`}
             >
               {props.email}

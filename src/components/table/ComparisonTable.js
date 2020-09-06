@@ -16,20 +16,20 @@ export default function ComparisonTable(props) {
           <Table className={styles.table}>
             <tbody>
               <tr>
-                <td className={styles.title}>Loading capacity</td>
-                <td className={styles.text}>15-18 pallets</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Range per charge</td>
-                <td className={styles.text}>130-180 km</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Gross vehicle weight</td>
-                <td className={styles.text}>26 tonnes</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Payload</td>
-                <td className={styles.text}>16 tonnes</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
             </tbody>
           </Table>
@@ -39,20 +39,20 @@ export default function ComparisonTable(props) {
           <Table className={styles.table}>
             <tbody>
               <tr>
-                <td className={styles.title}>Loading capacity</td>
-                <td className={styles.text}>15-18 pallets</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Range per charge</td>
-                <td className={styles.text}>130-180 km</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Gross vehicle weight</td>
-                <td className={styles.text}>26 tonnes</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
               <tr>
-                <td className={styles.title}>Payload</td>
-                <td className={styles.text}>16 tonnes</td>
+                <td className={styles.title}>Spec title</td>
+                <td className={styles.text}>Spec value</td>
               </tr>
             </tbody>
           </Table>

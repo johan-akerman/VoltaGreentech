@@ -56,7 +56,7 @@ class NewsTable extends React.Component {
           <Table className={styles.table}>
             <thead>
               <tr>
-                <th className={typography.lowerLevelHeader}>Title</th>
+                <th className={typography.lowerLevelHeader}>Article title</th>
                 <th className={typography.lowerLevelHeader}>Publisher</th>
                 <th className={typography.lowerLevelHeader}>Date</th>
               </tr>

@@ -44,8 +44,8 @@ export default function Product() {
         />
 
         <Quote
-          text="När våra kor mår bra mår världen bra. "
-          person="Jens & Matilda, Vismalövsgården"
+          text="If cattle were a country, they would rank third in greenhouse gas emissions."
+          person="Bill Gates"
         />
 
         <br />

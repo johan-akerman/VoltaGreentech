@@ -14,6 +14,7 @@ import Layout from "../components/Layout"
 
 /* Importing images */
 import backgroundImage from "../../static/images/solution.jpeg"
+import asparagopsis from "../../static/images/asparagopsis.png"
 import seaweed from "../../static/images/heroImages/seaweed.jpg"
 
 export default function Solution() {
@@ -34,20 +35,19 @@ export default function Solution() {
         />
 
         <Quote
-          text="We’re not up against the insurance companies of the world. We’re up against people’s fear of loss."
-          person="Lucas Carlsén, CEO & Co-foundeR"
+          text="If cattle were a country, they would rank third in greenhouse gas emissions."
+          person="Bill Gates"
         />
-        <br />
 
         <Grid
           positionLeft={true}
-          image={seaweed}
+          image={asparagopsis}
           lowerLevelHeader="Seaweed"
           chapterTitle="About asparagopsis taxiformis"
           text="Asparagopsis is a _____, _____ and _____. It was originally discovered at ____ and after years of research at ____, ____, ____ scientists came to the conclusion that the seaweed could reduce cows methane emissions up to ____. The seaweed have never been produced at scale. So the team over at Volta are working on developing a scalable production on land."
-          link="About our factory"
+          link="About our production"
           href="/solution/"
-          caption="Asparagopsis taxiformis growing in the wild"
+          caption="Asparagopsis taxiformis growing in the lab"
         />
         <IconColumnContainer
           lowerLevelHeader="How it works"

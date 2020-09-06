@@ -1,5 +1,5 @@
 .container {
-  margin: 175px auto 150px auto;
+  margin: 135px auto 150px auto;
   max-width: 750px;
 }
 
@@ -10,9 +10,13 @@
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  padding-top: 35px;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
   line-height: 1 !important;
+}
+.goBack:hover {
+  transform: scale(1.025);
 }
 
 .jobSubTitle {
@@ -20,8 +24,7 @@
   padding-top: 0 !important;
   font-size: 24px;
   color: #bfbfbf !important;
-
-  margin-bottom: 16px;
+  margin-bottom: 46px;
   font-family: "muli", sans-serif;
 }
 
@@ -31,6 +34,7 @@
   font-family: "Asket", sans-serif !important;
   letter-spacing: 0.5px;
   margin-top: 32px;
+  text-transform: uppercase;
 }
 
 .ul {
@@ -43,4 +47,28 @@
 
 .ul li {
   padding-bottom: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 100px 16px 70px 16px;
+    max-width: 750px;
+  }
+
+  .goBack {
+    transform: scale(0.8);
+  }
+
+  .jobTitle {
+    font-size: 46px;
+    padding-top: 8px;
+  }
+
+  .jobSubTitle {
+    font-size: 20px;
+  }
+
+  .secondaryTitle {
+    font-size: 28px;
+  }
 }

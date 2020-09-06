@@ -34,7 +34,7 @@ export default function Careers() {
 
         <ValueColumnContainer />
 
-        <JobsContainer />
+        <JobsContainer id="openPositions" />
       </div>
     </Layout>
   )
