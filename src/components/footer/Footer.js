@@ -92,19 +92,17 @@ export default function Footer(props) {
 
           <a
             className={styles.link}
-            href="https://goo.gl/maps/Hgqy3kq1NhdJALPd8"
+            href="https://goo.gl/maps/orSRvzAfGB2fwB8d7"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Birger Jarlsgatan 57 C, Stockholm
+            Nanna Svartz väg 4, Stockholm
           </a>
         </div>
 
         <div className="col-sm-12 col-md-3">
           <h5 className={styles.footerTitle}>Join our newsletter</h5>
-          <p className={styles.link}>
-            Follow our journey towards zero greenhouse gas emissions.
-          </p>
+
           <FooterForm />
         </div>
       </div>

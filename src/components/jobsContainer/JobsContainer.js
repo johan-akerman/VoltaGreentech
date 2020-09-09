@@ -9,15 +9,7 @@ export default function NewsContainer(props) {
       <h1 className={typography.chapterTitle}>Open positions</h1>
       <p style={{ maxWidth: "750px" }}>
         If you feel that you belong at Volta Greentech but don’t see a relevant
-        open position listed below. Send an email to{" "}
-        <span>
-          <a
-            className={typography.link}
-            href="mailto:fredrik@voltagreentech.com"
-          >
-            fredrik@voltagreentech.com
-          </a>
-        </span>
+        open position listed below. Send an email to fredrik@voltagreentech.com.
       </p>
 
       <div className="row" style={{ marginTop: "72px" }}>

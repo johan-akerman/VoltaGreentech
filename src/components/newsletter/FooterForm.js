@@ -1,5 +1,6 @@
 import React from "react"
-import { Form } from "react-bootstrap"
+import { Form, Button } from "react-bootstrap"
+import typography from "../typography.module.css"
 
 import styles from "./newsletter.module.css"
 import LinkElement from "../link/LinkElement"
@@ -12,14 +13,27 @@ export default function FooterForm(props) {
           <input
             type="email"
             className={styles.inputField}
-            id={styles.footerInputFied}
-            placeholder="Your email"
+            placeholder="First name"
           />
-        </div>
+          <input
+            type="email"
+            className={styles.inputField}
+            placeholder="Last name"
+          />
+          <input
+            type="email"
+            className={styles.inputField}
+            placeholder="Email"
+          />
 
-        <button className={styles.subscribeBtn} type="submit">
-          <LinkElement to="asdf" text="Subscribe" />
-        </button>
+          <Button
+            className={typography.btn}
+            id={styles.submitBtn}
+            type="submit"
+          >
+            <LinkElement to="/" text="Sign up" />
+          </Button>
+        </div>
       </Form>
     </React.Fragment>
   )

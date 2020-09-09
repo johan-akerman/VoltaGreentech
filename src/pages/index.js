@@ -42,16 +42,6 @@ export default function Home() {
           href="/solution/"
           caption="A cows daily dose of Volta Seafeed"
         />
-        {/* <Grid
-          positionLeft={false}
-          image={milk}
-          lowerLevelHeader="Our first consumer product"
-          chapterTitle="Planetmjölk: swedish milk, reimagined."
-          text="Planetmjölk är precis som vilken mellanmjölk som helst, förutom en viktig skillnad: det har möjliggjort att metanustläppen från en liter mjölk har minskats med upp till 80%. När du väljer Planetmjölk möjliggör du en ljusare framtid. Bli en del av förändringen. Letar du efter närmsta återförsäljare?"
-          link="Read more"
-          href="/product/"
-          caption="Planetmjölk: the same milk, better for the planet"
-        /> */}
 
         <CenteredTextAndImage
           lowerLevelHeader="Production"
@@ -59,8 +49,8 @@ export default function Home() {
           text="Volta Greentech is developing a scalable, sustainable and automated land based seaweed cultivation system - tailored for the selected species of seaweed that are key ingredients in Volta Seafeed. Land based systems enables optimization of temperature, light and nutrients to maximize the growth rate of the seaweed, while ensuring a high and standardised quality of the feed supplement."
           image={factory}
           caption="Concept visualization of Volta Factory 01"
+          link="Read more"
           href="/production/"
-          btnText="Read more"
         />
 
         <CardContainer />

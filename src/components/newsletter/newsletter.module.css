@@ -1,22 +1,21 @@
 .container {
-  text-align: center !important;
-  margin: 125px auto 75px auto;
-  max-width: 650px;
+  margin: 100px 0 0 0;
+}
+
+#textColumn {
+  padding-right: 150px;
 }
 
 .myForm {
-  max-width: 550px;
-  margin: 64px auto 0 auto;
-  height: 50px;
-
+  margin: 12px auto 0 auto;
   background-color: transparent;
-  border-bottom: 1.25px solid #ccc;
   border-radius: 0px;
+  opacity: 1 !important;
 }
 
 #footerMyForm {
   width: 85%;
-  height: 30px;
+  height: 42px;
   margin: 0 auto 8px 0;
   padding-bottom: 32px;
   opacity: 0.5;
@@ -25,42 +24,61 @@
 
 #footerMyForm .inputField {
   padding-top: 0;
+  height: 36px;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  text-decoration: none !important;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 16px;
+  display: block !important;
+}
+
+#footerMyForm ::placeholder {
+  text-decoration: none !important;
+  line-height: 1.75;
+  padding-bottom: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  display: block !important;
 }
 
 .inputField {
   background-color: transparent;
   border: none;
-  padding-top: 12px;
+  border-bottom: 1px solid #484848;
+  padding-top: 16px;
   float: left;
-
-  color: white !important;
+  height: 60px;
+  width: 100%;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  text-decoration: none !important;
-  color: #bfbfbf !important;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 18px !important;
+
+  color: #bfbfbf;
+  font-weight: 300;
+  margin-bottom: 8px;
+  font-size: 22px;
+  margin-top: 0;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  text-decoration: none !important;
-  color: #bfbfbf !important;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 18px !important;
+  color: #bfbfbf;
+  font-weight: 300;
+  margin-bottom: 8px;
+  font-size: 22px;
+  margin-top: 0;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  text-decoration: none !important;
-  color: #bfbfbf !important;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 18px !important;
+  color: #bfbfbf;
+  font-weight: 300;
+  margin-bottom: 8px;
+  font-size: 22px;
+  margin-top: 0;
 }
 
 input:focus {
@@ -68,15 +86,17 @@ input:focus {
 }
 
 input[type="email"] {
-  text-decoration: none !important;
-  color: #bfbfbf !important;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 18px !important;
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: 300;
+  margin-bottom: 8px;
+  font-size: 22px;
+  margin-top: 0;
 }
 
 #submitBtn {
-  float: right;
+  float: left;
+  padding: 18px 0 0 0;
   margin-bottom: 12px !important;
 }
 
@@ -109,6 +129,10 @@ input[type="email"] {
   .container {
     margin: 36px auto 0px auto;
     text-align: left !important;
+  }
+
+  #textColumn {
+    padding-right: 0;
   }
 
   .myForm {

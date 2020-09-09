@@ -8,7 +8,7 @@ import underline1 from "../../../static/images/illustrations/drawed_underline_al
 export default function FAQ(props) {
   return (
     <div className="row">
-      <div className="col-md-5 col-sm-12" id={styles.titleContainer}>
+      <div className="col-md-6 col-sm-12" id={styles.titleContainer}>
         <p className={typography.lowerLevelHeader}>FAQ</p>
 
         <h1 className={typography.chapterTitle}>
@@ -32,7 +32,7 @@ export default function FAQ(props) {
         </p>
       </div>
 
-      <div className="col-md-7 col-sm-12">
+      <div className="col-md-6 col-sm-12">
         <Accordion className={styles.accordion}>
           <FAQCard thisKey="0" question={props.q1} text={props.a1} />
           <FAQCard thisKey="1" question={props.q2} text={props.a2} />

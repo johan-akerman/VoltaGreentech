@@ -3,6 +3,8 @@ import { Form, Button } from "react-bootstrap"
 import styles from "./newsletter.module.css"
 import typography from "../typography.module.css"
 
+import LinkElement from "../link/LinkElement"
+
 export default function myNewsLetterForm(props) {
   return (
     <React.Fragment>
@@ -11,7 +13,17 @@ export default function myNewsLetterForm(props) {
           <input
             type="email"
             className={styles.inputField}
-            placeholder="Enter your email"
+            placeholder="First name"
+          />
+          <input
+            type="email"
+            className={styles.inputField}
+            placeholder="Last name"
+          />
+          <input
+            type="email"
+            className={styles.inputField}
+            placeholder="Email"
           />
 
           <Button
@@ -19,7 +31,7 @@ export default function myNewsLetterForm(props) {
             id={styles.submitBtn}
             type="submit"
           >
-            Subscribe
+            <LinkElement to="/" text="Sign up" />
           </Button>
         </div>
       </Form>

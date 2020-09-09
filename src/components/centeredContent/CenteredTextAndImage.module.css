@@ -1,9 +1,10 @@
 .container {
-  padding: 64px 10% 32px 10%;
+  padding: 91px 10% 91px 10%;
   text-align: center;
 }
+
 .textContainer {
-  margin: 0 auto 32px auto;
+  margin: 0px auto 46px auto;
   max-width: 850px;
   text-align: center;
 }

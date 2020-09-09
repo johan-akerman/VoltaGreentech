@@ -2,7 +2,7 @@ import React from "react"
 import typography from "../typography.module.css"
 import { Table, Button } from "react-bootstrap"
 import styles from "./NewsTable.module.css"
-
+import LoadMore from "../../../static/images/illustrations/LoadMore.png"
 const articles = require("../../../static/json/articles.json")
 
 class NewsTable extends React.Component {
@@ -82,7 +82,7 @@ class NewsTable extends React.Component {
               className={typography.btn}
               onClick={() => this.setState({ renderAll: true })}
             >
-              Load more
+              <img src={LoadMore} alt="Load more button" />
             </Button>
           </div>
         </div>

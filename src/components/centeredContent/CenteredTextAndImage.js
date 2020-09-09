@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 import { Link } from "gatsby"
-
+import LinkElement from "../link/LinkElement"
 import typography from "../typography.module.css"
 import styles from "./CenteredTextAndImage.module.css"
 
@@ -74,7 +74,9 @@ class CenteredTextAndImage extends React.Component {
           <h1 className={typography.chapterTitle}>{this.props.chapterTitle}</h1>
           <p>{this.props.text}</p>
           <p>{this.props.text2}</p>
+          <LinkElement to={this.props.href} text={this.props.link} />
         </div>
+
         <img className={styles.img} src={this.props.image} alt="thumbnail" />
         <p className={typography.imageCaption}>{this.props.caption}</p>
       </React.Fragment>
