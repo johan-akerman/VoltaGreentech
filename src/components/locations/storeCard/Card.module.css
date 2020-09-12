@@ -1,0 +1,25 @@
+.card {
+  border-bottom: 1px solid #484848;
+  padding: 8px 0 16px 0;
+  color: white;
+}
+
+.card:hover {
+  color: yellow !important;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Asket", sans-serif !important;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
+}
+
+.location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-top: -8px;
+}
