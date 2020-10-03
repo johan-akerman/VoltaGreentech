@@ -96,7 +96,7 @@ export default function Footer(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Nanna Svartz väg 4, Stockholm
+            Nanna Svartz väg 4, 171 65, Solna
           </a>
         </div>
 

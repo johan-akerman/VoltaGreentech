@@ -22,7 +22,7 @@ class infoBar extends React.Component {
           </Link>
         </div>
 
-        {/* <span
+        <span
           className={styles.cancelButton}
           onClick={() => this.onClickFunction()}
           onKeyDown={this.onClickFunction}
@@ -30,7 +30,7 @@ class infoBar extends React.Component {
           tabIndex={0}
         >
           <i className="fa fa-times" aria-hidden="true"></i>
-        </span> */}
+        </span>
       </div>
     )
   }

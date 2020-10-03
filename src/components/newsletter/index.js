@@ -12,7 +12,8 @@ export default function newsletter(props) {
           <p className={typography.lowerLevelHeader}>Newsletter</p>
 
           <h1 className={typography.chapterTitle}>
-            Sign up for <br></br>our{" "}
+            Sign up for our newsletter.
+            {/* <br></br>our{" "}
             <span className={styles.textDecorationContainer}>
               <span className={styles.textDecorationImageContainer}>
                 {" "}
@@ -24,7 +25,7 @@ export default function newsletter(props) {
                 />
               </span>
               <span className={styles.textDecorationText}>newsletter</span>
-            </span>
+            </span> */}
           </h1>
 
           <p>

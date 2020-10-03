@@ -25,10 +25,10 @@
 
 .jumbotronContent h1 {
   margin: 0 auto !important;
-  font-size: 72px;
-  line-height: 80px;
+  font-size: 58px;
+  line-height: 70px;
   position: relative;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .textDecorationContainer {

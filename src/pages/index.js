@@ -21,12 +21,7 @@ import factory from "../../static/images/factory_01_concept.jpg"
 export default function Home() {
   return (
     <Layout>
-      <Jumbotron
-        title="We're busy battling global warming."
-        image={backgroundImage}
-        fullScreen="true"
-        page="home"
-      />
+      <Jumbotron image={backgroundImage} fullScreen="true" page="home" />
       <div className="layoutContainer">
         <FeaturedIn />
         <OurMission />

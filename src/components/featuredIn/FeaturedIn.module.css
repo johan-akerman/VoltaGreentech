@@ -1,0 +1,9 @@
+.article {
+  opacity: 0.6;
+}
+
+a.article:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+}

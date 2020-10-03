@@ -26,10 +26,6 @@ export default function FAQ(props) {
             <span className={styles.textDecorationText}>questions</span>
           </span>{" "}
         </h1>
-        <p>
-          We get a lot of questions about what we do. Most people thinks that it
-          all sounds to good to be true. It’s not.
-        </p>
       </div>
 
       <div className="col-md-6 col-sm-12">

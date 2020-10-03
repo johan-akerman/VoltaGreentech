@@ -11,7 +11,7 @@ export default function Jumbotron(props) {
     if (page === "home") {
       return (
         <React.Fragment>
-          We are busy{" "}
+          Battling global warming by reducing{" "}
           <span className={styles.textDecorationContainer}>
             <span className={styles.textDecorationImageContainer}>
               {" "}
@@ -23,9 +23,9 @@ export default function Jumbotron(props) {
               />
             </span>
 
-            <span className={styles.textDecorationText}>battling</span>
+            <span className={styles.textDecorationText}>methane</span>
           </span>{" "}
-          global warming.
+          emissions from cows
         </React.Fragment>
       )
     } else if (page === "about") {
@@ -44,6 +44,7 @@ export default function Jumbotron(props) {
             </span>
             <span className={styles.textDecorationText}>innovators</span>
           </span>{" "}
+          <br />
           committed to change.
         </React.Fragment>
       )
@@ -63,19 +64,7 @@ export default function Jumbotron(props) {
             </span>
             <span className={styles.textDecorationText}>miracle</span>
           </span>{" "}
-          from the bottom of the{" "}
-          <span className={styles.textDecorationContainer}>
-            <span className={styles.textDecorationImageContainer}>
-              {" "}
-              <img
-                className={styles.textDecorationImage}
-                src={underline1}
-                aria-hidden="true"
-                alt="text decoration"
-              />
-            </span>
-            <span className={styles.textDecorationText}>ocean.</span>
-          </span>{" "}
+          from the <br /> bottom of the ocean.
         </React.Fragment>
       )
     } else if (page === "production") {
@@ -94,19 +83,8 @@ export default function Jumbotron(props) {
             </span>
             <span className={styles.textDecorationText}>blueprint</span>
           </span>{" "}
-          for seaweed{" "}
-          <span className={styles.textDecorationContainer}>
-            <span className={styles.textDecorationImageContainer}>
-              {" "}
-              <img
-                className={styles.textDecorationImage}
-                src={underline1}
-                aria-hidden="true"
-                alt="text decoration"
-              />
-            </span>
-            <span className={styles.textDecorationText}>production.</span>
-          </span>{" "}
+          <br />
+          for seaweed production.
         </React.Fragment>
       )
     } else if (page === "press") {
@@ -161,7 +139,7 @@ export default function Jumbotron(props) {
     } else if (page === "careers") {
       return (
         <React.Fragment>
-          Want to join<br></br> our{" "}
+          Want to join our{" "}
           <span className={styles.textDecorationContainer}>
             <span className={styles.textDecorationImageContainer}>
               {" "}
@@ -172,8 +150,10 @@ export default function Jumbotron(props) {
                 alt="text decoration"
               />
             </span>
-            <span className={styles.textDecorationText}>mission?</span>
+            <span className={styles.textDecorationText}>mission</span>
           </span>
+          <br />
+          towards zero emissions?
         </React.Fragment>
       )
     } else {
