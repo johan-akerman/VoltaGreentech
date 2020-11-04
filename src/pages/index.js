@@ -1,6 +1,10 @@
 /* Importing essentials */
 import React from "react"
 
+
+import Slide from 'react-reveal/Slide';
+
+
 /* Importing components */
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
@@ -23,8 +27,12 @@ export default function Home() {
     <Layout>
       <Jumbotron image={backgroundImage} fullScreen="true" page="home" />
       <div className="layoutContainer">
+      <Slide bottom>
         <FeaturedIn />
+        </Slide>
+
         <OurMission />
+   
 
         <Grid
           positionLeft={true}
@@ -37,6 +45,7 @@ export default function Home() {
           href="/solution/"
           caption="A cows daily dose of Volta Seafeed"
         />
+
 
         <CenteredTextAndImage
           lowerLevelHeader="Production"

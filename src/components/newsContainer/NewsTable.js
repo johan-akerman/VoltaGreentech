@@ -2,8 +2,11 @@ import React from "react"
 import typography from "../typography.module.css"
 import { Table, Button } from "react-bootstrap"
 import styles from "./NewsTable.module.css"
+
 import LoadMore from "../../../static/images/illustrations/LoadMore.png"
 const articles = require("../../../static/json/articles.json")
+
+
 
 class NewsTable extends React.Component {
   constructor(props) {
@@ -53,6 +56,7 @@ class NewsTable extends React.Component {
     if (!this.state.renderAll) {
       return (
         <div className={styles.container}>
+
           <Table className={styles.table}>
             <thead>
               <tr>
@@ -76,7 +80,7 @@ class NewsTable extends React.Component {
               })}
             </tbody>
           </Table>
-
+          
           <div className={typography.btnContainer}>
             <Button
               className={typography.btn}
@@ -90,6 +94,7 @@ class NewsTable extends React.Component {
     } else {
       return (
         <div className={styles.container}>
+           
           <Table className={styles.table}>
             <thead>
               <tr>
@@ -100,6 +105,7 @@ class NewsTable extends React.Component {
                 </th>
               </tr>
             </thead>
+          
             <tbody>
               {this.getAllArticles().map(article => {
                 return (
@@ -116,7 +122,9 @@ class NewsTable extends React.Component {
                 )
               })}
             </tbody>
+           
           </Table>
+        
         </div>
       )
     }

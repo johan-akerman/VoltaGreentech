@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import voltaGreentech from "../../../static/images/logos/logo.png"
 import voltaWhite from "../../../static/images/logos/volta_white.png"
 import styles from "./Header.module.css"
+import Fade from 'react-reveal/Fade';
 
 const ListLink = props => (
   <li style={{ display: `inline-block` }}>
@@ -42,6 +43,7 @@ export default function Header() {
           <ListLink to="/careers/">Careers</ListLink>
         </Nav>
       </Navbar.Collapse>
+      
     </Navbar>
   )
 }

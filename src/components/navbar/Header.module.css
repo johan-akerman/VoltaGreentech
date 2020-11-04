@@ -13,15 +13,12 @@
 .navLink {
   display: inline-block;
   padding: 0px 16px;
-
   color: white !important;
   text-align: center !important;
   letter-spacing: 0.07em;
-
   font-family: "Muli", sans-serif;
-
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .rightContent {

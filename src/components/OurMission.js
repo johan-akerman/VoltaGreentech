@@ -2,6 +2,8 @@ import React from "react"
 import typography from "./typography.module.css"
 import styles from "./centeredContent/CenteredTextAndImage.module.css"
 import { Button } from "react-bootstrap"
+import Slide from 'react-reveal/Slide';
+
 import ifCattleWereACountry from "../../static/images/illustrations/ifCattleWereACountry.png"
 import cowsVsAirplanes from "../../static/images/illustrations/cowsVsAirplanes.png"
 import cowsVsAirplanesMarked from "../../static/images/illustrations/cowsVsAirplanesMarked.png"
@@ -93,8 +95,10 @@ class OurMission extends React.Component {
         </div>
         <br />
         <br />
+        <Slide bottom>
 
         {graph}
+        </Slide>
         <br />
         <br />
         <p className={typography.imageCaption}>

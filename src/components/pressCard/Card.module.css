@@ -26,7 +26,7 @@
   color: white;
   font-weight: 300;
   margin-bottom: 8px;
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 0;
 }
 
@@ -38,9 +38,11 @@
 .type {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 13px;
   margin-bottom: 8px;
   color: #ddd;
+
+
+  font-size: 13px;
 }
 
 .wrapperAnchor:hover {

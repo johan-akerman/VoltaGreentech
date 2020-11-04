@@ -9,13 +9,11 @@ body {
 p {
   color: #bfbfbf;
   font-family: "muli", sans-serif;
-
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .layoutContainer {
   padding: 0px 4% 50px 4%;
-  /* padding: 0px 10% 50px 10%; */
 }
 
 @media only screen and (max-width: 600px) {

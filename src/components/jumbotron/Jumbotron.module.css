@@ -1,78 +1,55 @@
-.jumbotronContent {
-  margin: 0 auto;
-  padding: 33vh 11% 0 11%;
-  /* text-align: center; */
-  text-align: center;
-}
-
-.jumbotronContainer {
+.container {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center !important;
   width: 100%;
   height: 95vh;
-  margin-top: -90px !important;
   margin-bottom: 116px;
-}
-
-.jumbotronFooter {
-  position: absolute;
-  bottom: 10px;
-  text-align: center;
-  width: 100%;
-  opacity: 0.5;
-}
-
-.jumbotronContent h1 {
-  margin: 0 auto !important;
-  font-size: 58px;
-  line-height: 70px;
-  position: relative;
-  max-width: 1200px;
-}
-
-.textDecorationContainer {
-  box-sizing: border-box;
-  position: relative;
-}
-
-.textDecorationImageContainer {
-  box-sizing: border-box;
-  height: 150%;
-  width: 100%;
-  left: 0;
-}
-
-.textDecorationImage {
   display: block;
-  width: 100%;
-  left: 0;
-  bottom: -5px;
-  position: absolute;
+  margin-top: -90px !important;
 }
 
-.jumbotronContent p {
-  font-size: 24px !important;
+.title {
+  margin: 0 auto;
+  padding-top: 33vh;
+  text-align: center;
+  font-size: 65px;
+  line-height: 70px;
+  max-width: 1250px;
+  font-family: "Asket", sans-serif !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.readMore {
+  position: absolute;
+  bottom: 16px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.75;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100px;
+
 }
 
 @media only screen and (max-width: 600px) {
-  .jumbotronContainer {
+  .container {
     height: 80vh;
     margin-bottom: 32px;
     margin-top: -68px !important;
   }
 
-  .jumbotronFooter {
-    display: none;
+  .title {
+    font-size: 38px;
+    padding: 150px 8px 75px 8px; ;
+    line-height: 50px;
   }
 
-  .jumbotronContent {
-    padding: 200px 20px 75px 20px;
-    /* margin-top: 0; */
-    height: 50vh !important;
-  }
-  .jumbotronContent h1 {
-    font-size: 38px;
-    line-height: 50px;
+  .readMore {
+    display: none;
   }
 }

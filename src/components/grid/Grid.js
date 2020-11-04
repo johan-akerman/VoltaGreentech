@@ -2,6 +2,8 @@ import React from "react"
 import typography from "../typography.module.css"
 import LinkElement from "../link/LinkElement"
 import styles from "./Grid.module.css"
+import Slide from 'react-reveal/Slide';
+
 
 export default function grid(props) {
   if (props.positionLeft) {
@@ -20,13 +22,18 @@ export default function grid(props) {
             </div>
           </div>
 
+         
+
           <div className="col-lg-6">
+          <Slide right delay={500}>
             <div className={styles.imageColumn}>
               <img src={props.image} alt="grid thumbnail" />
               <p className={typography.imageCaption}>{props.caption}</p>
             </div>
+            </Slide>
           </div>
         </div>
+ 
       </div>
     )
   }
@@ -34,10 +41,13 @@ export default function grid(props) {
     <div className={styles.gridContent}>
       <div className="row">
         <div className="col-lg-6">
+        <Slide bottom>
+
           <div className={styles.imageColumn}>
             <img src={props.image} alt="grid thumbnail" />
             <p className={typography.imageCaption}>{props.caption}</p>
           </div>
+          </Slide>
         </div>
         <div className="col-lg-6">
           <div className={styles.textColumn} id={styles.rightTextColumn}>

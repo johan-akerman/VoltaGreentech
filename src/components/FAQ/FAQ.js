@@ -12,19 +12,7 @@ export default function FAQ(props) {
         <p className={typography.lowerLevelHeader}>FAQ</p>
 
         <h1 className={typography.chapterTitle}>
-          Frequently asked<br></br>{" "}
-          <span className={styles.textDecorationContainer}>
-            <span className={styles.textDecorationImageContainer}>
-              {" "}
-              <img
-                className={styles.textDecorationImage}
-                src={underline1}
-                aria-hidden="true"
-                alt="text decoration"
-              />
-            </span>
-            <span className={styles.textDecorationText}>questions</span>
-          </span>{" "}
+          Frequently asked questions
         </h1>
       </div>
 

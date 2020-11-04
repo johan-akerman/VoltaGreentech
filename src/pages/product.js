@@ -4,7 +4,6 @@ import React from "react"
 /* Importing components */
 import FAQ from "../components/FAQ/FAQ"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-import Quote from "../components/quote/Quote"
 // import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
 
@@ -16,12 +15,8 @@ import Layout from "../components/Layout"
 // import supermarket from "../../static/images/heroImages/supermarket.jpg"
 import planetMilk from "../../static/images/planetMilk.png"
 import howWeDoIt from "../../static/images/illustrations/howWeDoIt.png"
-import scared from "../../static/images/illustrations/scared.png"
 import graph2 from "../../static/images/illustrations/ifCattleWereACountry.png"
-import OurMission from "../components/OurMission"
 
-import map from "../../static/images/cowMap.png"
-import typography from "../components/typography.module.css"
 
 export default function Product() {
   return (

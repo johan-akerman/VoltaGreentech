@@ -1,0 +1,12 @@
+.em {
+    font-style: inherit;
+    position: relative;
+  }
+  
+  .testImage {
+    display: block;
+    left: 0 !important;
+    bottom: -5px;
+    position: absolute;
+    width: 100%;
+  }

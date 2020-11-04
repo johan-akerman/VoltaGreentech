@@ -8,12 +8,9 @@
   src: url("../../static/fonts/VOLTA GT HAND-Regular.otf");
 }
 
-.heroTitle {
-  font-family: "Asket", sans-serif !important;
-  font-size: 40px;
-  color: #fff !important;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+@font-face {
+  font-family: "ShareTech";
+  src: url("../../static/fonts/ShareTechMono-Regular.ttf");
 }
 
 .lowerLevelHeader {
@@ -28,8 +25,7 @@
 
 .chapterTitle {
   font-family: "Asket", sans-serif !important;
-  /* font-size: 40px; */
-  font-size: 52px;
+  font-size: 64px;
   letter-spacing: 1.5px;
   margin-bottom: 16px;
   color: #fff;
