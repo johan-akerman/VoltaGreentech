@@ -36,7 +36,7 @@ export default function Header() {
         <Nav className="mr-auto"></Nav>
         <Nav>
           <ListLink to="/about/">About Volta</ListLink>
-          {/* <ListLink to="/product/">Planet food</ListLink> */}
+          {/* <ListLink to="/planet-food/">Planet food</ListLink> */}
           <ListLink to="/solution/">Seafeed</ListLink>
           <ListLink to="/production/">Production</ListLink>
           <ListLink to="/press/">Press</ListLink>

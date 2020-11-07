@@ -9,27 +9,35 @@
   margin-top: -90px !important;
 }
 
+.content {
+  padding-left: 5%;
+  text-align: left;
+  max-width: 72%;
+}
+
 .title {
-  margin: 0 auto;
   padding-top: 33vh;
-  text-align: center;
-  font-size: 65px;
-  line-height: 70px;
-  max-width: 1250px;
+  font-size: 86px !important;
+  line-height: 90px;
   font-family: "Asket", sans-serif !important;
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 
+.text {
+  color: white !important;
+  max-width: 1250px;
+  font-size: 24px;
+}
+
 .readMore {
   position: absolute;
-  bottom: 16px;
+  bottom: 15%;
   margin: 0 auto;
   text-align: center;
   opacity: 0.75;
-  left: 0; 
-  right: 0; 
+  left: 16%;
   margin-left: auto; 
   margin-right: auto; 
   width: 100px;
@@ -53,3 +61,6 @@
     display: none;
   }
 }
+
+
+

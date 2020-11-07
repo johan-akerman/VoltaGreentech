@@ -31,7 +31,7 @@ export default function About() {
         <CenteredTextAndImage
           video={true}
           lowerLevelHeader="Who we are"
-          chapterTitle="Humans committed to change"
+          chapterTitle="A team of innovators committed to change"
           text="At first glance we might seem like a Swedish greentech company that reduces emissions from the meat & dairy industry. But we are more than that. We are a team of innovators from different nationalities committed to bringing climate innovations to the market to create real impact. Many solutions to help battle climate change are already out there, what we need is humans who are ready to do whatever it takes to implement them and bring them to market at scale. So, we rolled up our sleeves and launched Volta Greentech; a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home; planet earth."
           image={brilliantMinds}
           caption="Volta Greentech explained at Brilliant Minds 2019"

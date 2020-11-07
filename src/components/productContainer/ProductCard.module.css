@@ -26,12 +26,8 @@
   color: white;
   font-weight: 300;
   margin-bottom: 8px;
-  font-size: 32px;
+  font-size: 28px;
   margin-top: 0;
-}
-
-.title:hover {
-  text-decoration: underline;
 }
 
 .source {
@@ -46,7 +42,7 @@
   color: #ddd;
 
 
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .wrapperAnchor:hover {

@@ -4,15 +4,16 @@ import React from "react"
 /* Importing components */
 import FAQ from "../components/FAQ/FAQ"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-// import Jumbotron from "../components/jumbotron/Jumbotron"
+import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
+import ProductCardContainer from "../components/productContainer/ProductContainer"
 
 /* Importing styling */
 import Layout from "../components/Layout"
 
 /* Importing images */
 // import planetMilk from "../../static/images/texts/planetMilk.png"
-// import supermarket from "../../static/images/heroImages/supermarket.jpg"
+import supermarket from "../../static/images/heroImages/supermarket.jpg"
 import planetMilk from "../../static/images/planetMilk.png"
 import howWeDoIt from "../../static/images/illustrations/howWeDoIt.png"
 import graph2 from "../../static/images/illustrations/ifCattleWereACountry.png"
@@ -21,9 +22,10 @@ import graph2 from "../../static/images/illustrations/ifCattleWereACountry.png"
 export default function Product() {
   return (
     <Layout>
-      {/* <Jumbotron image={supermarket} text={planetMilk} page="product" /> */}
+      <Jumbotron text={planetMilk} page="planet-food" />
       <div className="layoutContainer">
-        <Grid
+        <ProductCardContainer />
+        {/* <Grid
           positionLeft={true}
           image={planetMilk}
           chapterTitle="Same food. Better for the planet. "
@@ -40,15 +42,13 @@ export default function Product() {
           "
         />
 
-        {/* <OurMission /> */}
-
         <CenteredTextAndImage
           chapterTitle="What makes Planetmilk 80% methane reduced?"
           text="  Genom att mata kor ett naturligt tillskott av ca 100 gram röda
           alger tillverkade på västkusten kan Volta Greentech eliminera majoriteten av bakterierna, minska utsläpp av växthusgaser och förbättra kornas hälsa.         Bakom innovationen ligger mångårig forskning som visar den
           positiva effekten på korna."
           image={howWeDoIt}
-        />
+        /> */}
 
         <br />
         <br />
