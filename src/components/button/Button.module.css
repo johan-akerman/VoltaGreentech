@@ -1,0 +1,33 @@
+
+
+
+
+  
+  .btnContainer {
+      font-style: inherit;
+      position: absolute; 
+      width: 250px;
+      text-transform: uppercase;
+      text-align: left;
+  }
+
+  .text {
+    color: #ffe633 !important;
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+
+  .testImage {
+    left: -25% !important;
+    position: absolute;
+    top: -25px;
+    width: 100%
+  }
+  
+  .link:hover {
+    color: #ffe633;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  

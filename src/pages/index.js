@@ -1,9 +1,7 @@
 /* Importing essentials */
 import React from "react"
 
-
 import Slide from 'react-reveal/Slide';
-
 
 /* Importing components */
 import Jumbotron from "../components/jumbotron/Jumbotron"
