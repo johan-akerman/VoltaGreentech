@@ -1,9 +1,12 @@
 import React from "react"
 import styles from "./Card.module.css"
 import LinkElement from "../link/LinkElement"
+import Fade from 'react-reveal/Fade';
+
 
 export default function CenteredTextAndImage(props) {
   return (
+    <Fade up delay={props.delay}>
     <div className="col-sm-12 col-md-6 col-lg-4">
       <a
         className={styles.wrapperAnchor}
@@ -27,5 +30,6 @@ export default function CenteredTextAndImage(props) {
         </div>
       </a>
     </div>
+    </Fade>
   )
 }

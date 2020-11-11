@@ -2,7 +2,7 @@ import React from "react"
 import typography from "../typography.module.css"
 import { Table, Button } from "react-bootstrap"
 import styles from "./NewsTable.module.css"
-
+import Fade from 'react-reveal/Fade';
 import LoadMore from "../../../static/images/illustrations/LoadMore.png"
 const articles = require("../../../static/json/articles.json")
 
@@ -56,7 +56,7 @@ class NewsTable extends React.Component {
     if (!this.state.renderAll) {
       return (
         <div className={styles.container}>
-
+  <Fade up cascade>
           <Table className={styles.table}>
             <thead>
               <tr>
@@ -81,6 +81,8 @@ class NewsTable extends React.Component {
             </tbody>
           </Table>
           
+          </Fade>
+          <Fade up delay={500}>
           <div className={typography.btnContainer}>
             <Button
               className={typography.btn}
@@ -89,6 +91,7 @@ class NewsTable extends React.Component {
               <img src={LoadMore} alt="Load more button" />
             </Button>
           </div>
+          </Fade>
         </div>
       )
     } else {
@@ -122,6 +125,7 @@ class NewsTable extends React.Component {
                 )
               })}
             </tbody>
+      
            
           </Table>
         

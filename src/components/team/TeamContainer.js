@@ -8,34 +8,41 @@ import angelo from "../../../static/images/team/angelo.jpeg"
 // import leo from "../../../static/images/team/leo.jpg"
 
 import fredrik from "../../../static/images/team/fredrik.jpg"
+import Fade from 'react-reveal/Fade';
+
 
 export default function teamContainer(props) {
   return (
     <div className={styles.container}>
+      <Fade up>
       <p className={typography.lowerLevelHeader}>Founders</p>
       <h1 className={typography.chapterTitle}>Meet the founders</h1>
       <p style={{ maxWidth: "750px" }}>
         Volta was established in 2018 by a team of three founders with one goal
         in common: save the environment.
       </p>
+      </Fade>
       <div className="row">
         <Card
           image={fredrik}
           title="Fredrik Åkerman"
           position="Co-founder, CEO"
           email="fredrik@voltagreentech.com"
+          delay="250"
         />
         <Card
           image={fredrik}
           title="Leo Wezelius"
           position="Co-founder, CMO"
           email="leo@voltagreentech.com"
+          delay="500"
         />{" "}
         <Card
           image={angelo}
           title="Angelo Demeter"
           position="Co-founder, CTO"
           email="angelo@voltagreentech.com"
+          delay="750"
         />
       </div>
     </div>

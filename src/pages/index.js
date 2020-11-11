@@ -25,9 +25,8 @@ export default function Home() {
     <Layout>
       <Jumbotron image={backgroundImage} fullScreen="true" page="home" />
       <div className="layoutContainer">
-      <Slide bottom>
         <FeaturedIn />
-        </Slide>
+        
 
         <OurMission />
    

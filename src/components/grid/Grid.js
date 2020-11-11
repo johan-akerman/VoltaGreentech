@@ -1,8 +1,10 @@
 import React from "react"
 import typography from "../typography.module.css"
 import LinkElement from "../link/LinkElement"
+
 import styles from "./Grid.module.css"
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
+
 
 
 export default function grid(props) {
@@ -11,26 +13,31 @@ export default function grid(props) {
       <div className={styles.gridContent}>
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6">
+           
             <div className={styles.textColumn}>
+            <Fade up delay={275}>
               <p className={typography.lowerLevelHeader}>
                 {props.lowerLevelHeader}
               </p>
-              <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>
+    
+              <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>  
               <p>{props.text}</p>
               <p>{props.text2}</p>
               <LinkElement to={props.href} text={props.link} />
+              </Fade>
             </div>
+         
           </div>
 
          
 
           <div className="col-lg-6">
-          <Slide right delay={500}>
+          <Fade up>
             <div className={styles.imageColumn}>
               <img src={props.image} alt="grid thumbnail" />
               <p className={typography.imageCaption}>{props.caption}</p>
             </div>
-            </Slide>
+            </Fade>
           </div>
         </div>
  
@@ -41,25 +48,29 @@ export default function grid(props) {
     <div className={styles.gridContent}>
       <div className="row">
         <div className="col-lg-6">
-        <Slide bottom>
+        <Fade up>
 
           <div className={styles.imageColumn}>
             <img src={props.image} alt="grid thumbnail" />
             <p className={typography.imageCaption}>{props.caption}</p>
           </div>
-          </Slide>
+          </Fade>
         </div>
         <div className="col-lg-6">
-          <div className={styles.textColumn} id={styles.rightTextColumn}>
-            <p className={typography.lowerLevelHeader}>
-              {props.lowerLevelHeader}
-            </p>
-            <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>
-            <p>{props.text}</p>
-            <p>{props.text2}</p>
+     
 
-            <LinkElement to={props.href} text={props.link} />
-          </div>
+          <div className={styles.textColumn} id={styles.rightTextColumn}>
+            <Fade up delay={275}>
+              <p className={typography.lowerLevelHeader}>
+                {props.lowerLevelHeader}
+              </p>
+    
+              <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>  
+              <p>{props.text}</p>
+              <p>{props.text2}</p>
+              <LinkElement to={props.href} text={props.link} />
+              </Fade>
+            </div>
         </div>
       </div>
     </div>

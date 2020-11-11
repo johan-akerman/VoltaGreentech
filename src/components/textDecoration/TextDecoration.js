@@ -37,7 +37,6 @@ export default function TextDecoration(props) {
                         className={styles.testImage}
                         ref={animationContainer}
                     ></div>
-                 
                 </em>
             </React.Fragment>
 }

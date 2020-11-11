@@ -4,12 +4,22 @@
 }
 
 .quoteIllustration {
-  width: 45px;
+  width: 56px;
 }
 
 .quoteContent {
   padding-left: 50px;
-  padding-top: 15px;
+  padding-top: 32px;
+}
+
+.title {
+ 
+  font-size: 86px !important;
+  line-height: 90px;
+  font-family: "Asket", sans-serif !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 @media only screen and (max-width: 600px) {

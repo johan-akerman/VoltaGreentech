@@ -8,9 +8,12 @@ import dn from "../../../static/images/press/companyLogos/dn.png"
 import fastCompany from "../../../static/images/press/companyLogos/fastCompany.png"
 import feedNavigator from "../../../static/images/press/companyLogos/feedNavigator.png"
 import sifted from "../../../static/images/press/companyLogos/sifted.png"
+import Fade from 'react-reveal/Fade';
+
 
 export default function FeaturedIn(props) {
   return (
+    <Fade up>
     <div className="container">
       <h2
         className={typography.lowerLevelHeader}
@@ -88,5 +91,6 @@ export default function FeaturedIn(props) {
         </div>
       </div>
     </div>
+    </Fade>
   )
 }

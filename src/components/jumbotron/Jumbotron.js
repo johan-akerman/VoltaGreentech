@@ -1,12 +1,9 @@
 import React from "react"
 import styles from "./Jumbotron.module.css"
-import readMore from "../../../static/images/illustrations/readMore.png"
 import TextDecoration from "../textDecoration/TextDecoration"
-import Fade from 'react-reveal/Fade';
 import { Link } from "gatsby"
 
-import Button from "../button/Button.js"
-import LinkElement from "../link/LinkElement"
+import CustomButton from "../button/CustomButton.js"
 
 
 export default function Jumbotron(props) {
@@ -16,7 +13,9 @@ export default function Jumbotron(props) {
     if (page === "home") return <>
     <h1 className={styles.title}>We reduce methane emissions from <TextDecoration text="cows." /></h1>
     <p className={styles.text}>Yes, you read it right. We are making cows burp and fart less methane (up to 90% to be specific) by developing a seaweed based feed supplement.</p> 
-<Link to="/about"> <Button text="read more" to="/about" /></Link>
+<Link to="/about"> <CustomButton text="read more" to="/about" /></Link>
+
+
     </>
     else if (page === "planet-food") return <><h1 className={styles.title}>The same food. Better for the <TextDecoration text=" planet."/></h1><p className={styles.text}>Planetfood är precis som vilken mat som helst, förutom en viktig skillnad: det har möjliggjort att metanustläppen  har minskats med upp till 80%.</p></>
     else if (page === "about") return <><h1 className={styles.title}>We are a swedish <TextDecoration text=" greentech "/>company.</h1></>

@@ -2,21 +2,20 @@ import React from "react"
 import typography from "./typography.module.css"
 import styles from "./centeredContent/CenteredTextAndImage.module.css"
 import { Button } from "react-bootstrap"
-import Slide from 'react-reveal/Slide';
-
 import ifCattleWereACountry from "../../static/images/illustrations/ifCattleWereACountry.png"
 import cowsVsAirplanes from "../../static/images/illustrations/cowsVsAirplanes.png"
 import cowsVsAirplanesMarked from "../../static/images/illustrations/cowsVsAirplanesMarked.png"
 import cowsVsAirplanesUnmarked from "../../static/images/illustrations/cowsVsAirplanesUnmarked.png"
 import cowsVsCountriesMarked from "../../static/images/illustrations/cowsVsCountriesMarked.png"
 import cowsVsCountriesUnmarked from "../../static/images/illustrations/cowsVsCountriesUnmarked.png"
+import Fade from 'react-reveal/Fade';
 
 class OurMission extends React.Component {
   constructor(props) {
     super(props)
     this.state = { activeGraph: "ifCattleWereACountry" }
   }
-
+  
   renderGraph() {
     if (this.state === "ifCattleWereACountry") {
       return (
@@ -54,9 +53,11 @@ class OurMission extends React.Component {
         <img src={cowsVsAirplanesMarked} alt="Load more button" />
       )
     }
-    return (
+    return (   
       <div className={styles.container}>
+
         <div className={styles.textContainer}>
+        <Fade up>
           <p className={typography.lowerLevelHeader}>Our mission</p>
           <h1 className={typography.chapterTitle}>
             Reduce methane emissions from cows
@@ -76,6 +77,9 @@ class OurMission extends React.Component {
             sector can take a massive leap in going sustainable.
           </p>
 
+          </Fade>
+
+          <Fade up delay={250}>
           <div className={typography.btnContainer}>
             <Button
               className={typography.btn}
@@ -84,6 +88,7 @@ class OurMission extends React.Component {
               }
             >
               {cowsVsCountriesButton}
+             
             </Button>
             <Button
               className={typography.btn}
@@ -92,13 +97,14 @@ class OurMission extends React.Component {
               {cowsVsAirplanesButton}
             </Button>
           </div>
+          </Fade>
         </div>
         <br />
         <br />
-        <Slide bottom>
-
+     
+<Fade delay={250}>
         {graph}
-        </Slide>
+      
         <br />
         <br />
         <p className={typography.imageCaption}>
@@ -112,7 +118,9 @@ class OurMission extends React.Component {
             Gates Notes
           </a>
         </p>
+        </Fade>
       </div>
+ 
     )
   }
 }

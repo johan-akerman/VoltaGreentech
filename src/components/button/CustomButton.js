@@ -1,16 +1,15 @@
 import React from "react"
-import styles from "./Button.module.css"
+import styles from "./CustomButton.module.css"
 import lottie from "lottie-web"
-
 import circle from "../../../static/images/circle.json"
 
-export default function TextDecoration(props) {
+export default function CustomButton(props) {
 
     let animationContainer = React.createRef()
 
     React.useEffect(() => {
-        const button = document.getElementById("link");
-
+        let button = document.getElementById("hoverMeContainer");
+  
         const anim = lottie.loadAnimation({
           container: animationContainer.current,
           renderer: "svg",
@@ -36,7 +35,7 @@ export default function TextDecoration(props) {
       
     return <React.Fragment>
 
-         <div className={styles.btnContainer} id="link">
+         <div className={styles.hoverMeContainer} id="hoverMeContainer">
           <p className={styles.text}>{props.text}</p>
           <div className={styles.testImage} ref={animationContainer} />
           </div>

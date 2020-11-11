@@ -3,19 +3,20 @@ import typography from "../typography.module.css"
 import styles from "./FAQ.module.css"
 import { Accordion } from "react-bootstrap"
 import FAQCard from "./FAQCard"
-import underline1 from "../../../static/images/illustrations/drawed_underline_alt1.svg"
+import Fade from 'react-reveal/Fade';
 
 export default function FAQ(props) {
   return (
     <div className="row">
+      <Fade up>
       <div className="col-md-6 col-sm-12" id={styles.titleContainer}>
         <p className={typography.lowerLevelHeader}>FAQ</p>
 
         <h1 className={typography.chapterTitle}>
           Frequently asked questions
         </h1>
-      </div>
-
+      </div></Fade>
+<Fade up delay={400}>
       <div className="col-md-6 col-sm-12">
         <Accordion className={styles.accordion}>
           <FAQCard thisKey="0" question={props.q1} text={props.a1} />
@@ -24,6 +25,7 @@ export default function FAQ(props) {
           <FAQCard thisKey="3" question={props.q4} text={props.a4} />
         </Accordion>
       </div>
+      </Fade>
     </div>
   )
 }
