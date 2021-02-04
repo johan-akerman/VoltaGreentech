@@ -1,4 +1,3 @@
-
 <h1 align="center">
   Volta Greentech website
 </h1>
