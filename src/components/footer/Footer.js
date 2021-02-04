@@ -37,7 +37,7 @@ export default function Footer(props) {
           <br />
 
           <ListLink to="/solution/" className={styles.link}>
-            Seafeed
+            Solution
           </ListLink>
           {/* <br />
 

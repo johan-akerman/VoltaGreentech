@@ -10,7 +10,7 @@ export default function About() {
     <Layout>
       <div className={styles.container}>
         <Link to="/careers">
-          <img className={styles.goBack} src={goBack} />
+          <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
         <h1 className={styles.jobTitle}>Algae Cultivation Technician</h1>
         <h2 className={styles.jobSubTitle}>Part time, Lysekil Sweden</h2>

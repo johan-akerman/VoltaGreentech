@@ -26,9 +26,9 @@ export default function Press() {
           positionLeft={true}
           image={leoAndAngelo}
           chapterTitle="Press contact and press kit"
-          text="For press inquires, contact Leo Wezelius, Co- founder & CMO, at leo@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos. "
+          text="For press inquires, contact Leo Wezelius, Co- founder & CMO, at leo@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos."
           link="Download press kit"
-          caption="Leo & Angelo on stage"
+          caption="Leo & Angelo"
           href="/solution/"
         />
 

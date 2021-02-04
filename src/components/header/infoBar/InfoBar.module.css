@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  background-color: #ffe633;
+  height: 65px;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+.container p {
+  color: #141517 !important;
+  display: inline;
+  padding-right: 16px;
+}
+
+.content img {
+  float: left;
+  display: inline;
+  height: 40px;
+  padding-right: 24px;
+}
+
+.link {
+  border-bottom: 1px dashed black;
+  color: #141517;
+  font-family: "Volta" !important;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: inherit;
+}
+
+.content p {
+  float: center;
+  text-align: left;
+}
+
+.content {
+  padding: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cancelButton {
+  float: right;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: black;
+}
+
+.cancelButton:hover {
+  color: black;
+  cursor: pointer;
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 16px;
+  }
+  .container {
+    line-height: 20px;
+    height: auto;
+  }
+  .content p {
+    font-size: 16px;
+    max-width: 300px;
+  }
+
+  .content img {
+    padding-right: 16px;
+  }
+}

@@ -8,19 +8,23 @@ import angelo from "../../../static/images/team/angelo.jpeg"
 // import leo from "../../../static/images/team/leo.jpg"
 
 import fredrik from "../../../static/images/team/fredrik.jpg"
-import Fade from 'react-reveal/Fade';
-
+import Fade from "react-reveal/Fade"
 
 export default function teamContainer(props) {
   return (
     <div className={styles.container}>
       <Fade up>
-      <p className={typography.lowerLevelHeader}>Founders</p>
-      <h1 className={typography.chapterTitle}>Meet the founders</h1>
-      <p style={{ maxWidth: "750px" }}>
-        Volta was established in 2018 by a team of three founders with one goal
-        in common: save the environment.
-      </p>
+        <p className={typography.lowerLevelHeader}>Founders</p>
+        <h1 className={typography.chapterTitle}>Meet the founders</h1>
+        <p style={{ maxWidth: "950px" }}>
+          The journey of Volta began in 2018 when Fredrik, Leo and Angelo
+          learned about a special red seaweeds incredible potential to tacke one
+          of the worlds biggest sources of greenhouse gas emissions. Realising
+          the potential of the solution, they decided this was the most
+          important thing they could focus on and dropped everything to start
+          Volta with a simple mission: get this seaweed out to as many cows as
+          possible, as fast as possible.
+        </p>
       </Fade>
       <div className="row">
         <Card
@@ -40,7 +44,7 @@ export default function teamContainer(props) {
         <Card
           image={angelo}
           title="Angelo Demeter"
-          position="Co-founder, CTO"
+          position="Co-founder, Chief Scientist"
           email="angelo@voltagreentech.com"
           delay="750"
         />

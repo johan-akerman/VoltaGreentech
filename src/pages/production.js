@@ -2,11 +2,11 @@
 import React from "react"
 
 /* Importing components */
-import IconColumnContainer from "../components/columns/IconColumnContainer"
+import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import Table from "../components/table/ComparisonTable"
-import FAQ from "../components/FAQ/FAQ"
+import FAQ from "../components/faq/FAQ"
 
 /* Importing styling */
 import Layout from "../components/Layout"

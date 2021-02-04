@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap"
 import typography from "../typography.module.css"
 
 import styles from "./newsletter.module.css"
-import LinkElement from "../link/LinkElement"
+import LinkElement from "../buttons/link/LinkElement"
 
 export default function FooterForm(props) {
   return (

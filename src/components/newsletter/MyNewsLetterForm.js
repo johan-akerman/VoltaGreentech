@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap"
 import styles from "./newsletter.module.css"
 import typography from "../typography.module.css"
 
-import LinkElement from "../link/LinkElement"
+import LinkElement from "../buttons/link/LinkElement"
 
 export default function myNewsLetterForm(props) {
   return (
