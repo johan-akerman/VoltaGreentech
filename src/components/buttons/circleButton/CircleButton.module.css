@@ -1,7 +1,7 @@
 .hoverMeContainer {
   font-style: inherit;
   position: absolute;
-  width: 225px;
+  width: 225px !important;
   text-transform: uppercase;
   text-align: inherit;
 }

@@ -50,7 +50,7 @@ class CenteredTextAndImage extends React.Component {
       )
     }
 
-    if (this.props.btnText) {
+    if (this.props.link) {
       return (
         <React.Fragment>
           <Fade up>
@@ -63,13 +63,11 @@ class CenteredTextAndImage extends React.Component {
               </h1>
               <p>{this.props.text}</p>
               <p>{this.props.text2}</p>
-
-              <Link to="/about">
-                {" "}
-                <CustomButton text={this.props.btnText} to={this.props.href} />
-              </Link>
-
-              <CustomButton text="read more" to="/about" />
+              <div className={styles.ctmBtn}>
+                <Link to={this.props.href}>
+                  <CustomButton text={this.props.link} />
+                </Link>
+              </div>
             </div>
           </Fade>
           <Fade up delay={250}>
@@ -96,10 +94,6 @@ class CenteredTextAndImage extends React.Component {
             </h1>
             <p>{this.props.text}</p>
             <p>{this.props.text2}</p>
-
-            <Link to={this.props.href}>
-              <CustomButton text={this.props.href} />
-            </Link>
           </div>
         </Fade>
         <Fade up delay={250}>

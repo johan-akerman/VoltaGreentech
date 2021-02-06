@@ -5,8 +5,24 @@
  */
 
 module.exports = {
-  plugins: [],
+  siteMetadata: {
+    title: `Gatsby Image`,
+    description: `gatsby images`,
+    author: `@gatsbyjs`,
+  },
+  plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
-module.exports = {
-  pathPrefix: "/VoltaGreentech",
-}
+
+// module.exports = {
+//   pathPrefix: "/VoltaGreentech",
+// }

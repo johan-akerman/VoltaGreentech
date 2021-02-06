@@ -5,7 +5,6 @@ import React from "react"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
-import Quote from "../components/quote/Quote"
 import FAQ from "../components/faq/FAQ"
 import Grid from "../components/grid/Grid"
 
@@ -33,11 +32,6 @@ export default function Solution() {
           text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams reduces their enteric methane emissions (farts and burps) by up to 90%. Based on the red seaweed Asparagopsis taxiformis that contains high amounts of bioactive compounds blocking one of the enzymes needed by the methane producing bacteria in the rumen, it naturally prevents enteric methane production."
           image={backgroundImage}
           caption="A cows daily dose of Volta Seafeed"
-        />
-
-        <Quote
-          text="If cattle were a country, they would rank third in greenhouse gas emissions."
-          person="Bill Gates"
         />
 
         <Grid

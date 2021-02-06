@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import styles from "./Grid.module.css"
 import Fade from "react-reveal/Fade"
 import CustomButton from "../buttons/circleButton/CircleButton.js"
+import LinkElement from "../buttons/link/LinkElement"
 
 export default function grid(props) {
   if (props.positionLeft) {
@@ -23,10 +24,7 @@ export default function grid(props) {
                 <p>{props.text}</p>
                 <p>{props.text2}</p>
 
-                <Link to={props.href}>
-                  {" "}
-                  <CustomButton text={props.link} to={props.href} />
-                </Link>
+                <LinkElement to={props.href} text={props.link} />
               </Fade>
             </div>
           </div>
@@ -63,10 +61,7 @@ export default function grid(props) {
               <h1 className={typography.chapterTitle}>{props.chapterTitle}</h1>
               <p>{props.text}</p>
               <p>{props.text2}</p>
-              <Link to={props.href}>
-                {" "}
-                <CustomButton text={props.link} to={props.href} />
-              </Link>
+              <LinkElement to={props.href} text={props.link} />
             </Fade>
           </div>
         </div>

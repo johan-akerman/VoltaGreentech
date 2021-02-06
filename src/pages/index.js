@@ -1,5 +1,6 @@
 /* Importing essentials */
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import Jumbotron from "../components/jumbotron/Jumbotron"
@@ -18,9 +19,25 @@ import solution from "../../static/images/solution.svg"
 import factory from "../../static/images/factory_01_concept.jpg"
 
 export default function Home() {
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      file(relativePath: { eq: "factory_01_concept.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
-      <Jumbotron fullScreen="true" page="home" />
+      <Jumbotron
+        fullScreen="true"
+        page="home"
+        jumbotronBackground={data.file.childImageSharp.fluid}
+      />
       <div className="layoutContainer">
         <FeaturedIn />
         <OurMission />
@@ -40,7 +57,8 @@ export default function Home() {
           chapterTitle="Volta Factory 01"
           text="There are more than one billion cows on the planet. Looking at existing production methods for seaweed, we quickly realised that we needed to take a different approach to reach the scale we are aiming for. Therefore, Volta Greentech is developing an automated land based seaweed factory on the Swedish West Coast. With a blueprint specifically designed to be replicated at scale, Volta Factory 01 will both supply Volta Greentech’s first commercial partnerships and lay the technical foundation for the coming large scale factories."
           image={factory}
-          caption="Concept visualization of Volta Factory 01"
+          gatsbyImage={data.file.childImageSharp.fluid}
+          caption="Production inside Volta Factory 01"
           link="Read more"
           href="/production/"
         />

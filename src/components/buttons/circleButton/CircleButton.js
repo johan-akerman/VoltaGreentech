@@ -8,8 +8,6 @@ export default function CustomButton(props) {
   let animationButton = React.createRef()
 
   React.useEffect(() => {
-    let button = document.getElementById("hoverMeContainer")
-
     const anim = lottie.loadAnimation({
       container: animationContainer.current,
       renderer: "svg",
@@ -17,6 +15,7 @@ export default function CustomButton(props) {
       autoplay: false,
       animationData: circle,
     })
+
     animationButton.current.addEventListener("mouseenter", () => {
       anim.setDirection(1)
       anim.play()
@@ -31,15 +30,13 @@ export default function CustomButton(props) {
   })
 
   return (
-    <React.Fragment>
-      <div
-        className={styles.hoverMeContainer}
-        id="hoverMeContainer"
-        ref={animationButton}
-      >
-        <p className={styles.text}>{props.text}</p>
-        <div className={styles.testImage} ref={animationContainer} />
-      </div>
-    </React.Fragment>
+    <div
+      className={styles.hoverMeContainer}
+      id="hoverMeContainer"
+      ref={animationButton}
+    >
+      <p className={styles.text}>{props.text}</p>
+      <div className={styles.testImage} ref={animationContainer} />
+    </div>
   )
 }
