@@ -1,16 +1,66 @@
 import React from "react"
 import styles from "./FeaturedIn.module.css"
 import typography from "../typography.module.css"
-
-import breakit from "../../../static/images/press/companyLogos/breakit.png"
-import di from "../../../static/images/press/companyLogos/di.png"
-import dn from "../../../static/images/press/companyLogos/dn.png"
-import fastCompany from "../../../static/images/press/companyLogos/fastCompany.png"
-import feedNavigator from "../../../static/images/press/companyLogos/feedNavigator.png"
-import sifted from "../../../static/images/press/companyLogos/sifted.png"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import Fade from "react-reveal/Fade"
 
 export default function FeaturedIn(props) {
+  const data = useStaticQuery(graphql`
+    query {
+      fastCompany: file(
+        relativePath: { eq: "newsCompanyLogos/fastCompany.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      sifted: file(relativePath: { eq: "newsCompanyLogos/sifted.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      dagensIndustri: file(relativePath: { eq: "newsCompanyLogos/di.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      dagensNyheter: file(relativePath: { eq: "newsCompanyLogos/dn.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      feedNavigator: file(
+        relativePath: { eq: "newsCompanyLogos/feedNavigator.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      breakit: file(relativePath: { eq: "newsCompanyLogos/breakit.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
   return (
     <Fade up>
       <div className="container">
@@ -29,11 +79,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={fastCompany}
-                alt="FastCompany"
-                className="img img-fluid"
-              />
+              <Img fluid={data.fastCompany.childImageSharp.fluid} />
             </a>
           </div>
           <div className="col-6 col-md-3 col-lg-2">
@@ -43,7 +89,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={sifted} alt="Sifted" className="img img-fluid" />
+              <Img fluid={data.sifted.childImageSharp.fluid} />
             </a>
           </div>
 
@@ -54,7 +100,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={di} alt="DagensIndustri" className="img img-fluid" />
+              <Img fluid={data.dagensIndustri.childImageSharp.fluid} />
             </a>
           </div>
 
@@ -65,7 +111,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={dn} alt="DagensNyheter" className="img img-fluid" />
+              <Img fluid={data.dagensNyheter.childImageSharp.fluid} />
             </a>
           </div>
 
@@ -76,11 +122,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={feedNavigator}
-                alt="FeedNavigator"
-                className="img img-fluid"
-              />
+              <Img fluid={data.feedNavigator.childImageSharp.fluid} />
             </a>
           </div>
 
@@ -91,7 +133,7 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={breakit} alt="Breakit" className="img img-fluid" />
+              <Img fluid={data.breakit.childImageSharp.fluid} />
             </a>
           </div>
         </div>

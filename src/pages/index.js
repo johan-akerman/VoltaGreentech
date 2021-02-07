@@ -14,14 +14,26 @@ import FeaturedIn from "../components/featuredIn/FeaturedIn"
 /* Importing styling */
 import Layout from "../components/Layout"
 
-/* Importing images */
-import solution from "../../static/images/solution.svg"
-import factory from "../../static/images/factory_01_concept.jpg"
-
 export default function Home() {
   const data = useStaticQuery(graphql`
-    query MyQuery {
-      file(relativePath: { eq: "factory_01_concept.jpg" }) {
+    query {
+      jumbotron: file(relativePath: { eq: "factory_01_concept.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      solution: file(relativePath: { eq: "solution.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      factory01: file(relativePath: { eq: "factory_01_concept.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -36,14 +48,15 @@ export default function Home() {
       <Jumbotron
         fullScreen="true"
         page="home"
-        jumbotronBackground={data.file.childImageSharp.fluid}
+        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
       />
+
       <div className="layoutContainer">
         <FeaturedIn />
         <OurMission />
         <Grid
           positionLeft={true}
-          image={solution}
+          image={data.solution.childImageSharp.fluid}
           lowerLevelHeader="Our solution"
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
           text="Volta Seafeed is a fully natural seaweed based feed supplement for cows which at a daily dose of around 100 grams has a potential to reduce up to 90% of their methane emissions."
@@ -56,8 +69,7 @@ export default function Home() {
           lowerLevelHeader="Production designed to scale"
           chapterTitle="Volta Factory 01"
           text="There are more than one billion cows on the planet. Looking at existing production methods for seaweed, we quickly realised that we needed to take a different approach to reach the scale we are aiming for. Therefore, Volta Greentech is developing an automated land based seaweed factory on the Swedish West Coast. With a blueprint specifically designed to be replicated at scale, Volta Factory 01 will both supply Volta Greentech’s first commercial partnerships and lay the technical foundation for the coming large scale factories."
-          image={factory}
-          gatsbyImage={data.file.childImageSharp.fluid}
+          gatsbyImage={data.jumbotron.childImageSharp.fluid}
           caption="Production inside Volta Factory 01"
           link="Read more"
           href="/production/"

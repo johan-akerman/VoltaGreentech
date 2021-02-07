@@ -8,6 +8,8 @@ import cowsVsAirplanesMarked from "../../static/images/illustrations/cowsVsAirpl
 import cowsVsAirplanesUnmarked from "../../static/images/illustrations/cowsVsAirplanesUnmarked.png"
 import cowsVsCountriesMarked from "../../static/images/illustrations/cowsVsCountriesMarked.png"
 import cowsVsCountriesUnmarked from "../../static/images/illustrations/cowsVsCountriesUnmarked.png"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import Fade from "react-reveal/Fade"
 
 class OurMission extends React.Component {

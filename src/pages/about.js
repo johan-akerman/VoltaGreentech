@@ -1,5 +1,6 @@
 /* Importing essentials */
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
@@ -14,16 +15,77 @@ import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 import Layout from "../components/Layout"
 
 /* Importing images */
-import highlights from "../../static/images/team/highlights.jpeg"
 import brilliantMinds from "../../static/images/brilliantMinds.gif"
-import production from "../../static/images/heroImages/production.png"
-import graph2 from "../../static/images/illustrations/graph_2.png"
-import heart from "../../static/images/illustrations/heart.svg"
 
 export default function About() {
+  const data = useStaticQuery(graphql`
+    query {
+      jumbotron: file(relativePath: { eq: "production.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      highlights: file(relativePath: { eq: "team/highlights.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      chart: file(
+        relativePath: { eq: "graphs/ifCattleWereACountry_alt_2.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconOne: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconTwo: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconThree: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconFour: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
-      <Jumbotron image={production} page="about" />
+      <Jumbotron
+        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
+        page="about"
+      />
       <div className="layoutContainer">
         <CenteredTextAndImage
           video={true}
@@ -41,7 +103,7 @@ export default function About() {
 
         <Grid
           positionLeft={true}
-          image={graph2}
+          image={data.chart.childImageSharp.fluid}
           lowerLevelHeader="Our mission"
           chapterTitle="REDUCE METHANE EMISSIONS FROM COWS"
           text="There are around 1 billion cows on planet earth. Together they produce over 4% of the world’s greenhouse gas emissions, just by farting and burping methane gas. That’s 2x more emissions than the world’s fleet of airplanes."
@@ -51,7 +113,7 @@ export default function About() {
         />
 
         <Grid
-          image={highlights}
+          image={data.highlights.childImageSharp.fluid}
           lowerLevelHeader="The volta mindset"
           chapterTitle="SIMPLE MEANS, MASSIVE IMPACT"
           text="We know from experience that any challenge, no matter how big it is, can be broken down and simplified into small and manageable pieces. We also know that nothing is more powerful than a will so strong that it will stake even it’s existence for it’s fullfillment. Having a team of people with that mindset, we can take on any challenge, no matter how big it is. This is how we create massive impact. One cow at a time. Today we focus on 4% of the world’s greenhouse gas emissions in the form of enteric methane (farts and burps from cows). Tomorrow it might be something else."
@@ -64,17 +126,17 @@ export default function About() {
         <IconColumnContainer
           lowerLevelHeader="VALUES & CULTURE"
           chapterTitle="OUR VALUES AND CULTURE"
-          imageOne={heart}
+          imageOne={data.iconOne.childImageSharp.fluid}
           titleOne="CHANGEMAKERS BY NATURE"
           textOne="We believe in the power of the individual, and are here to make a real impact."
-          imageTwo={heart}
+          imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="DATA DRIVEN &
           PLAYFUL"
           textTwo="When you possess knowledge you have the ability to be creative and explain so people can understand. “Creativity is intelligence having fun”."
-          imageThree={heart}
+          imageThree={data.iconThree.childImageSharp.fluid}
           titleThree="OPEN-HEARTED & INCLUSIVE"
           textThree="To spread our believes and our knowledge we have to challenge the status quo. We are not activists, we do not hate. We include people to join for a better tomorrow."
-          imageFour={heart}
+          imageFour={data.iconFour.childImageSharp.fluid}
           titleFour="DARE TO BE UNEXPECTED"
           textFour="We dare to differ and do the unexpected, we are always open for collaborations to reach common goals. We marry passion with passion."
         />

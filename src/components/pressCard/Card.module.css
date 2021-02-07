@@ -30,10 +30,6 @@
   margin-top: 0;
 }
 
-.title:hover {
-  text-decoration: underline;
-}
-
 .source {
   padding-top: 8px !important;
   margin-bottom: 8px;
@@ -44,7 +40,6 @@
   letter-spacing: 1px;
   margin-bottom: 8px;
   color: #ddd;
-
 
   font-size: 16px;
 }

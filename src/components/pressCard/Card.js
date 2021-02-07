@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Card.module.css"
 import LinkElement from "../buttons/link/LinkElement"
 import Fade from "react-reveal/Fade"
+import Img from "gatsby-image"
 
 export default function CenteredTextAndImage(props) {
   return (
@@ -14,11 +15,7 @@ export default function CenteredTextAndImage(props) {
           rel="noopener noreferrer"
         >
           <div className={styles.card}>
-            <img
-              className={styles.image}
-              src={props.image}
-              alt="article thumbnail"
-            />
+            <Img title="image" fluid={props.gatsbyImage} />
             <div className={styles.cardContent}>
               <div className={styles.type}>{props.date}</div>
               <h4 className={styles.title}>{props.title}</h4>

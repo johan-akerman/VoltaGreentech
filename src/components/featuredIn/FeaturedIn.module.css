@@ -1,5 +1,5 @@
 .article {
-  opacity: 0.6;
+  opacity: 0.6 impor !important;
 }
 
 a.article:hover {

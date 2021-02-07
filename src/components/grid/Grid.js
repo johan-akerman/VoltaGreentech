@@ -1,6 +1,6 @@
 import React from "react"
 import typography from "../typography.module.css"
-import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 import styles from "./Grid.module.css"
 import Fade from "react-reveal/Fade"
@@ -32,7 +32,12 @@ export default function grid(props) {
           <div className="col-lg-6">
             <Fade up>
               <div className={styles.imageColumn}>
-                <img src={props.image} alt="grid thumbnail" />
+                {/* <img src={props.image} alt="grid thumbnail" /> */}
+                <Img
+                  title="image"
+                  alt="Greek food laid out on table"
+                  fluid={props.image}
+                />
                 <p className={typography.imageCaption}>{props.caption}</p>
               </div>
             </Fade>
@@ -47,7 +52,12 @@ export default function grid(props) {
         <div className="col-lg-6">
           <Fade up>
             <div className={styles.imageColumn}>
-              <img src={props.image} alt="grid thumbnail" />
+              {/* <img src={props.image} alt="grid thumbnail" /> */}
+              <Img
+                title="image"
+                alt="Greek food laid out on table"
+                fluid={props.image}
+              />
               <p className={typography.imageCaption}>{props.caption}</p>
             </div>
           </Fade>

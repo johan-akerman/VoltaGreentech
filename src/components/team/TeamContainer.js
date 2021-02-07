@@ -1,16 +1,40 @@
 import React from "react"
 import typography from "../typography.module.css"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Card from "./TeamMemberCard"
 import styles from "./TeamMemberCard.module.css"
-
-import angelo from "../../../static/images/team/angelo.jpeg"
-// import leo from "../../../static/images/team/leo.jpg"
-
-import fredrik from "../../../static/images/team/fredrik.jpg"
 import Fade from "react-reveal/Fade"
 
-export default function teamContainer(props) {
+export default function TeamContainer(props) {
+  const data = useStaticQuery(graphql`
+    query {
+      fredrik: file(relativePath: { eq: "team/fredrik.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      leo: file(relativePath: { eq: "team/leo.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      angelo: file(relativePath: { eq: "team/angelo.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <div className={styles.container}>
       <Fade up>
@@ -28,21 +52,21 @@ export default function teamContainer(props) {
       </Fade>
       <div className="row">
         <Card
-          image={fredrik}
+          gatsbyImage={data.fredrik.childImageSharp.fluid}
           title="Fredrik Åkerman"
           position="Co-founder, CEO"
           email="fredrik@voltagreentech.com"
           delay="250"
         />
         <Card
-          image={fredrik}
+          gatsbyImage={data.leo.childImageSharp.fluid}
           title="Leo Wezelius"
           position="Co-founder, CMO"
           email="leo@voltagreentech.com"
           delay="500"
         />{" "}
         <Card
-          image={angelo}
+          gatsbyImage={data.angelo.childImageSharp.fluid}
           title="Angelo Demeter"
           position="Co-founder, Chief Scientist"
           email="angelo@voltagreentech.com"

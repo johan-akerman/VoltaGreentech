@@ -87,17 +87,11 @@ export default function Jumbotron(props) {
 
   return (
     <>
-      <Img
-        title="Header image"
-        alt="Greek food laid out on table"
-        fluid={props.jumbotronBackground}
-      />
-      <div
-        className={styles.container}
-        style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255,255,255,0), rgba(35,35,38,0.35), rgba(20,21,23,1) ), url(${props.image})`,
-        }}
-      >
+      <div className={styles.container}>
+        <Img
+          className={styles.backgroundImage}
+          fluid={props.jumbotronBackground}
+        />
         <div className={styles.content}>{generateText(props.page)}</div>
       </div>
     </>

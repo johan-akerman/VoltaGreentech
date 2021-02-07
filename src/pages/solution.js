@@ -1,5 +1,6 @@
 /* Importing essentials */
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import Jumbotron from "../components/jumbotron/Jumbotron"
@@ -11,32 +12,85 @@ import Grid from "../components/grid/Grid"
 /* Importing styling */
 import Layout from "../components/Layout"
 
-/* Importing images */
-import backgroundImage from "../../static/images/solution.jpeg"
-import asparagopsis from "../../static/images/asparagopsis.png"
-import seaweed from "../../static/images/heroImages/seaweed.jpg"
-import heart from "../../static/images/illustrations/heart.svg"
-
 export default function Solution() {
+  const data = useStaticQuery(graphql`
+    query {
+      jumbotron: file(relativePath: { eq: "underWater.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      solution: file(relativePath: { eq: "solution.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      eFlasks: file(relativePath: { eq: "eflasks.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconOne: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconTwo: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconThree: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      iconFour: file(relativePath: { eq: "illustrations/cow.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
       <Jumbotron
-        image={seaweed}
-        title="Straight out of the bottom of the ocean."
+        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
         page="solution"
       />
       <div className="layoutContainer">
         <CenteredTextAndImage
           lowerLevelHeader="Our solution"
+          gatsbyImage={data.solution.childImageSharp.fluid}
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
           text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams reduces their enteric methane emissions (farts and burps) by up to 90%. Based on the red seaweed Asparagopsis taxiformis that contains high amounts of bioactive compounds blocking one of the enzymes needed by the methane producing bacteria in the rumen, it naturally prevents enteric methane production."
-          image={backgroundImage}
           caption="A cows daily dose of Volta Seafeed"
         />
 
         <Grid
           positionLeft={true}
-          image={asparagopsis}
+          image={data.eFlasks.childImageSharp.fluid}
           lowerLevelHeader="Seaweed"
           chapterTitle="About asparagopsis taxiformis"
           text="Originally discovered in 2015, the unprecedented methane reducing properties of the red seaweed Asparagopsis taxiformis has since been validated through years of research at numerous top universities and research institutions around the world. As it has never been produced at scale before, the team at Volta Greentech is focused on developing a cultivation recipe and scalable land based production of Asparagopsis."
@@ -49,16 +103,16 @@ export default function Solution() {
           chapterTitle="It's not magic. It's science."
           text="Microbes in the rumen of the cow helps their digestion of food, a biological process that relases hydrogen and carbon dioxide (CO2). Methane (CH4) is formed when an enzyme in the rumen combines these two gases. Supplementing around 100 grams of Asparagopsis taxiformis to the cows diet, which naturally contains high amounts of natural compounds that supresses this enzyme, up to 90% of methane emissions are reduced."
           text2="Only 100 grams per day reduces up to 90% of methane emissions – too good to be true? Nope. Backed by over 6 years of research, Asparagopsis’s ability to reduce methane production in cows has been scientifically proven, both in terms of efficiency and safety. Designed to be seamlessly implemented at any farm, Volta Seafeed is easily mixed into existing feed."
-          imageOne={heart}
+          imageOne={data.iconOne.childImageSharp.fluid}
           titleOne="Cows produce methane"
           textOne="Methane is a byproduct of the tough fibrous foods the cows  eat.  By default, grass eating cows produce less methane."
-          imageTwo={heart}
+          imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="Supplement ~100g"
           textTwo="Farmer supplements around 100g of Volta Seafeed to the cow’s daily feed intake."
-          imageThree={heart}
+          imageThree={data.iconThree.childImageSharp.fluid}
           titleThree="Immediate effect"
           textThree="The seaweeds natural compounds inhibit the methane producing bacteria, up to 80% of enteric methane production is eliminated."
-          imageFour={heart}
+          imageFour={data.iconFour.childImageSharp.fluid}
           titleFour="proven Safe for animals & humans"
           textFour="A majority of the enteric methane emissions are reduced, energy is freed up for digestion."
         />

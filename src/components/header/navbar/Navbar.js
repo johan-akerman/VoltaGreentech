@@ -1,8 +1,8 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
-import voltaGreentech from "../../../../static/images/logos/logo.png"
-import voltaWhite from "../../../../static/images/logos/volta_white.png"
+import bigLogo from "../../../../src/images/logos/full_size_logo.png"
+import smallLogo from "../../../../src/images/logos/small_size_logo.png"
 import styles from "./Navbar.module.css"
 
 const ListLink = props => (
@@ -23,8 +23,8 @@ export default function Header() {
     >
       <Navbar.Brand>
         <ListLink to="/">
-          <img id={styles.bigLogo} src={voltaGreentech} alt="volta logo" />
-          <img id={styles.smallLogo} src={voltaWhite} alt="volta logo" />
+          <img id={styles.bigLogo} src={bigLogo} alt="volta logo" />
+          <img id={styles.smallLogo} src={smallLogo} alt="volta logo" />
         </ListLink>
       </Navbar.Brand>
       <Navbar.Toggle

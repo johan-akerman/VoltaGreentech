@@ -1,5 +1,6 @@
 /* Importing essentials */
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
@@ -16,9 +17,24 @@ import backgroundImage from "../../static/images/factory_01_concept.jpg"
 import production from "../../static/images/heroImages/production.png"
 
 export default function Production() {
+  const data = useStaticQuery(graphql`
+    query {
+      jumbotron: file(relativePath: { eq: "factory_01_concept.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
-      <Jumbotron image={backgroundImage} page="production" />
+      <Jumbotron
+        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
+        page="production"
+      />
       <div className="layoutContainer">
         <CenteredTextAndImage
           lowerLevelHeader="Production"

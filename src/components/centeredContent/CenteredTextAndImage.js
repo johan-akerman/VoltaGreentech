@@ -5,6 +5,8 @@ import LinkElement from "../buttons/link/LinkElement"
 import typography from "../typography.module.css"
 import styles from "./CenteredTextAndImage.module.css"
 import Fade from "react-reveal/Fade"
+import Img from "gatsby-image"
+
 import CustomButton from "../buttons/circleButton/CircleButton.js"
 
 class CenteredTextAndImage extends React.Component {
@@ -35,6 +37,7 @@ class CenteredTextAndImage extends React.Component {
                 id={styles.video}
                 alt="thumbnail"
               />
+
               <a
                 className={styles.playBtn}
                 target="_blank"
@@ -71,11 +74,7 @@ class CenteredTextAndImage extends React.Component {
             </div>
           </Fade>
           <Fade up delay={250}>
-            <img
-              className={styles.img}
-              src={this.props.image}
-              alt="thumbnail"
-            />
+            <Img title="Header image" fluid={this.props.gatsbyImage} />
             <p className={typography.imageCaption}>{this.props.caption}</p>
           </Fade>
         </React.Fragment>
@@ -97,7 +96,12 @@ class CenteredTextAndImage extends React.Component {
           </div>
         </Fade>
         <Fade up delay={250}>
-          <img className={styles.img} src={this.props.image} alt="thumbnail" />
+          {/* <img className={styles.img} src={this.props.image} alt="thumbnail" /> */}
+          <Img
+            title="Header image"
+            alt="Greek food laid out on table"
+            fluid={this.props.gatsbyImage}
+          />
           <p className={typography.imageCaption}>{this.props.caption}</p>
         </Fade>
       </React.Fragment>

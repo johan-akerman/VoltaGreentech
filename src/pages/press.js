@@ -1,5 +1,6 @@
 /* Importing essentials */
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import CardContainer from "../components/pressCard/CardContainer"
@@ -17,14 +18,37 @@ import heroImage from "../../static/images/heroImages/press.png"
 import leoAndAngelo from "../../static/images/team/leo_and_angelo.jpeg"
 
 export default function Press() {
+  const data = useStaticQuery(graphql`
+    query {
+      jumbotron: file(relativePath: { eq: "team/nyhetsmorgon.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      leo_and_angelo: file(relativePath: { eq: "team/leo_and_angelo.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
-      <Jumbotron image={heroImage} page="press" />
+      <Jumbotron
+        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
+        page="press"
+      />
       <div className="layoutContainer">
         <FeaturedIn />
         <Grid
           positionLeft={true}
-          image={leoAndAngelo}
+          image={data.leo_and_angelo.childImageSharp.fluid}
           chapterTitle="Press contact and press kit"
           text="For press inquires, contact Leo Wezelius, Co- founder & CMO, at leo@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos."
           link="Download press kit"
