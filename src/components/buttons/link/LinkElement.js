@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./LinkElement.module.css"
 import { Link } from "gatsby"
-import arrow from "../../../../static/images/illustrations/arrow.svg"
+import arrow from "../../../../src/images/illustrations/arrow.svg"
 
 export default function LinkElement(props) {
   if (props.to) {

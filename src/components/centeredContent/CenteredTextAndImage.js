@@ -1,7 +1,6 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 import { Link } from "gatsby"
-import LinkElement from "../buttons/link/LinkElement"
 import typography from "../typography.module.css"
 import styles from "./CenteredTextAndImage.module.css"
 import Fade from "react-reveal/Fade"

@@ -2,14 +2,9 @@ import React from "react"
 import typography from "./typography.module.css"
 import styles from "./centeredContent/CenteredTextAndImage.module.css"
 import { Button } from "react-bootstrap"
-import ifCattleWereACountry from "../../static/images/illustrations/ifCattleWereACountry.png"
-import cowsVsAirplanes from "../../static/images/illustrations/cowsVsAirplanes.png"
-import cowsVsAirplanesMarked from "../../static/images/illustrations/cowsVsAirplanesMarked.png"
-import cowsVsAirplanesUnmarked from "../../static/images/illustrations/cowsVsAirplanesUnmarked.png"
-import cowsVsCountriesMarked from "../../static/images/illustrations/cowsVsCountriesMarked.png"
-import cowsVsCountriesUnmarked from "../../static/images/illustrations/cowsVsCountriesUnmarked.png"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import ifCattleWereACountry from "../../src/images/graphs/ifCattleWereACountry_alt_1.png"
+import cowsVsAirplanes from "../../src/images/graphs/cowsVsAirplanes.png"
+
 import Fade from "react-reveal/Fade"
 
 class OurMission extends React.Component {
@@ -38,22 +33,14 @@ class OurMission extends React.Component {
         <img src={ifCattleWereACountry} className="img img-fluid" alt="Graph" />
       )
 
-      cowsVsCountriesButton = (
-        <img src={cowsVsCountriesMarked} alt="Load more button" />
-      )
-      cowsVsAirplanesButton = (
-        <img src={cowsVsAirplanesUnmarked} alt="Load more button" />
-      )
+      cowsVsCountriesButton = <h1>aaa</h1>
+      cowsVsAirplanesButton = <h1>aaa</h1>
     } else {
       graph = (
         <img src={cowsVsAirplanes} className="img img-fluid" alt="Graph" />
       )
-      cowsVsCountriesButton = (
-        <img src={cowsVsCountriesUnmarked} alt="Load more button" />
-      )
-      cowsVsAirplanesButton = (
-        <img src={cowsVsAirplanesMarked} alt="Load more button" />
-      )
+      cowsVsCountriesButton = <h1>aaa</h1>
+      cowsVsAirplanesButton = <h1>aaa</h1>
     }
     return (
       <div className={styles.container}>

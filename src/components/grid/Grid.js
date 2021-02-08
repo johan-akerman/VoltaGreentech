@@ -4,7 +4,6 @@ import Img from "gatsby-image"
 
 import styles from "./Grid.module.css"
 import Fade from "react-reveal/Fade"
-import CustomButton from "../buttons/circleButton/CircleButton.js"
 import LinkElement from "../buttons/link/LinkElement"
 
 export default function grid(props) {

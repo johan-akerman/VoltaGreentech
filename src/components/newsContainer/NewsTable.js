@@ -3,7 +3,8 @@ import typography from "../typography.module.css"
 import { Table, Button } from "react-bootstrap"
 import styles from "./NewsTable.module.css"
 import Fade from "react-reveal/Fade"
-import LoadMore from "../../../static/images/illustrations/LoadMore.png"
+import CustomButton from "../buttons/circleButton/CircleButton"
+
 const articles = require("../../../static/json/articles.json")
 
 class NewsTable extends React.Component {
@@ -85,7 +86,7 @@ class NewsTable extends React.Component {
                 className={typography.btn}
                 onClick={() => this.setState({ renderAll: true })}
               >
-                <img src={LoadMore} alt="Load more button" />
+                <CustomButton text="Load more" to="/about" />
               </Button>
             </div>
           </Fade>

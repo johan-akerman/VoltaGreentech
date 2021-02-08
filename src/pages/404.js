@@ -8,7 +8,7 @@ import Grid from "../components/grid/Grid"
 import Layout from "../components/Layout"
 
 /* Importing images */
-import cow from "../../static/images/illustrations/cow.png"
+import cow from "../../src/images/illustrations/cow_alt_2.png"
 
 export default function Home() {
   return (

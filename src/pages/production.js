@@ -13,8 +13,7 @@ import FAQ from "../components/faq/FAQ"
 import Layout from "../components/Layout"
 
 /* Importing images */
-import backgroundImage from "../../static/images/factory_01_concept.jpg"
-import production from "../../static/images/heroImages/production.png"
+import production from "../../src/images/production.png"
 
 export default function Production() {
   const data = useStaticQuery(graphql`

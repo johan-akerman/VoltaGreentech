@@ -15,7 +15,7 @@ import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 import Layout from "../components/Layout"
 
 /* Importing images */
-import brilliantMinds from "../../static/images/brilliantMinds.gif"
+import brilliantMinds from "../../src/images/team/brilliantMinds.gif"
 
 export default function About() {
   const data = useStaticQuery(graphql`
@@ -46,7 +46,7 @@ export default function About() {
         }
       }
 
-      iconOne: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconOne: file(relativePath: { eq: "illustrations/lightBulb.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -54,7 +54,7 @@ export default function About() {
         }
       }
 
-      iconTwo: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconTwo: file(relativePath: { eq: "illustrations/lightning.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -62,7 +62,7 @@ export default function About() {
         }
       }
 
-      iconThree: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconThree: file(relativePath: { eq: "illustrations/heart.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -70,7 +70,7 @@ export default function About() {
         }
       }
 
-      iconFour: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconFour: file(relativePath: { eq: "illustrations/star.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64

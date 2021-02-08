@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../../components/Layout"
 import typography from "../../components/typography.module.css"
 import styles from "../../components/openPosition.module.css"
-import goBack from "../../../static/images/illustrations/goBack.png"
+import goBack from "../../../src/images/illustrations/goBack.png"
 
 export default function About() {
   return (

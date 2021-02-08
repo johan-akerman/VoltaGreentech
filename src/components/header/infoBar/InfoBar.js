@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./InfoBar.module.css"
 import { Link } from "gatsby"
-import milk from "../../../static/images/illustrations/milk.png"
+import milk from "../../../src/images/illustrations/milk.png"
 
 class infoBar extends React.Component {
   onClickFunction() {

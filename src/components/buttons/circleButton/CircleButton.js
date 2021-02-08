@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./CircleButton.module.css"
 import lottie from "lottie-web"
-import circle from "../../../../static/images/circle.json"
+import circle from "../../../../src/images/illustrations/circle.json"
 
 export default function CustomButton(props) {
   let animationContainer = React.createRef()

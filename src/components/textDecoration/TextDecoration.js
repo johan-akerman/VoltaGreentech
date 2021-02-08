@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./TextDecoration.module.css"
 import lottie from "lottie-web"
-import underlineOne from "../../../static/images/underlineOne.json"
+import underlineOne from "../../../src/images/illustrations/underlineOne.json"
 
 export default function TextDecoration(props) {
   let animationContainer = React.createRef()

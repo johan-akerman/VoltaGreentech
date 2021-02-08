@@ -11,11 +11,6 @@ import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 /* Importing styling */
 import Layout from "../components/Layout"
 
-/* Importing images */
-import flask from "../../static/images/Culture_flask.jpeg"
-import heroImage from "../../static/images/team/angelo.jpeg"
-import heart from "../../static/images/illustrations/heart.svg"
-
 export default function Careers() {
   const data = useStaticQuery(graphql`
     query {
@@ -35,7 +30,7 @@ export default function Careers() {
         }
       }
 
-      iconOne: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconOne: file(relativePath: { eq: "illustrations/lightBulb.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -43,7 +38,7 @@ export default function Careers() {
         }
       }
 
-      iconTwo: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconTwo: file(relativePath: { eq: "illustrations/lightning.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -51,7 +46,7 @@ export default function Careers() {
         }
       }
 
-      iconThree: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconThree: file(relativePath: { eq: "illustrations/heart.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -59,7 +54,7 @@ export default function Careers() {
         }
       }
 
-      iconFour: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconFour: file(relativePath: { eq: "illustrations/star.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -81,7 +76,6 @@ export default function Careers() {
           gatsbyImage={data.angelo.childImageSharp.fluid}
           chapterTitle="Want to join our mission?"
           text="Want to help solve one of the most urgent challenge facing the world today? This is an opportunity to join a company with a very exciting journey ahead. We need a lot of talent to achieve our mission."
-          image={flask}
           caption="Angelo in the lab"
         />
 

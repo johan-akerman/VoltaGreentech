@@ -39,7 +39,7 @@ export default function Solution() {
         }
       }
 
-      iconOne: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconOne: file(relativePath: { eq: "illustrations/cow_alt_1.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -47,7 +47,7 @@ export default function Solution() {
         }
       }
 
-      iconTwo: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconTwo: file(relativePath: { eq: "illustrations/farmer.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -55,7 +55,7 @@ export default function Solution() {
         }
       }
 
-      iconThree: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconThree: file(relativePath: { eq: "illustrations/seaweed.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -63,7 +63,7 @@ export default function Solution() {
         }
       }
 
-      iconFour: file(relativePath: { eq: "illustrations/cow.png" }) {
+      iconFour: file(relativePath: { eq: "illustrations/cow_alt_2.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64

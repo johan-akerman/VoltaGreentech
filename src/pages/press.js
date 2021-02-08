@@ -13,10 +13,6 @@ import NewsContainer from "../components/newsContainer/NewsContainer"
 /* Importing styling */
 import Layout from "../components/Layout"
 
-/* Importing images */
-import heroImage from "../../static/images/heroImages/press.png"
-import leoAndAngelo from "../../static/images/team/leo_and_angelo.jpeg"
-
 export default function Press() {
   const data = useStaticQuery(graphql`
     query {

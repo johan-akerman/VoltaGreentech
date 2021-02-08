@@ -7,7 +7,11 @@ export default function IconColumn(props) {
   return (
     <Fade up delay={props.delay}>
       <div className="col-sm-12 col-md-6 col-lg-3">
-        <Img title="image" fluid={props.illustration} />
+        <Img
+          className={styles.image}
+          title="image"
+          fluid={props.illustration}
+        />
         <h4 className={styles.title}>{props.title}</h4> <p>{props.text}</p>
       </div>
     </Fade>
