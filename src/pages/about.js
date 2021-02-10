@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-import TeamContainer from "../components/team/TeamContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
 import Quote from "../components/quote/Quote"
@@ -14,13 +13,18 @@ import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 /* Importing styling */
 import Layout from "../components/Layout"
 
-/* Importing images */
-import brilliantMinds from "../../src/images/team/brilliantMinds.gif"
-
 export default function About() {
   const data = useStaticQuery(graphql`
     query {
-      jumbotron: file(relativePath: { eq: "production.png" }) {
+      jumbotron: file(relativePath: { eq: "production.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      brilliantMinds: file(relativePath: { eq: "brilliantMinds.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -88,12 +92,13 @@ export default function About() {
       />
       <div className="layoutContainer">
         <CenteredTextAndImage
-          video={true}
           lowerLevelHeader="Who we are"
+          gatsbyImage={data.brilliantMinds.childImageSharp.fluid}
           chapterTitle="Humans commited to change"
           text="On the surface we are a Swedish greentech company on a mission to reduce methane emissions from the worlds cows. Below the surface we are more than that. We are a growing team of innovators from over seven nationalities who all share a committment and passion to use our personal gifts and skills to bring climate innovations to the market at scale and create real measurable impact. Many solutions to help battle climate change are already out there – what we need is humans who are ready to do whatever it takes to implement them at scale. So, we rolled up our sleeves and founded Volta Greentech; a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home, planet earth."
-          image={brilliantMinds}
           caption="Volta Greentech explained at Brilliant Minds 2019"
+          link="Watch pitch"
+          href="https://www.youtube.com/watch?v=77KozPbACI0"
         />
 
         <Quote
@@ -141,7 +146,6 @@ export default function About() {
           textFour="We dare to differ and do the unexpected, we are always open for collaborations to reach common goals. We marry passion with passion."
         />
 
-        <TeamContainer />
         <JobsContainer />
       </div>
     </Layout>

@@ -36,7 +36,7 @@ export default function CustomButton(props) {
       ref={animationButton}
     >
       <p className={styles.text}>{props.text}</p>
-      <div className={styles.testImage} ref={animationContainer} />
+      <div className={styles.backgroundImage} ref={animationContainer} />
     </div>
   )
 }

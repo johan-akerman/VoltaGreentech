@@ -20,7 +20,7 @@ export default function TextDecoration(props) {
     }, 350)
 
     return () => anim.destroy() // optional clean up for unmounting
-  })
+  }, [])
 
   return (
     <React.Fragment>

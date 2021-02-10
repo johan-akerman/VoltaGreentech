@@ -1,16 +1,10 @@
 .hoverMeContainer {
-  font-style: inherit;
-  position: absolute;
+  position: relative;
+  left: 0;
   width: 225px !important;
   text-transform: uppercase;
   text-align: inherit;
-}
-
-.testImage {
-  left: -25% !important;
-  position: absolute;
-  top: -22.5px;
-  width: 100%;
+  cursor: pointer;
 }
 
 .text {
@@ -19,20 +13,20 @@
   font-family: "Volta";
   font-size: 17px;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 2px;
 }
 
 .text:hover {
   color: #ffe633;
-  text-decoration: none;
-  cursor: pointer;
 }
 
-.arrow {
-  padding-left: 2px;
-  transition: 0.2s;
+.backgroundImage {
+  position: absolute;
+  top: -22.5px;
+  width: 100%;
 }
 
-.link:hover .arrow {
-  padding-left: 8px;
+#heroButton {
+  left: -25% !important;
 }

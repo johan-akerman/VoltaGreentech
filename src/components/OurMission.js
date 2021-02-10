@@ -1,7 +1,7 @@
 import React from "react"
 import typography from "./typography.module.css"
 import styles from "./centeredContent/CenteredTextAndImage.module.css"
-import { Button } from "react-bootstrap"
+import CustomButton from "../components/buttons/circleButton/CircleButton"
 import ifCattleWereACountry from "../../src/images/graphs/ifCattleWereACountry_alt_1.png"
 import cowsVsAirplanes from "../../src/images/graphs/cowsVsAirplanes.png"
 
@@ -25,22 +25,15 @@ class OurMission extends React.Component {
 
   render() {
     let graph
-    let cowsVsCountriesButton
-    let cowsVsAirplanesButton
 
     if (this.state.activeGraph === "ifCattleWereACountry") {
       graph = (
         <img src={ifCattleWereACountry} className="img img-fluid" alt="Graph" />
       )
-
-      cowsVsCountriesButton = <h1>aaa</h1>
-      cowsVsAirplanesButton = <h1>aaa</h1>
     } else {
       graph = (
         <img src={cowsVsAirplanes} className="img img-fluid" alt="Graph" />
       )
-      cowsVsCountriesButton = <h1>aaa</h1>
-      cowsVsAirplanesButton = <h1>aaa</h1>
     }
     return (
       <div className={styles.container}>
@@ -67,22 +60,23 @@ class OurMission extends React.Component {
 
           <Fade up delay={250}>
             <div className={typography.btnContainer}>
-              <Button
+              <div
                 className={typography.btn}
                 onClick={() =>
                   this.setState({ activeGraph: "ifCattleWereACountry" })
                 }
               >
-                {cowsVsCountriesButton}
-              </Button>
-              <Button
+                <CustomButton text="Cows vs Countries" />
+              </div>
+
+              <div
                 className={typography.btn}
                 onClick={() =>
                   this.setState({ activeGraph: "cowsVsAirplanes" })
                 }
               >
-                {cowsVsAirplanesButton}
-              </Button>
+                <CustomButton text="Cows vs Airplanes" />
+              </div>
             </div>
           </Fade>
         </div>
@@ -94,6 +88,7 @@ class OurMission extends React.Component {
 
           <br />
           <br />
+
           <p className={typography.imageCaption}>
             “If cattle were a country, they would rank third in greenhouse gas
             emissions”. Graph based on{" "}

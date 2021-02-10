@@ -8,7 +8,7 @@ import { useStaticQuery, graphql } from "gatsby"
 export default function CenteredTextAndImage(props) {
   const data = useStaticQuery(graphql`
     query {
-      article1: file(relativePath: { eq: "articles/brilliantMinds.png" }) {
+      article1: file(relativePath: { eq: "articles/factory.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -43,25 +43,25 @@ export default function CenteredTextAndImage(props) {
       <div className="row">
         <Card
           gatsbyImage={data.article1.childImageSharp.fluid}
-          title="Swedish start-up tackling methane emissions in cattle"
-          date="2020.06.02"
-          href="https://example.com"
+          title="Volta partners with AFRY to build first seaweed factory aiming to reduce 80% of methane emissions from cows"
+          date="2021.01.29"
+          href="https://voltagreentech.medium.com/volta-greentech-partners-with-afry-to-build-first-seaweed-factory-aiming-to-reduce-80-of-methane-6bfb0531c0f5"
           delay="250"
         />
 
         <Card
-          gatsbyImage={data.article2.childImageSharp.fluid}
-          title="This factory is growing a new kind of food for cows"
-          date="2020.06.02"
-          href="https://example.com"
+          gatsbyImage={data.article3.childImageSharp.fluid}
+          title="Swedens largest feed company Lantmännen in partnership with Volta Greentech to develop the feed of the future"
+          date="2020.10.29"
+          href="https://voltagreentech.medium.com/swedens-largest-feed-company-lantm%C3%A4nnen-is-developing-the-feed-of-the-future-by-testing-methane-ad9062766f2e"
           delay="500"
         />
 
         <Card
-          gatsbyImage={data.article3.childImageSharp.fluid}
-          title="The startup waging war against cows farts"
-          date="2020.06.02"
-          href="https://example.com"
+          gatsbyImage={data.article2.childImageSharp.fluid}
+          title="This factory is growing a new kind of food for cows: A seaweed that reduces their burps"
+          date="2020.06.01"
+          href="https://www.fastcompany.com/90510673/this-factory-is-growing-a-new-kind-of-food-for-cows-a-seaweed-that-reduces-their-burps?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss?cid=search"
           delay="750"
         />
       </div>

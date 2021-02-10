@@ -3,13 +3,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
-import Jumbotron from "../components/jumbotron/Jumbotron"
 import Grid from "../components/grid/Grid"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import CardContainer from "../components/pressCard/CardContainer"
 import OurMission from "../components/OurMission"
-import Newsletter from "../components/newsletter/index"
 import FeaturedIn from "../components/featuredIn/FeaturedIn"
+import VideoJumbotron from "../components/jumbotron/VideoJumbotron"
 
 /* Importing styling */
 import Layout from "../components/Layout"
@@ -25,7 +24,7 @@ export default function Home() {
         }
       }
 
-      solution: file(relativePath: { eq: "solution.jpeg" }) {
+      solution: file(relativePath: { eq: "solution_cropped.jpeg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -33,7 +32,7 @@ export default function Home() {
         }
       }
 
-      factory01: file(relativePath: { eq: "factory_01_concept.jpg" }) {
+      production: file(relativePath: { eq: "production.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -45,11 +44,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <Jumbotron
-        fullScreen="true"
-        page="home"
-        jumbotronBackground={data.jumbotron.childImageSharp.fluid}
-      />
+      <VideoJumbotron />
 
       <div className="layoutContainer">
         <FeaturedIn />
@@ -69,14 +64,13 @@ export default function Home() {
           lowerLevelHeader="Production designed to scale"
           chapterTitle="Volta Factory 01"
           text="There are more than one billion cows on the planet. Looking at existing production methods for seaweed, we quickly realised that we needed to take a different approach to reach the scale we are aiming for. Therefore, Volta Greentech is developing an automated land based seaweed factory on the Swedish West Coast. With a blueprint specifically designed to be replicated at scale, Volta Factory 01 will both supply Volta Greentech’s first commercial partnerships and lay the technical foundation for the coming large scale factories."
-          gatsbyImage={data.jumbotron.childImageSharp.fluid}
+          gatsbyImage={data.production.childImageSharp.fluid}
           caption="Production inside Volta Factory 01"
           link="Read more"
           href="/production/"
         />
 
         <CardContainer />
-        <Newsletter />
       </div>
     </Layout>
   )

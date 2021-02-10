@@ -18,10 +18,11 @@ export default function Jumbotron(props) {
             On a mission to battle global warming by making cows fart and burp
             less methane gas, using seaweed.
           </p>
-          <Link to="/solution">
-            {" "}
-            <CustomButton text="read more" to="/about" />
-          </Link>
+          <div className={styles.customLink}>
+            <Link to="/solution">
+              <CustomButton text="read more" to="/about" />
+            </Link>
+          </div>
         </>
       )
     else if (page === "planet-food")
@@ -86,14 +87,12 @@ export default function Jumbotron(props) {
   }
 
   return (
-    <>
-      <div className={styles.container}>
-        <Img
-          className={styles.backgroundImage}
-          fluid={props.jumbotronBackground}
-        />
-        <div className={styles.content}>{generateText(props.page)}</div>
-      </div>
-    </>
+    <div className={styles.container}>
+      <Img
+        className={styles.backgroundImage}
+        fluid={props.jumbotronBackground}
+      />
+      <div className={styles.content}>{generateText(props.page)}</div>
+    </div>
   )
 }

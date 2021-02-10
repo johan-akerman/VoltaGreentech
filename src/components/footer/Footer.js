@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./Footer.module.css"
-import FooterForm from "../newsletter/FooterForm"
 
 const ListLink = props => (
   <li style={{ display: `inline-block` }}>
@@ -39,11 +38,7 @@ export default function Footer(props) {
           <ListLink to="/solution/" className={styles.link}>
             Solution
           </ListLink>
-          {/* <br />
 
-          <ListLink to="/product/" className={styles.link}>
-            Planetmilk
-          </ListLink> */}
           <br />
 
           <ListLink to="/production/" className={styles.link}>
@@ -81,6 +76,37 @@ export default function Footer(props) {
           >
             LinkedIn
           </a>
+
+          <a
+            className={styles.link}
+            href="https://www.facebook.com/Volta-Greentech-106692387396549/"
+            target="_blank "
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+
+          <a
+            className={styles.link}
+            href="https://twitter.com/vgreentech"
+            target="_blank "
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+        </div>
+
+        <div className="col-sm-12 col-md-3">
+          <h5 className={styles.footerTitle}>Find us</h5>
+
+          <a
+            className={styles.link}
+            href="https://goo.gl/maps/orSRvzAfGB2fwB8d7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Nanna Svartz väg 4 <br /> 171 65 Solna, Sweden
+          </a>
         </div>
 
         <div className="col-sm-12 col-md-3">
@@ -89,21 +115,6 @@ export default function Footer(props) {
           <a className={styles.link} href="mailto:fredrik@voltagreentech.com">
             fredrik@voltagreentech.com
           </a>
-
-          <a
-            className={styles.link}
-            href="https://goo.gl/maps/orSRvzAfGB2fwB8d7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nanna Svartz väg 4, 171 65, Solna
-          </a>
-        </div>
-
-        <div className="col-sm-12 col-md-3">
-          <h5 className={styles.footerTitle}>Join our newsletter</h5>
-
-          <FooterForm />
         </div>
       </div>
     </div>
