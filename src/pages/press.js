@@ -45,10 +45,10 @@ export default function Press() {
           positionLeft={true}
           image={data.leo_and_angelo.childImageSharp.fluid}
           chapterTitle="Press contact and press kit"
-          text="For press inquires, contact Fredrik Åkerman, Co- founder & CEO, at fredrik@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos."
+          text="For press inquires, contact Linus Holmsäter, linus@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos."
           link="Download press kit"
           caption="Leo & Angelo"
-          href="/solution/"
+          href="https://drive.google.com/drive/folders/1FfrjtBbEdGrWRS5iDzVNIklcPEH21b_y?usp=sharing"
         />
 
         <CardContainer />

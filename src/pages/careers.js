@@ -22,7 +22,7 @@ export default function Careers() {
         }
       }
 
-      angelo: file(relativePath: { eq: "team/angelo_flask.jpeg" }) {
+      elena: file(relativePath: { eq: "team/elena.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -73,10 +73,10 @@ export default function Careers() {
       <div className="layoutContainer">
         <CenteredTextAndImage
           lowerLevelHeader="Careers"
-          gatsbyImage={data.angelo.childImageSharp.fluid}
+          gatsbyImage={data.elena.childImageSharp.fluid}
           chapterTitle="Want to join our mission?"
           text="Want to help solve one of the most urgent challenge facing the world today? This is an opportunity to join a company with a very exciting journey ahead. We need a lot of talent to achieve our mission."
-          caption="Angelo in the lab"
+          caption="Elena in Volta Factory 01"
         />
 
         <IconColumnContainer
@@ -88,13 +88,13 @@ export default function Careers() {
           imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="DATA DRIVEN &
           PLAYFUL"
-          textTwo="When you possess knowledge you have the ability to be creative and explain so people can understand. “Creativity is intelligence having fun”."
+          textTwo="When you possess the knowledge, you can be creative and explain so people can understand. “Creativity is intelligence having fun.”"
           imageThree={data.iconThree.childImageSharp.fluid}
           titleThree="OPEN-HEARTED & INCLUSIVE"
-          textThree="To spread our believes and our knowledge we have to challenge the status quo. We are not activists, we do not hate. We include people to join for a better tomorrow."
+          textThree="To spread our beliefs and our knowledge, we have to challenge the status quo. We are not activists; we do not hate. We include people to join for a better tomorrow."
           imageFour={data.iconFour.childImageSharp.fluid}
           titleFour="DARE TO BE UNEXPECTED"
-          textFour="We dare to differ and do the unexpected, we are always open for collaborations to reach common goals. We marry passion with passion."
+          textFour="We dare to differ and do the unexpected; we are always open to collaborations to reach common goals. We marry passion with passion."
         />
 
         <JobsContainer id="openPositions" />

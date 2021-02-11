@@ -6,7 +6,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
-import Table from "../components/table/ComparisonTable"
 import FacilityContainer from "../components/facilities/FacilitiesContainer"
 
 /* Importing styling */
@@ -31,7 +30,7 @@ export default function Production() {
         }
       }
 
-      iconOne: file(relativePath: { eq: "illustrations/lightBulb.png" }) {
+      iconOne: file(relativePath: { eq: "illustrations/seaweed.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -39,7 +38,7 @@ export default function Production() {
         }
       }
 
-      iconTwo: file(relativePath: { eq: "illustrations/lightning.png" }) {
+      iconTwo: file(relativePath: { eq: "illustrations/heart.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -47,7 +46,7 @@ export default function Production() {
         }
       }
 
-      iconThree: file(relativePath: { eq: "illustrations/heart.png" }) {
+      iconThree: file(relativePath: { eq: "illustrations/lightBulb.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -55,7 +54,7 @@ export default function Production() {
         }
       }
 
-      iconFour: file(relativePath: { eq: "illustrations/star.png" }) {
+      iconFour: file(relativePath: { eq: "illustrations/factory.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -76,7 +75,8 @@ export default function Production() {
           lowerLevelHeader="Production"
           chapterTitle="A blueprint for
           scalable production"
-          text="Volta Greentech is developing a scalable, sustainable and automated land based seaweed cultivation system - tailored for the selected species of seaweed that are key ingredients in Volta Seafeed. Land based systems enables optimization of temperature, light and nutrients to maximize the growth rate of the seaweed, while ensuring a high and standardised quality of the feed supplement."
+          text="Volta Greentech is developing a scalable, sustainable, and automated land-based seaweed cultivation system - tailored for the selected species of seaweed that are crucial ingredients in Volta Seafeed. A land-based factory enables optimization of temperature, light, and nutrients to maximize the seaweed's growth rate while ensuring a high and standardized quality of the feed supplement. "
+          text2="To meet the increasing global demand for the solution, we are rethinking how to produce seaweed at scale. Volta Seafeed has an immense impact potential, but as no one has been growing this type of seaweed at scale before, the global demand far exceeds the supply. Looking at existing production methods for seaweed, we quickly realized that we needed to take a different approach to reach the scale we are aiming for. Therefore, we went to the drawing board and looked at what would be necessary to produce Asparagopsis at scale for global implementation.  "
           gatsbyImage={data.production.childImageSharp.fluid}
           caption="Production inside Volta Factory 01"
         />
@@ -84,26 +84,25 @@ export default function Production() {
         <IconColumnContainer
           lowerLevelHeader="How it works"
           chapterTitle="The production process"
-          text="To ensure a carbon negative production footprint in the production Volta Seafeed is produced using renewable electricity, waste heat from nearby industries and surplus carbon dioxide."
+          text="To ensure a sustainable footprint in the production and viable production economics, Volta Seafeed is produced using renewable electricity, waste heat, and CO2 from nearby industries.  "
           imageOne={data.iconOne.childImageSharp.fluid}
-          titleOne="Seed"
-          textOne="Nutrient rich water with the right salinity is pumped into the factory from the ocean. The water is filtered from unwanted bacteria and neccessary nutriends are added."
+          titleOne="Vertical production in bioreactors"
+          textOne="The seaweed is grown in vertical bioreactors with sensors and automation in a controlled environment to maximize seaweed growth and quality to lower production costs. "
           imageTwo={data.iconTwo.childImageSharp.fluid}
-          titleTwo="Circular"
-          textTwo="Carbon dioxide (CO2) is added to the tanks, LED lights powered by renewable electricity."
+          titleTwo="Cultivation media"
+          textTwo="Seawater is used as cultivation media and is naturally rich in nutrients. The seawater is recirculated in the system, and extra nutrients and CO2 are added to boost seaweed growth."
           imageThree={data.iconThree.childImageSharp.fluid}
-          titleThree="Immediate effect"
-          textThree="The seaweed’s bioactive compounds block the methane producing enzymes in the cow’s rumen."
+          titleThree="Energy & Electricity"
+          textThree="The LED lights and the rest of the facility are powered by 100% renewable electricity. Waste heat from nearby industries is used to heat up the seawater and facility to the right cultivation temperature."
           imageFour={data.iconFour.childImageSharp.fluid}
-          titleFour="CH4 reduction"
-          textFour="A majority of the enteric methane emissions are reduced."
+          titleFour="Rapid growth and 365 day per year production"
+          textFour="With continuous and stable seaweed growth of up to 10% day and a 365 days per year production, Volta has a production blueprint ready for scaling. "
         />
 
         <FacilityContainer />
 
         <br />
         <br />
-        <Table />
       </div>
     </Layout>
   )

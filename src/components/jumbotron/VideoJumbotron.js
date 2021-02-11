@@ -19,7 +19,7 @@ export default function VideoJumbotron() {
       </video>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          We reduce methane emissions from <TextDecoration text="cows." />
+          Reducing methane emissions from <TextDecoration text="cows." />
         </h1>
         <p className={styles.text}>
           On a mission to battle global warming by making cows fart and burp

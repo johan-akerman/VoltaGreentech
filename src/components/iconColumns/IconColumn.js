@@ -8,6 +8,8 @@ export default function IconColumn(props) {
     <Fade up delay={props.delay}>
       <div className="col-sm-12 col-md-6 col-lg-3">
         <Img
+          style={{ width: "200px" }}
+          imgStyle={{ objectFit: "contain" }}
           className={styles.image}
           title="image"
           fluid={props.illustration}

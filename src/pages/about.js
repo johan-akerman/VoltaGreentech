@@ -95,7 +95,7 @@ export default function About() {
           lowerLevelHeader="Who we are"
           gatsbyImage={data.brilliantMinds.childImageSharp.fluid}
           chapterTitle="Humans commited to change"
-          text="On the surface we are a Swedish greentech company on a mission to reduce methane emissions from the worlds cows. Below the surface we are more than that. We are a growing team of innovators from over seven nationalities who all share a committment and passion to use our personal gifts and skills to bring climate innovations to the market at scale and create real measurable impact. Many solutions to help battle climate change are already out there – what we need is humans who are ready to do whatever it takes to implement them at scale. So, we rolled up our sleeves and founded Volta Greentech; a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home, planet earth."
+          text="On the surface, we are a Swedish greentech company on a mission to reduce methane emissions from the world's cows. Under the surface, we are more than that. We are a growing team of innovators from over five nationalities who all share a commitment and passion for using our personal gifts and skills to bring climate innovations to the market at scale and create real measurable impact. Many solutions to help battle climate change are already out there – what we need are humans who are ready to do whatever it takes to implement them at scale. So, we rolled up our sleeves and founded Volta Greentech, a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home, planet earth."
           caption="Volta Greentech explained at Brilliant Minds 2019"
           link="Watch pitch"
           href="https://www.youtube.com/watch?v=77KozPbACI0"
@@ -111,8 +111,8 @@ export default function About() {
           image={data.chart.childImageSharp.fluid}
           lowerLevelHeader="Our mission"
           chapterTitle="REDUCE METHANE EMISSIONS FROM COWS"
-          text="There are around 1 billion cows on planet earth. Together they produce over 4% of the world’s greenhouse gas emissions, just by farting and burping methane gas. That’s 2x more emissions than the world’s fleet of airplanes."
-          text2="Volta Greentech is on a mission to reduce these emissions to mitigate global warming. By providing farmers with a fully natural seaweed based feed supplement to drastically reduce the methane emissions produced by dairy cows and beef cattle, the agriculture sector can take a massive leap in going sustainable."
+          text="There are around 1 billion cows on planet earth. Together they produce over 4% of the world’s greenhouse gas emissions just by farting and burping methane gas. That’s 2x more emissions than the world’s fleet of airplanes."
+          text2="Volta Greentech is on a mission to reduce these emissions to mitigate global warming. By providing farmers with an entirely natural seaweed-based feed supplement to drastically reduce the methane emissions produced by dairy cows and beef cattle, the agriculture sector can take a massive leap in going sustainable."
           link="our solution"
           href="/solution/"
         />
@@ -121,8 +121,8 @@ export default function About() {
           image={data.highlights.childImageSharp.fluid}
           lowerLevelHeader="The volta mindset"
           chapterTitle="SIMPLE MEANS, MASSIVE IMPACT"
-          text="We know from experience that any challenge, no matter how big it is, can be broken down and simplified into small and manageable pieces. We also know that nothing is more powerful than a will so strong that it will stake even it’s existence for it’s fullfillment. Having a team of people with that mindset, we can take on any challenge, no matter how big it is. This is how we create massive impact. One cow at a time. Today we focus on 4% of the world’s greenhouse gas emissions in the form of enteric methane (farts and burps from cows). Tomorrow it might be something else."
-          text2="If you recognise yourself in this description, join us on the way to a future with net zero emissions."
+          text="We know from experience that any challenge, no matter how big it is, can be broken down into small and manageable pieces. We also know that nothing is more powerful than a will so strong that it will stake even its existence for its fulfillment. Having a team of people with that mindset can take on any challenge, no matter how big it is. This is how we create a massive impact—one cow at a time. Today we focus on 4% of the world’s greenhouse gas emissions in the form of enteric methane (farts and burps from cows). Tomorrow it might be something else."
+          text2="If you recognize yourself in this description, join us on the way to a future with net-zero emissions."
           link="See open positions"
           href="/careers/"
           caption="Part of science team & founders at Volta Labs, Karolinska Institute, Stockholm Sweden"
@@ -137,13 +137,13 @@ export default function About() {
           imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="DATA DRIVEN &
           PLAYFUL"
-          textTwo="When you possess knowledge you have the ability to be creative and explain so people can understand. “Creativity is intelligence having fun”."
+          textTwo="When you possess the knowledge, you can be creative and explain so people can understand. “Creativity is intelligence having fun.”"
           imageThree={data.iconThree.childImageSharp.fluid}
           titleThree="OPEN-HEARTED & INCLUSIVE"
-          textThree="To spread our believes and our knowledge we have to challenge the status quo. We are not activists, we do not hate. We include people to join for a better tomorrow."
+          textThree="To spread our beliefs and our knowledge, we have to challenge the status quo. We are not activists; we do not hate. We include people to join for a better tomorrow."
           imageFour={data.iconFour.childImageSharp.fluid}
           titleFour="DARE TO BE UNEXPECTED"
-          textFour="We dare to differ and do the unexpected, we are always open for collaborations to reach common goals. We marry passion with passion."
+          textFour="We dare to differ and do the unexpected; we are always open to collaborations to reach common goals. We marry passion with passion."
         />
 
         <JobsContainer />

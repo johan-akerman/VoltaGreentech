@@ -2,7 +2,6 @@ import React from "react"
 import typography from "../typography.module.css"
 import styles from "./Quote.module.css"
 import quoteIllustration from "../../../src/images/illustrations/quote.png"
-import TextDecoration from "../textDecoration/TextDecoration"
 import Fade from "react-reveal/Fade"
 
 export default function Quote(props) {
@@ -18,9 +17,9 @@ export default function Quote(props) {
 
       <div className={styles.quoteContent}>
         <Fade up delay={200}>
-          <h1 className={styles.title}>
-            If cattle were a country, they would rank{" "}
-            <TextDecoration text="THIRD" /> in greenhouse gas emissions.
+          <h1 className={typography.chapterTitle}>
+            If cattle were a country, they would rank third in greenhouse gas
+            emissions.
           </h1>
         </Fade>
         <Fade up delay={450}>

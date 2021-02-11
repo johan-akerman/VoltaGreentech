@@ -79,7 +79,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.fastCompany.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.fastCompany.childImageSharp.fluid}
+              />
             </a>
           </div>
           <div className="col-6 col-md-3 col-lg-2">
@@ -89,7 +93,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.sifted.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.sifted.childImageSharp.fluid}
+              />
             </a>
           </div>
 
@@ -100,7 +108,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.dagensIndustri.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.dagensIndustri.childImageSharp.fluid}
+              />
             </a>
           </div>
 
@@ -111,7 +123,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.dagensNyheter.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.dagensNyheter.childImageSharp.fluid}
+              />
             </a>
           </div>
 
@@ -122,7 +138,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.feedNavigator.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.feedNavigator.childImageSharp.fluid}
+              />
             </a>
           </div>
 
@@ -133,7 +153,11 @@ export default function FeaturedIn(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <Img fluid={data.breakit.childImageSharp.fluid} />
+              <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
+                fluid={data.breakit.childImageSharp.fluid}
+              />
             </a>
           </div>
         </div>

@@ -31,8 +31,9 @@ export default function grid(props) {
           <div className="col-lg-6">
             <Fade up>
               <div className={styles.imageColumn}>
-                {/* <img src={props.image} alt="grid thumbnail" /> */}
                 <Img
+                  style={{ height: "100%", width: "100%" }}
+                  imgStyle={{ objectFit: "contain" }}
                   title="image"
                   alt="Greek food laid out on table"
                   fluid={props.image}
@@ -51,8 +52,9 @@ export default function grid(props) {
         <div className="col-lg-6">
           <Fade up>
             <div className={styles.imageColumn}>
-              {/* <img src={props.image} alt="grid thumbnail" /> */}
               <Img
+                style={{ height: "100%", width: "100%" }}
+                imgStyle={{ objectFit: "contain" }}
                 title="image"
                 alt="Greek food laid out on table"
                 fluid={props.image}

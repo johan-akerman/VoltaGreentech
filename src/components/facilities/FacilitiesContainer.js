@@ -9,7 +9,23 @@ import Fade from "react-reveal/Fade"
 export default function TeamContainer(props) {
   const data = useStaticQuery(graphql`
     query {
-      factory: file(relativePath: { eq: "articles/factory.jpg" }) {
+      labs: file(relativePath: { eq: "articles/volta_labs.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      factory_01: file(relativePath: { eq: "articles/volta_factory_01.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
+      factory_02: file(relativePath: { eq: "articles/volta_factory_02.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -23,29 +39,32 @@ export default function TeamContainer(props) {
     <div className={styles.container}>
       <Fade up>
         <p className={typography.lowerLevelHeader}>Facilities</p>
-        <h1 className={typography.chapterTitle}>Title about facilities</h1>
+        <h1 className={typography.chapterTitle}>The Production facilities</h1>
         <p style={{ maxWidth: "950px" }}>
-          Very short text (3- 5 sentences) about why we have 3 different
-          facilies. Why they are located in different places etc.
+          We have our HQ and lab, Volta Labs, at the Karolinska Institute in
+          Stockholm. This is where we work with product development and optimize
+          our cultivation recipe. We are constructing our first factory, Volta
+          Factory 01 in Lysekil and are planning Volta Factory 02 - the world’s
+          largest seaweed factory.
         </p>
       </Fade>
       <div className="row">
         <Card
-          gatsbyImage={data.factory.childImageSharp.fluid}
+          gatsbyImage={data.labs.childImageSharp.fluid}
           title="Volta Labs"
-          text="Very short text about this facility. Include location, size and its purpose. Max 3 - 5 sentences."
+          text="Located in Stockholm at the Karolinska institute. Headquarter and R&D facility."
           delay="250"
         />
         <Card
-          gatsbyImage={data.factory.childImageSharp.fluid}
+          gatsbyImage={data.factory_01.childImageSharp.fluid}
           title="Volta Factory 01"
-          text="Very short text about this facility. Include location, size and its purpose. Max 3 - 5 sentences."
+          text="Located in Lysekil on the Swedish westcoast. Pilot factory and production R&D. "
           delay="500"
         />{" "}
         <Card
-          gatsbyImage={data.factory.childImageSharp.fluid}
+          gatsbyImage={data.factory_02.childImageSharp.fluid}
           title="Volta Factory 02"
-          text="Very short text about this facility. Include location, size and its purpose. Max 3 - 5 sentences."
+          text="Planned to be constructed 2022 and to become the world’s largest seaweed factory. Location to be decided. "
           delay="750"
         />
       </div>

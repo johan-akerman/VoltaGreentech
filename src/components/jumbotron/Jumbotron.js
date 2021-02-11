@@ -60,8 +60,8 @@ export default function Jumbotron(props) {
       return (
         <>
           <h1 className={styles.title}>
-            A <TextDecoration text=" blueprint " />
-            for a scalable production.
+            Engineering The <TextDecoration text=" worlds " /> largest seaweed
+            factory.
           </h1>
         </>
       )

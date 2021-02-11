@@ -44,17 +44,18 @@ class OurMission extends React.Component {
               Reduce methane emissions from cows
             </h1>
             <p>
-              There are around 1 billion cows on planet earth. Together they
-              produce over 4% of the world’s greenhouse gas emissions, just by
+              There are around one billion cows on the planet. Together they
+              produce over 4% of the world’s greenhouse gas emissions just by
               farting and burping methane gas. That’s 2x more emissions than the
               world’s fleet of airplanes.
             </p>
             <p>
               Volta Greentech is on a mission to reduce these emissions to
-              mitigate global warming. By providing farmers with a fully natural
-              seaweed based feed supplement to drastically reduce the methane
-              emissions produced by dairy cows and beef cattle, the agriculture
-              sector can take a massive leap in going sustainable.
+              mitigate global warming. By providing farmers with an entirely
+              natural seaweed-based feed supplement to drastically reduce the
+              methane emissions produced by dairy cows and beef cattle, Volta
+              Greentech is supporting the agriculture sector in taking a massive
+              leap in going sustainable.
             </p>
           </Fade>
 

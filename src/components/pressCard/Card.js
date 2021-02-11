@@ -15,7 +15,12 @@ export default function CenteredTextAndImage(props) {
           rel="noopener noreferrer"
         >
           <div className={styles.card}>
-            <Img title="image" fluid={props.gatsbyImage} />
+            <Img
+              style={{ height: "100%", width: "100%" }}
+              imgStyle={{ objectFit: "contain" }}
+              title="image"
+              fluid={props.gatsbyImage}
+            />
             <div className={styles.cardContent}>
               <div className={styles.type}>{props.date}</div>
               <h4 className={styles.title}>{props.title}</h4>

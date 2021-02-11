@@ -13,7 +13,13 @@ class infoBar extends React.Component {
     return (
       <div className={styles.container} id="panel">
         <div className={styles.content}>
-          <img src={milk} alt="Milk" className={styles.image} />
+          <Img
+            style={{ height: "100%", width: "100%" }}
+            imgStyle={{ objectFit: "contain" }}
+            src={milk}
+            alt="Milk"
+            className={styles.image}
+          />
 
           <p>We just launched _______ </p>
 
