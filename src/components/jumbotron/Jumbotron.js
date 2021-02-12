@@ -92,6 +92,7 @@ export default function Jumbotron(props) {
         className={styles.backgroundImage}
         fluid={props.jumbotronBackground}
       />
+
       <div className={styles.content}>{generateText(props.page)}</div>
     </div>
   )

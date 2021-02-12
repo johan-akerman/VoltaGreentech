@@ -42,7 +42,7 @@
   border: none !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .navbar {
     padding: 0;
     height: auto;

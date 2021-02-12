@@ -96,7 +96,7 @@ export default function Footer(props) {
           </a>
         </div>
 
-        <div className="col-sm-12 col-md-3">
+        <div className="col-sm-12 col-md-2">
           <h5 className={styles.footerTitle}>Find us</h5>
 
           <a

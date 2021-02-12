@@ -94,7 +94,7 @@ export default function Solution() {
           chapterTitle="About asparagopsis taxiformis"
           text="Initially discovered in 2015, the unprecedented methane reducing properties of the red seaweed Asparagopsis taxiformis have since been validated through years of research at numerous top universities and research institutions worldwide. As it has never been produced at scale before, the team at Volta Greentech is focused on developing a cultivation recipe and scalable land-based production of Asparagopsis."
           link="About our production"
-          href="/solution/"
+          href="/production/"
           caption="Asparagopsis growing in Volta Labs"
         />
         <IconColumnContainer

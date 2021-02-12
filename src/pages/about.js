@@ -97,8 +97,6 @@ export default function About() {
           chapterTitle="Humans commited to change"
           text="On the surface, we are a Swedish greentech company on a mission to reduce methane emissions from the world's cows. Under the surface, we are more than that. We are a growing team of innovators from over five nationalities who all share a commitment and passion for using our personal gifts and skills to bring climate innovations to the market at scale and create real measurable impact. Many solutions to help battle climate change are already out there – what we need are humans who are ready to do whatever it takes to implement them at scale. So, we rolled up our sleeves and founded Volta Greentech, a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home, planet earth."
           caption="Volta Greentech explained at Brilliant Minds 2019"
-          link="Watch pitch"
-          href="https://www.youtube.com/watch?v=77KozPbACI0"
         />
 
         <Quote
