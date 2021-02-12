@@ -11,7 +11,7 @@ export default function grid(props) {
     return (
       <div className={styles.gridContent}>
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-6">
+          <div className="col-md-12 col-lg-6">
             <div className={styles.textColumn}>
               <Fade up delay={275}>
                 <p className={typography.lowerLevelHeader}>
@@ -28,7 +28,7 @@ export default function grid(props) {
             </div>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-md-12 col-lg-6">
             <Fade up>
               <div className={styles.imageColumn}>
                 <Img
@@ -49,7 +49,7 @@ export default function grid(props) {
   return (
     <div className={styles.gridContent}>
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-md-12 col-lg-6">
           <Fade up>
             <div className={styles.imageColumn}>
               <Img
@@ -63,7 +63,7 @@ export default function grid(props) {
             </div>
           </Fade>
         </div>
-        <div className="col-lg-6">
+        <div className="col-md-12 col-lg-6">
           <div className={styles.textColumn} id={styles.rightTextColumn}>
             <Fade up delay={275}>
               <p className={typography.lowerLevelHeader}>

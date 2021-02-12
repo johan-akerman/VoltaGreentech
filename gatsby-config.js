@@ -7,10 +7,14 @@
 module.exports = {
   pathPrefix: "/VoltaGreentech",
   siteMetadata: {
-    title: `Gatsby Image`,
-    description: `gatsby images`,
-    author: `@gatsbyjs`,
+    title: "Volta Greentech",
+    titleTemplate: "Volta Greentech",
+    description:
+      "On a mission to battle global warming by making cows fart and burp less methane gas, using seaweed.",
+    url: "https://www.voltagreentech.com",
+    image: "/solution.jpeg",
   },
+
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
