@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/VoltaGreentech",
   siteMetadata: {
     title: `Gatsby Image`,
     description: `gatsby images`,
@@ -21,8 +22,4 @@ module.exports = {
       },
     },
   ],
-}
-
-module.exports = {
-  pathPrefix: "/VoltaGreentech",
 }
