@@ -32,7 +32,7 @@ export default function grid(props) {
             <Fade up>
               <div className={styles.imageColumn}>
                 <Img
-                  style={{ height: "100%", width: "100%" }}
+                  style={{ height: "100%", width: "100%", marginBottom: 0 }}
                   imgStyle={{ objectFit: "contain" }}
                   title="image"
                   alt="Greek food laid out on table"
@@ -53,7 +53,7 @@ export default function grid(props) {
           <Fade up>
             <div className={styles.imageColumn}>
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 title="image"
                 alt="Greek food laid out on table"

@@ -10,7 +10,7 @@ export default function teamMemberCard(props) {
         <a href={props.href} target="_blank" rel="noopener noreferrer">
           <div className={styles.card}>
             <Img
-              style={{ height: "100%", width: "100%" }}
+              style={{ height: "100%", width: "100%", marginBottom: 0 }}
               imgStyle={{ objectFit: "contain" }}
               title="image"
               fluid={props.gatsbyImage}

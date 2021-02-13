@@ -80,7 +80,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.fastCompany.childImageSharp.fluid}
               />
@@ -94,7 +94,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.sifted.childImageSharp.fluid}
               />
@@ -109,7 +109,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.dagensIndustri.childImageSharp.fluid}
               />
@@ -124,7 +124,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.dagensNyheter.childImageSharp.fluid}
               />
@@ -139,7 +139,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.feedNavigator.childImageSharp.fluid}
               />
@@ -154,7 +154,7 @@ export default function FeaturedIn(props) {
               rel="noreferrer"
             >
               <Img
-                style={{ height: "100%", width: "100%" }}
+                style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
                 fluid={data.breakit.childImageSharp.fluid}
               />

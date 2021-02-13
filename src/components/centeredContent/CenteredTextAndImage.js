@@ -33,7 +33,11 @@ class CenteredTextAndImage extends React.Component {
 
           <Fade up delay={250}>
             <div className={styles.imageContainer}>
-              <Img title="Header image" fluid={this.props.gatsbyImage} />
+              <Img
+                style={{ marginBottom: 0 }}
+                title="Header image"
+                fluid={this.props.gatsbyImage}
+              />
               <p className={typography.imageCaption}>{this.props.caption}</p>
             </div>
           </Fade>
@@ -58,6 +62,7 @@ class CenteredTextAndImage extends React.Component {
         <Fade up delay={250}>
           <div className={styles.imageContainer}>
             <Img
+              style={{ marginBottom: 0 }}
               title="Header image"
               alt="Greek food laid out on table"
               fluid={this.props.gatsbyImage}

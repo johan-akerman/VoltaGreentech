@@ -14,7 +14,7 @@ class infoBar extends React.Component {
       <div className={styles.container} id="panel">
         <div className={styles.content}>
           <Img
-            style={{ height: "100%", width: "100%" }}
+            style={{ height: "100%", width: "100%", marginBottom: 0 }}
             imgStyle={{ objectFit: "contain" }}
             src={milk}
             alt="Milk"

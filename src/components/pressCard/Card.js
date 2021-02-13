@@ -16,7 +16,7 @@ export default function CenteredTextAndImage(props) {
         >
           <div className={styles.card}>
             <Img
-              style={{ height: "100%", width: "100%" }}
+              style={{ height: "100%", width: "100%", marginBottom: 0 }}
               imgStyle={{ objectFit: "contain" }}
               title="image"
               fluid={props.gatsbyImage}
