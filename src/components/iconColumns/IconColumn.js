@@ -11,7 +11,6 @@ export default function IconColumn(props) {
           style={{ width: "200px" }}
           imgStyle={{ objectFit: "contain" }}
           className={styles.image}
-          title="image"
           fluid={props.illustration}
         />
         <h4 className={styles.title}>{props.title}</h4> <p>{props.text}</p>

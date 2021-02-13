@@ -16,6 +16,11 @@
   margin-left: -60px;
 }
 
+.link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .backgroundImage {
   width: 100%;
   height: 100%;

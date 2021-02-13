@@ -8,37 +8,7 @@ import CustomButton from "../buttons/circleButton/CircleButton.js"
 
 export default function Jumbotron(props) {
   function generateText(page) {
-    if (page === "home")
-      return (
-        <>
-          <h1 className={styles.title}>
-            We reduce methane emissions from <TextDecoration text="cows." />
-          </h1>
-          <p className={styles.text}>
-            On a mission to battle global warming by making cows fart and burp
-            less methane gas, using seaweed.
-          </p>
-          <div className={styles.customLink}>
-            <Link to="/solution">
-              <CustomButton text="read more" to="/about" />
-            </Link>
-          </div>
-        </>
-      )
-    else if (page === "planet-food")
-      return (
-        <>
-          <h1 className={styles.title}>
-            The same food. Better for the <TextDecoration text=" planet." />
-          </h1>
-          <p className={styles.text}>
-            Planetfood är precis som vilken mat som helst, förutom en viktig
-            skillnad: det har möjliggjort att metanustläppen har minskats med
-            upp till 80%.
-          </p>
-        </>
-      )
-    else if (page === "about")
+    if (page === "about")
       return (
         <>
           <h1 className={styles.title}>

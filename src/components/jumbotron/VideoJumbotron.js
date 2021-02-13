@@ -1,5 +1,6 @@
 import React from "react"
-import VoltaVideo from "../../images/voltaVideo.mp4"
+import VoltaVideoWEBM from "../../images/voltaVideo.webm"
+import VoltaVideoMP4 from "../../images/voltaVideo.mp4"
 import styles from "./Jumbotron.module.css"
 import TextDecoration from "../textDecoration/TextDecoration"
 import { Link } from "gatsby"
@@ -10,12 +11,14 @@ export default function VideoJumbotron() {
   return (
     <div className={styles.container}>
       <video
+        playsinline
         loop="true"
         autoplay="autoplay"
         muted
         className={styles.videoBackground}
       >
-        <source src={VoltaVideo} type="video/mp4" />
+        <source src={VoltaVideoWEBM} type="video/webm" />
+        <source src={VoltaVideoMP4} type="video/mp4" />
       </video>
       <div className={styles.content}>
         <h1 className={styles.title}>
@@ -26,7 +29,7 @@ export default function VideoJumbotron() {
           less methane gas, using seaweed.
         </p>
         <div className={styles.customLink}>
-          <Link to="/solution">
+          <Link to="/solution" className={styles.link}>
             <CustomButton text="read more" to="/about" />
           </Link>
         </div>

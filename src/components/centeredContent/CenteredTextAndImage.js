@@ -24,7 +24,7 @@ class CenteredTextAndImage extends React.Component {
               <p>{this.props.text2}</p>
 
               <div className={styles.btnContainer}>
-                <Link to={this.props.href}>
+                <Link to={this.props.href} className={styles.link}>
                   <CustomButton text={this.props.link} to={this.props.href} />
                 </Link>
               </div>

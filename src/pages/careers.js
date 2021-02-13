@@ -7,6 +7,7 @@ import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndI
 import JobsContainer from "../components/jobsContainer/JobsContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
+import Grid from "../components/grid/Grid"
 
 /* Importing styling */
 import Layout from "../components/Layout"
@@ -22,7 +23,7 @@ export default function Careers() {
         }
       }
 
-      elena: file(relativePath: { eq: "team/elena.jpg" }) {
+      highlights: file(relativePath: { eq: "team/highlights.jpeg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -71,12 +72,14 @@ export default function Careers() {
         page="careers"
       />
       <div className="layoutContainer">
-        <CenteredTextAndImage
+        <Grid
+          positionLeft={true}
+          image={data.highlights.childImageSharp.fluid}
           lowerLevelHeader="Careers"
-          gatsbyImage={data.elena.childImageSharp.fluid}
           chapterTitle="Want to join our mission?"
           text="Want to help solve one of the most urgent challenge facing the world today? This is an opportunity to join a company with a very exciting journey ahead. We need a lot of talent to achieve our mission."
-          caption="Elena in Volta Factory 01"
+          text2="If you recognize yourself in this description, see open positions below and join us on the way to a future with net-zero emissions."
+          caption="Part of science team & founders at Volta Labs, Karolinska Institute, Stockholm Sweden"
         />
 
         <IconColumnContainer

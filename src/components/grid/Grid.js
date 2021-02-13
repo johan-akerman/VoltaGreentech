@@ -34,7 +34,6 @@ export default function grid(props) {
                 <Img
                   style={{ height: "100%", width: "100%", marginBottom: 0 }}
                   imgStyle={{ objectFit: "contain" }}
-                  title="image"
                   alt="Greek food laid out on table"
                   fluid={props.image}
                 />
@@ -55,7 +54,6 @@ export default function grid(props) {
               <Img
                 style={{ height: "100%", width: "100%", marginBottom: 0 }}
                 imgStyle={{ objectFit: "contain" }}
-                title="image"
                 alt="Greek food laid out on table"
                 fluid={props.image}
               />

@@ -12,7 +12,7 @@ module.exports = {
     description:
       "On a mission to battle global warming by making cows fart and burp less methane gas, using seaweed.",
     url: "https://www.voltagreentech.com",
-    image: "/solution.jpeg",
+    image: "solution.jpeg",
   },
 
   plugins: [
