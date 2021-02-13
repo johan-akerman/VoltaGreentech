@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./Jumbotron.module.css"
 import TextDecoration from "../textDecoration/TextDecoration"
-import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 import CustomButton from "../buttons/circleButton/CircleButton.js"
