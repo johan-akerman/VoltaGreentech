@@ -13,9 +13,9 @@ export default function VideoJumbotron(props) {
   return (
     <div className={styles.container}>
       <video
-        playsinline
-        loop="true"
-        autoplay="autoplay"
+        playsInline
+        loop
+        autoPlay
         muted
         className={styles.videoBackground}
         poster={poster}
