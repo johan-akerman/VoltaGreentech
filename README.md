@@ -1,6 +1,8 @@
-<h1 align="center">
-  Volta Greentech website
+<h1>
+  Volta Greentech Website 
 </h1>
 
-<p align="center">Currently working on rebuilding Volta Greentechs website with React and Gatsby JS. See the current version here: https://johan-akerman.github.io/VoltaGreentech/
+<p>A website for Volta Greentech built in React and Gatsby JS. Volta is a startup that is reducing methane emissions from cows 🐄
   </p>
+
+  <p> View site here: https://voltagreentech.netlify.app/ </p>
