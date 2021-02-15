@@ -3,8 +3,6 @@ import styles from "./Jumbotron.module.css"
 import TextDecoration from "../textDecoration/TextDecoration"
 import Img from "gatsby-image"
 
-import CustomButton from "../buttons/circleButton/CircleButton.js"
-
 export default function Jumbotron(props) {
   function generateText(page) {
     if (page === "about")

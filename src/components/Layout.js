@@ -1,25 +1,17 @@
 import React from "react"
 import Header from "./header/navbar/Navbar"
 import Footer from "./footer/Footer"
-import Seo from "../components/Seo"
-import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default function Layout({ children }) {
-  const data = useStaticQuery(graphql`
-    query {
-      ogImage: file(relativePath: { eq: "production.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <React.Fragment>
-      <Seo />
+      <Helmet>
+        <meta
+          property="og:image"
+          content="www.voltagreentech.com/solution.jpeg"
+        />
+      </Helmet>
       <Header />
       <div>{children}</div>
       <Footer />

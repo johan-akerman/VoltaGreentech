@@ -8,7 +8,6 @@ module.exports = {
   pathPrefix: "/VoltaGreentech",
   siteMetadata: {
     title: "Volta Greentech",
-    titleTemplate: "Volta Greentech",
     description:
       "On a mission to battle global warming by making cows fart and burp less methane gas, using seaweed.",
     url: "https://www.voltagreentech.com",
