@@ -3,7 +3,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 /* Importing components */
-import CenteredTextAndImage from "../components/centeredContent/CenteredTextAndImage"
 import JobsContainer from "../components/jobsContainer/JobsContainer"
 import Jumbotron from "../components/jumbotron/Jumbotron"
 import IconColumnContainer from "../components/iconColumns/IconColumnContainer"
