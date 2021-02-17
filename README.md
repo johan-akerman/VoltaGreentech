@@ -1,7 +1,7 @@
 # Volta Greentech 🐄
 A website for Volta Greentech, a startup that is reducing methane emissions from cows. Built with React and Gatsby JS. 
 <br><br>
-<strong>Try it out live at:</strong> [voltagreentech.com](https://www.voltagreentech.com/)<br /><br>
+<strong>Watch it live:</strong> [voltagreentech.com](https://www.voltagreentech.com/)<br /><br>
  
   <img src="/static/volta_preview.gif" alt="gif"
 	title="Gif" width="600" /> 
