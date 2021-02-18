@@ -1,12 +1,14 @@
 import React from "react"
 import Helmet from "react-helmet"
-import ogImage from "../images/solution.jpeg"
 
 const Metadata = () => (
   <div>
     <Helmet>
       <title>Volta Greentech</title>
-      <meta property="og:image" content={ogImage} />
+      <meta
+        property="og:image"
+        content={`www.voltagreentech.com/solution.jpeg`}
+      />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content="400" />
       <meta property="og:image:height" content="300" />
