@@ -77,9 +77,9 @@ export default function About() {
           <span>
             <a
               className={typography.link}
-              href="mailto:fredrik@voltagreentech.com"
+              href="mailto:careers@voltagreentech.com"
             >
-              fredrik@voltagreentech.com
+              careers@voltagreentech.com
             </a>
           </span>
         </p>
