@@ -18,38 +18,45 @@ export default function NewsContainer(props) {
 
       <div className="row" style={{ marginTop: "72px" }}>
         <JobCard
+          jobTitle="Macroalgae physiologist"
+          location="Stockholm, Sweden"
+          href="/open-positions/macroalgae_physiologist"
+          delay="250"
+        />
+
+        <JobCard
           jobTitle="Production engineer"
           location="Stockholm, Sweden"
           href="/open-positions/production_engineer"
-          delay="250"
+          delay="500"
         />
 
         <JobCard
           jobTitle="Business developer"
           location="Stockholm, Sweden"
           href="/open-positions/business_developer"
-          delay="500"
+          delay="750"
         />
 
         <JobCard
           jobTitle="Marine Biologist"
           location="Stockholm, Sweden"
           href="/open-positions/marine_biologist"
-          delay="750"
+          delay="1000"
         />
 
         <JobCard
           jobTitle="Head of Manufacturing"
           location="Stockholm, Sweden"
           href="/open-positions/head_of_manufacturing"
-          delay="1000"
+          delay="1250"
         />
 
         <JobCard
           jobTitle="Algae Cultivation Technician"
           location="Lysekil, Sweden"
           href="/open-positions/algae_cultivation_technician"
-          delay="1250"
+          delay="1500"
         />
       </div>
     </div>

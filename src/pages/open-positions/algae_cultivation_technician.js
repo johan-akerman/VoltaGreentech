@@ -87,7 +87,7 @@ export default function About() {
               className={typography.link}
               href="mailto:careers@voltagreentech.com"
             >
-              ian@voltagreentech.com
+              careers@voltagreentech.com
             </a>
           </span>
           and include your CV and a cover letter.
