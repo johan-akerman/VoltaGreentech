@@ -16,7 +16,7 @@ export default function CenteredTextAndImage(props) {
         }
       }
 
-      article2: file(relativePath: { eq: "articles/flask.png" }) {
+      article2: file(relativePath: { eq: "articles/fredrik.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -42,6 +42,14 @@ export default function CenteredTextAndImage(props) {
       </Fade>
       <div className="row">
         <Card
+          gatsbyImage={data.article2.childImageSharp.fluid}
+          title="Volta Greentech raises 1.7 million Euro to fight burps from cows"
+          date="2021.05.21"
+          href="https://medium.com/@VGreentech/sweden-based-startup-volta-greentech-raises-1-7-49de3e7923c4"
+          delay="750"
+        />
+
+        <Card
           gatsbyImage={data.article1.childImageSharp.fluid}
           title="Volta partners with AFRY to build first seaweed factory aiming to reduce 80% of methane emissions from cows"
           date="2021.01.29"
@@ -55,14 +63,6 @@ export default function CenteredTextAndImage(props) {
           date="2020.10.29"
           href="https://voltagreentech.medium.com/swedens-largest-feed-company-lantm%C3%A4nnen-is-developing-the-feed-of-the-future-by-testing-methane-ad9062766f2e"
           delay="500"
-        />
-
-        <Card
-          gatsbyImage={data.article2.childImageSharp.fluid}
-          title="This factory is growing a new kind of food for cows: A seaweed that reduces their burps"
-          date="2020.06.01"
-          href="https://www.fastcompany.com/90510673/this-factory-is-growing-a-new-kind-of-food-for-cows-a-seaweed-that-reduces-their-burps?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss?cid=search"
-          delay="750"
         />
       </div>
     </div>
