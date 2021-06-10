@@ -26,8 +26,8 @@ export default function About() {
         <p>
           Over here, things are moving at a high pace. Getting closer to
           introducing our first climate-friendly products, we need to boost our
-          team further. We are now looking for a Project Manager, supporting us
-          with the critical launch of a potentially revolutionizing type of
+          team further. We are now looking for a Business Developer, supporting
+          us with the critical launch of a potentially revolutionizing type of
           product in Sweden (and later, internationally). Specs below!
         </p>
 
