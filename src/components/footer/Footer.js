@@ -112,8 +112,8 @@ export default function Footer(props) {
         <div className="col-sm-12 col-md-3">
           <h5 className={styles.footerTitle}>Contact</h5>
 
-          <a className={styles.link} href="mailto:fredrik@voltagreentech.com">
-            fredrik@voltagreentech.com
+          <a className={styles.link} href="mailto:hello@voltagreentech.com">
+            hello@voltagreentech.com
           </a>
         </div>
       </div>
