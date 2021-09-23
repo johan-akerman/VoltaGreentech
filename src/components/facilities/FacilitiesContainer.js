@@ -64,7 +64,7 @@ export default function TeamContainer(props) {
         <Card
           gatsbyImage={data.factory_02.childImageSharp.fluid}
           title="Volta Factory 02"
-          text="Planned to be constructed 2022 and to become the world’s largest seaweed factory. Location to be decided. "
+          text="Construction planned to start 2022 with the aim to become the world's largest seaweed factory. Location to be decided."
           delay="750"
         />
       </div>
