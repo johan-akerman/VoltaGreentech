@@ -10,7 +10,7 @@ export default function ComparisonTable(props) {
       <Fade up>
         <p className={typography.lowerLevelHeader}>Volta factory 02</p>
         <h1 className={typography.chapterTitle}>
-          The world’s largest seaweed factory
+          The world’s largest red seaweed factory
         </h1>
         <br />
       </Fade>

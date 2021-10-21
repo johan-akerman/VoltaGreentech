@@ -27,8 +27,8 @@ export default function Jumbotron(props) {
       return (
         <>
           <h1 className={styles.title}>
-            Engineering The <TextDecoration text=" worlds " /> largest seaweed
-            factory.
+            Engineering The <TextDecoration text=" worlds " /> largest red
+            seaweed factory.
           </h1>
         </>
       )

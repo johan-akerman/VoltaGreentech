@@ -45,7 +45,7 @@ export default function TeamContainer(props) {
           Stockholm. This is where we work with product development and optimize
           our cultivation recipe. We are constructing our first factory, Volta
           Factory 01 in Lysekil and are planning Volta Factory 02 - the world’s
-          largest seaweed factory.
+          largest red seaweed factory.
         </p>
       </Fade>
       <div className="row">
