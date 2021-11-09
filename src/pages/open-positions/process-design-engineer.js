@@ -12,22 +12,24 @@ export default function About() {
         <Link to="/careers">
           <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
-        <h1 className={styles.jobTitle}>Production Engineer</h1>
-        <h2 className={styles.jobSubTitle}>Full time, Stockholm Sweden</h2>
+        <h1 className={styles.jobTitle}>Process Design Engineer</h1>
+        <h2 className={styles.jobSubTitle}>
+          Full time, Stockholm or Göteborg, Sweden
+        </h2>
         <h2 className={styles.secondaryTitle}>About the role</h2>
         <p>
-          As a Production Engineer at Volta Greentech you will be a core team
-          member in Volta Greentech’s manufacturing team. That means you will be
-          designing and building up large-scale factories to enable the
-          production of Volta Seafeed that will transform the food industry. We
-          are a tightly knit team, and you’ll work together with our founders,
-          business team and R&D team in developing all manufacturing aspects.
+          As a Process Design Engineer at Volta Greentech you will be a core
+          team member in Volta Greentech’s engineering team. That means you will
+          be designing and building up large-scale seaweed factories to enable
+          the production of Volta Seafeed. We are a tightly knit team, and
+          you’ll work together with our founders, engineers and R & D team in
+          developing all manufacturing aspects.
         </p>
 
         <h2 className={styles.secondaryTitle}>Responsibilities</h2>
         <p>
           Volta is a new company, in a fast-changing environment. The company
-          will evolve, and your role, responsibilities and deliverables will
+          grows fast, and your role, responsibilities and deliverables will
           change with it.
         </p>
         <ul className={styles.ul}>
@@ -42,9 +44,13 @@ export default function About() {
             cultivation, downstream processing and automation of production
           </li>
           <li>
-            Be heavily involved in the designing, engineering and buildup of
-            Volta Greentechs pilot factory in Lysekil, Sweden and future
-            factories
+            Be heavily involved in the designing, engineering, testing and
+            build-up of Volta Greentechs pilot factory in Lysekil, Sweden and
+            Volta Factory 02
+          </li>
+          <li>
+            Produce Process Flow Diagrams with engineering requirements for
+            further detailed engineering work
           </li>
           <li>Lead / assist in recruitment of key team members</li>
         </ul>
@@ -52,22 +58,34 @@ export default function About() {
         <h2 className={styles.secondaryTitle}>Key skills</h2>
         <ul className={styles.ul}>
           <li>
-            Degree in mechanical engineering, electrical engineering, computer
-            science or similar
-          </li>
-          <li>Purpose driven and experience of working in a startup</li>
-          <li>
-            Experience of taking manufacturing from prototype stage to large
-            scale production
+            Degree in Chemical Engineering, or similar, and more than 2 years
+            working experience
           </li>
           <li>
-            A working knowledge of a wide range of food and bio manufacturing
-            processes
+            Experience in developing BFD, PFD and P&ID for chemical processes
           </li>
           <li>
-            Track record of having excelled at designing and building up high
-            performing production lines
+            Experience of taking manufacturing from prototype stage to
+            large-scale production. Be prepared to showcase some of your
+            designs.
           </li>
+          <li>Purpose-driven, hands-on and strategic</li>
+          <li>Good at leading projects and teams to meet tight deadlines</li>
+        </ul>
+
+        <h2 className={styles.secondaryTitle}>ADDITIONAL PREFERRED SKILLS</h2>
+        <ul className={styles.ul}>
+          <li>Experience within Food Processing Industry</li>
+          <li>
+            Experience within Dewatering and drying of sensitive organic
+            materials
+          </li>
+          <li>Experience within water mixing, dosing and pH control</li>
+          <li>
+            Knowledge of a wide range of food processing and biomanufacturing
+            technologies
+          </li>
+          <li>Experience of working in a startup</li>
         </ul>
 
         <p>

@@ -25,9 +25,9 @@ export default function NewsContainer(props) {
         />
 
         <JobCard
-          jobTitle="Production engineer"
-          location="Stockholm, Sweden"
-          href="/open-positions/production_engineer"
+          jobTitle="Process Design Engineer"
+          location="Stockholm or Göteborg, Sweden"
+          href="/open-positions/process-design-engineer"
           delay="500"
         />
 
