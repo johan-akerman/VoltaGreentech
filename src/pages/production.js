@@ -75,8 +75,8 @@ export default function Production() {
           lowerLevelHeader="Production"
           chapterTitle="A blueprint for
           scalable production"
-          text="Volta Greentech is developing a scalable, sustainable, and automated land-based seaweed cultivation system - tailored for the selected species of seaweed that are crucial ingredients in Volta Seafeed. A land-based factory enables optimization of temperature, light, and nutrients to maximize the seaweed's growth rate while ensuring a high and standardized quality of the feed supplement. "
-          text2="To meet the increasing global demand for the solution, we are rethinking how to produce seaweed at scale. Volta Seafeed has an immense impact potential, but as no one has been growing this type of seaweed at scale before, the global demand far exceeds the supply. Looking at existing production methods for seaweed, we quickly realized that we needed to take a different approach to reach the scale we are aiming for. Therefore, we went to the drawing board and looked at what would be necessary to produce Asparagopsis at scale for global implementation.  "
+          text="Volta Greentech is developing a scalable, sustainable, and automated land-based red seaweed cultivation system - tailored for the selected species of red seaweed that are crucial ingredients in Volta Seafeed. A land-based factory enables optimization of temperature, light, and nutrients to maximize the red seaweed's growth rate while ensuring a high and standardized quality of the feed supplement. "
+          text2="To meet the increasing global demand for the solution, we are rethinking how to produce red seaweed at scale. Volta Seafeed has an immense impact potential, but as no one has been growing this type of red seaweed at scale before, the global demand far exceeds the supply. Looking at existing production methods for red seaweed, we quickly realized that we needed to take a different approach to reach the scale we are aiming for. Therefore, we went to the drawing board and looked at what would be necessary to produce Asparagopsis at scale for global implementation.  "
           gatsbyImage={data.production.childImageSharp.fluid}
           caption="Production inside Volta Factory 01"
         />
@@ -87,7 +87,7 @@ export default function Production() {
           text="To ensure a sustainable footprint in the production and viable production economics, Volta Seafeed is produced using renewable electricity, waste heat, and CO2 from nearby industries.  "
           imageOne={data.iconOne.childImageSharp.fluid}
           titleOne="Vertical production in bioreactors"
-          textOne="The seaweed is grown in vertical bioreactors with sensors and automation in a controlled environment to maximize seaweed growth and quality to lower production costs. "
+          textOne="The red seaweed is grown in vertical bioreactors with sensors and automation in a controlled environment to maximize seaweed growth and quality to lower production costs. "
           imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="Cultivation media"
           textTwo="Seawater is used as cultivation media and is naturally rich in nutrients. The seawater is recirculated in the system, and extra nutrients and CO2 are added to boost seaweed growth."
