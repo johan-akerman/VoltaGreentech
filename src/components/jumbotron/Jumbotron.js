@@ -36,7 +36,7 @@ export default function Jumbotron(props) {
       return (
         <>
           <h1 className={styles.title}>
-            Farms powered by <TextDecoration text=" red seaweed " />
+            Powered by <TextDecoration text=" volta seafeed " />
           </h1>
         </>
       )

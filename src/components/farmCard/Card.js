@@ -21,10 +21,11 @@ export default function CenteredTextAndImage(props) {
               fluid={props.gatsbyImage}
             />
             <div className={styles.cardContent}>
-              <div className={styles.type}>{props.date}</div>
+              <div className={styles.type}>{props.location}</div>
               <h4 className={styles.title}>{props.title}</h4>
+              <p>{props.text}</p>
               <div className={styles.source}>
-                <LinkElement to={props.href} text="Read more" />
+                <LinkElement to={props.href} text="Visit restaurant" />
               </div>
             </div>
           </div>
