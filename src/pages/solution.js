@@ -83,7 +83,7 @@ export default function Solution() {
           lowerLevelHeader="Our solution"
           gatsbyImage={data.solution.childImageSharp.fluid}
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
-          text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams, reduces their enteric methane emissions (farts and burps) by up to 80%. Based on the red seaweed Asparagopsis taxiformis that contains high amounts of bioactive compounds blocking one of the enzymes needed by the methane-producing bacteria in the rumen, it naturally prevents enteric methane production."
+          text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams, reduces their enteric methane emissions (farts and burps) by up to 90%. Based on the red seaweed Asparagopsis taxiformis that contains high amounts of bioactive compounds blocking one of the enzymes needed by the methane-producing bacteria in the rumen, it naturally prevents enteric methane production."
           caption="Volta Seafeed"
         />
 
@@ -100,8 +100,8 @@ export default function Solution() {
         <IconColumnContainer
           lowerLevelHeader="How it works"
           chapterTitle="It's not magic. It's science."
-          text="Microbes in the cow's rumen help their digestion of food, a biological process that releases hydrogen and carbon dioxide (CO2). Methane (CH4) is formed when an enzyme in the rumen combines these two gases. Supplementing around 100 grams of Asparagopsis taxiformis to the cow's diet, which naturally contains high amounts of natural compounds that suppress this enzyme, up to 80% of methane emissions are reduced."
-          text2="Only around 100 grams per day reduces up to 80% of methane emissions – too good to be true? Nope. Backed by over 6 years of research, Asparagopsis's ability to reduce methane production in cows has been scientifically proven, both in efficiency and safety. Designed to be seamlessly implemented farms, Volta Seafeed is easily mixed into existing feed."
+          text="Microbes in the cow's rumen help their digestion of food, a biological process that releases hydrogen and carbon dioxide (CO2). Methane (CH4) is formed when an enzyme in the rumen combines these two gases. Supplementing around 100 grams of Asparagopsis taxiformis to the cow's diet, which naturally contains high amounts of natural compounds that suppress this enzyme, up to 90% of methane emissions are reduced."
+          text2="Only around 100 grams per day reduces up to 90% of methane emissions – too good to be true? Nope. Backed by over 6 years of research, Asparagopsis's ability to reduce methane production in cows has been scientifically proven, both in efficiency and safety. Designed to be seamlessly implemented farms, Volta Seafeed is easily mixed into existing feed."
           imageOne={data.iconOne.childImageSharp.fluid}
           titleOne="Cows produce methane"
           textOne="It’s not the cow that produces methane. It’s  unwanted microorganisms in the cow’s rumen that produce methane as a waste product. "
@@ -110,7 +110,7 @@ export default function Solution() {
           textTwo="Farmer supplements around 100g of Volta Seafeed to the cow’s daily feed intake."
           imageThree={data.iconThree.childImageSharp.fluid}
           titleThree="Immediate effect"
-          textThree="The seaweed's natural compounds inhibit the methane-producing microorganisms, up to 80% of enteric methane production is eliminated."
+          textThree="The seaweed's natural compounds inhibit the methane-producing microorganisms, up to 90% of enteric methane production is eliminated."
           imageFour={data.iconFour.childImageSharp.fluid}
           titleFour="proven Safe for animals & humans"
           textFour="Methane production takes up to 10% of the cow’s energy. When the methane production is inhibited, the energy becomes available for other processes. "

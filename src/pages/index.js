@@ -54,7 +54,7 @@ export default function Home() {
           image={data.solution.childImageSharp.fluid}
           lowerLevelHeader="Our solution"
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
-          text="Volta Seafeed is an entirely natural seaweed-based feed supplement for cows that, at a daily dose of around 100 grams, can reduce up to 80% of their methane emissions."
+          text="Volta Seafeed is an entirely natural seaweed-based feed supplement for cows that, at a daily dose of around 100 grams, can reduce up to 90% of their methane emissions."
           link="Read more"
           href="/solution/"
           caption="Volta Seafeed"
