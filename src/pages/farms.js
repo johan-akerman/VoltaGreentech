@@ -67,14 +67,9 @@ export default function Farms() {
           lowerLevelHeader="Farm 01"
           gatsbyImage={data.fourth.childImageSharp.fluid}
           chapterTitle="81% less methane emissions burped"
-          caption="Farmer Lisa feeding a 2 day old calve inside the barn."
+          caption="Farmer Lisa feeding a 2 day old calf inside the barn."
           text="Volta Greentech partnered with Tre Bönder (Swedish for “three farmers”) for doing the world’s first commercial pilot feeding Volta Seafeed to beef cattle to reduce methane emissions. The pilot resulted in 81% less methane emissions burped out by their beef cattle."
         />
-
-        {/* <Quote
-          text="By buying beef directly from Tre Bönder you support Volta Greentech and Torps farm in the transition to drastically reduce methane emissions.  "
-          person=""
-        /> */}
 
         <Grid
           positionLeft={false}
