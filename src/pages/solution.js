@@ -84,7 +84,7 @@ export default function Solution() {
           gatsbyImage={data.solution.childImageSharp.fluid}
           chapterTitle="A fully natural seaweed-based feed supplement for cows"
           text="Volta Seafeed is a feed supplement which when fed to cows at a daily dose of 100 grams, reduces their enteric methane emissions (farts and burps) by up to 90%. Based on the red seaweed Asparagopsis taxiformis that contains high amounts of bioactive compounds blocking one of the enzymes needed by the methane-producing bacteria in the rumen, it naturally prevents enteric methane production."
-          caption="A cows daily dose of Volta Seafeed"
+          caption="Volta Seafeed"
         />
 
         <Grid

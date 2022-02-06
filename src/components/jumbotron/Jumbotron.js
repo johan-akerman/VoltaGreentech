@@ -32,6 +32,15 @@ export default function Jumbotron(props) {
           </h1>
         </>
       )
+    else if (page === "farms")
+      return (
+        <>
+          <h1 className={styles.title}>
+            <TextDecoration text="Farm 01, " />
+            In the forests of Näshulta
+          </h1>
+        </>
+      )
     else if (page === "press")
       return (
         <>

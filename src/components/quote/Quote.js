@@ -17,10 +17,7 @@ export default function Quote(props) {
 
       <div className={styles.quoteContent}>
         <Fade up delay={200}>
-          <h1 className={typography.chapterTitle}>
-            If cattle were a country, they would rank third in greenhouse gas
-            emissions.
-          </h1>
+          <h1 className={typography.chapterTitle}>{props.text}</h1>
         </Fade>
         <Fade up delay={450}>
           <h2 className={typography.lowerLevelHeader}>{props.person}</h2>
