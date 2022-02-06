@@ -51,7 +51,7 @@ export default function CenteredTextAndImage(props) {
 
         <Card
           gatsbyImage={data.article1.childImageSharp.fluid}
-          title="Volta partners with AFRY to build first seaweed factory aiming to reduce 80% of methane emissions from cows"
+          title="Volta partners with AFRY to build first seaweed factory aiming to reduce 90% of methane emissions from cows"
           date="2021.01.29"
           href="https://voltagreentech.medium.com/volta-greentech-partners-with-afry-to-build-first-seaweed-factory-aiming-to-reduce-80-of-methane-6bfb0531c0f5"
           delay="500"
