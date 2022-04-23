@@ -18,6 +18,13 @@ export default function NewsContainer(props) {
 
       <div className="row" style={{ marginTop: "72px" }}>
         <JobCard
+          jobTitle="Production Technician - Paid Internship"
+          location="Lysekil, Sweden"
+          href="/open-positions/production_technician"
+          delay="000"
+        />
+
+        <JobCard
           jobTitle="Macroalgae physiologist"
           location="Stockholm, Sweden"
           href="/open-positions/macroalgae_physiologist"
