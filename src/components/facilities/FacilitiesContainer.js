@@ -44,8 +44,8 @@ export default function TeamContainer(props) {
           We have our HQ and lab, Volta Labs, at the Karolinska Institute in
           Stockholm. This is where we work with product development and optimize
           our cultivation recipe. We are constructing our first factory, Volta
-          Factory 01 in Lysekil and are planning Volta Factory 02 - the world’s
-          largest red seaweed factory.
+          Factory 01 in Lysekil and are planning Volta Factory 02 - one of the
+          world’s largest red seaweed factories.
         </p>
       </Fade>
       <div className="row">
@@ -64,7 +64,7 @@ export default function TeamContainer(props) {
         <Card
           gatsbyImage={data.factory_02.childImageSharp.fluid}
           title="Volta Factory 02"
-          text="Construction planned to start 2023 with the aim to become the world's largest red seaweed factory. Location to be decided."
+          text="Construction planned to start 2023 with the aim to become one of the world's largest red seaweed factories."
           delay="750"
         />
       </div>
