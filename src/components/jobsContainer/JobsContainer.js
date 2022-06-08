@@ -60,9 +60,9 @@ export default function NewsContainer(props) {
         />
 
         <JobCard
-          jobTitle="Algae Cultivation Technician"
+          jobTitle="Factory Technician"
           location="Lysekil, Sweden"
-          href="/open-positions/algae_cultivation_technician"
+          href="/open-positions/factory_technician"
           delay="1500"
         />
       </div>
