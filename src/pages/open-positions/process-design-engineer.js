@@ -21,8 +21,8 @@ export default function About() {
           As a Process Design Engineer at Volta Greentech you will be a core
           team member in Volta Greentech’s engineering team. That means you will
           be designing and building up large-scale seaweed factories to enable
-          the production of Volta Seafeed. We are a tightly knit team, and
-          you’ll work together with our founders, engineers and R & D team in
+          the production of our product. We are a tightly knit team, and you’ll
+          work together with our founders, engineers and R & D team in
           developing all manufacturing aspects.
         </p>
 

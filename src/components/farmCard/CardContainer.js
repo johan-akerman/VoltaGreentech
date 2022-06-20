@@ -34,7 +34,7 @@ export default function CenteredTextAndImage(props) {
         <p>
           Meat on the menu is delivered by Volta Greentech’s customer Tre Bönder
           where on their farm in the forests of Näshulta cattle are snacking on
-          seaweed supplement Volta Seafeed to burp less methane emissions.
+          seaweed supplement to burp less methane emissions.
         </p>
       </Fade>
       <div className="row">

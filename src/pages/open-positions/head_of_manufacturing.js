@@ -18,7 +18,7 @@ export default function About() {
         <p>
           As Head of Manufacturing you will lead our manufacturing efforts. That
           means that you will build up large-scale factories to enable the
-          production of Volta Seafeed that will transform the food industry. We
+          production of our product that will transform the food industry. We
           are a tightly knit team, and you’ll work together with our founders,
           business team and R&D team in developing all manufacturing aspects.
         </p>

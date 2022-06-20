@@ -49,10 +49,10 @@ export default function About() {
         <p>
           As we refine our culturing model, the algae will be used to supplement
           cattle feed to reduce the methane emissions associated with beef and
-          dairy products, essentially creating a new supplement called Volta
-          Seafeed. This is a great opportunity to get hands-on experience within
-          the start-up environment of a company positioned in an emerging field
-          within aquaculture and working in a commercial pilot plant.
+          dairy products, essentially creating a new supplement. This is a great
+          opportunity to get hands-on experience within the start-up environment
+          of a company positioned in an emerging field within aquaculture and
+          working in a commercial pilot plant.
         </p>
 
         <h2 className={styles.secondaryTitle}>Job Description</h2>

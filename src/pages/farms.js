@@ -68,7 +68,7 @@ export default function Farms() {
           gatsbyImage={data.fourth.childImageSharp.fluid}
           chapterTitle="81% less methane emissions burped"
           caption="Farmer Lisa feeding a 2 day old calf inside the barn."
-          text="Volta Greentech partnered with Tre Bönder (Swedish for “three farmers”) for doing the world’s first commercial pilot feeding Volta Seafeed to beef cattle to reduce methane emissions. The pilot resulted in 81% less methane emissions burped out by their beef cattle."
+          text="Volta Greentech partnered with Tre Bönder (Swedish for “three farmers”) for doing the world’s first commercial pilot feeding our seaweed to beef cattle to reduce methane emissions. The pilot resulted in 81% less methane emissions burped out by their beef cattle."
         />
 
         <Grid
@@ -76,9 +76,9 @@ export default function Farms() {
           image={data.third.childImageSharp.fluid}
           lowerLevelHeader=""
           chapterTitle="About the pilot"
-          text="During December 2021, the farmers Micke and Lisa daily fed Volta Seafeed as a supplement to 17 of their 200 cattle. Over the pilot period, on average 81% of the animals' methane emissions were removed. The seaweed in Volta Seafeed used in the pilot, was produced sustainably in Volta Greentech’s land-based seaweed factory in Lysekil, Sweden."
+          text="During December 2021, the farmers Micke and Lisa daily fed seaweed as a supplement to 17 of their 200 cattle. Over the pilot period, on average 81% of the animals' methane emissions were removed. The seaweed used in the pilot, was produced sustainably in Volta Greentech’s land-based seaweed factory in Lysekil, Sweden."
           link="Read full report"
-          caption="Volta Seafeed, a seaweed-based feed supplement."
+          caption="A seaweed-based feed supplement."
           href="https://docsend.com/view/5k2vefwsxh2gr22r?fbclid=IwAR3ExxNPAlU2RyC6op6GhDKwyWSZVreVZzZHEz377hBWpzxEjCwXzYK4cJs"
         />
 
