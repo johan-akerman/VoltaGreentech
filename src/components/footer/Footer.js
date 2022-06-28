@@ -35,6 +35,11 @@ export default function Footer(props) {
           </ListLink>
           <br />
 
+          <ListLink to="/manifesto" className={styles.link}>
+            Manifesto
+          </ListLink>
+          <br />
+
           <ListLink to="/solution/" className={styles.link}>
             Solution
           </ListLink>
