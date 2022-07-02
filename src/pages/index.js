@@ -32,6 +32,14 @@ export default function Home() {
         }
       }
 
+      lome: file(relativePath: { eq: "lome.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+
       production: file(relativePath: { eq: "production.jpg" }) {
         childImageSharp {
           fluid {
@@ -58,6 +66,17 @@ export default function Home() {
           link="Read more"
           href="/solution/"
           caption="Seaweed"
+        />
+
+        <Grid
+          positionLeft={false}
+          image={data.lome.childImageSharp.fluid}
+          lowerLevelHeader="LOME"
+          chapterTitle="The world’s first methane-reduced beef"
+          text="We just launched LOME, the world's first methane-reduced beef. At the Swedish grocery chain, Coop, there’s now a new product that isn’t available anywhere else in the world: “low methane” beef.  "
+          link="Read more"
+          href="https://www.lomefoods.com/"
+          caption="LOME"
         />
 
         <CenteredTextAndImage
