@@ -18,44 +18,42 @@ export default function NewsContainer(props) {
 
       <div className="row" style={{ marginTop: "72px" }}>
         <JobCard
-          jobTitle="Production Technician - Paid Internship"
-          location="Lysekil, Sweden"
-          href="/open-positions/production_technician"
+          jobTitle="R&D Director"
+          location="Stockholm, Sweden"
+          href="/open-positions/R&D_director"
           delay="000"
+        />
+        <JobCard
+          jobTitle="Research Scientist"
+          location="Stockholm, Sweden"
+          href="/open-positions/research_scientist"
+          delay="250"
+        />
+        <JobCard
+          jobTitle="Research Assistant"
+          location="Stockholm, Sweden"
+          href="/open-positions/research_assistant"
+          delay="500"
         />
 
         <JobCard
-          jobTitle="Macroalgae physiologist"
-          location="Stockholm, Sweden"
-          href="/open-positions/macroalgae_physiologist"
-          delay="250"
+          jobTitle="Cultivation Operations - Paid Internship"
+          location="Lysekil, Sweden"
+          href="/open-positions/cultivations_operations"
+          delay="750"
         />
 
         <JobCard
           jobTitle="Process Design Engineer"
-          location="Stockholm or Göteborg, Sweden"
+          location="Stockholm, Sweden"
           href="/open-positions/process-design-engineer"
-          delay="500"
+          delay="1000"
         />
 
         <JobCard
           jobTitle="Business developer"
           location="Stockholm, Sweden"
           href="/open-positions/business_developer"
-          delay="750"
-        />
-
-        <JobCard
-          jobTitle="Marine Biologist"
-          location="Stockholm, Sweden"
-          href="/open-positions/marine_biologist"
-          delay="1000"
-        />
-
-        <JobCard
-          jobTitle="Head of Manufacturing"
-          location="Stockholm, Sweden"
-          href="/open-positions/head_of_manufacturing"
           delay="1250"
         />
 

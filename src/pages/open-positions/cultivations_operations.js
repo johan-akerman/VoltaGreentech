@@ -13,7 +13,7 @@ export default function About() {
           <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
         <h1 className={styles.jobTitle}>
-          Production Technician - Paid Internship
+          Cultivations Operations - Paid Internship
         </h1>
         <h2 className={styles.jobSubTitle}>Lysekil, Sweden</h2>
         <h2 className={styles.secondaryTitle}>Background</h2>
@@ -26,11 +26,12 @@ export default function About() {
         <p>
           There are 1.5 billion cows on the planet that together burp out 5% of
           the world’s greenhouse gas emissions. That’s 2x more emissions than
-          the world’s fleet of aeroplanes. Volta Greentech is on a mission to
+          the world’s fleet of airplanes. Volta Greentech is on a mission to
           work with the beef and dairy industry to reduce emissions to mitigate
           global warming. By providing farmers with the means to drastically
           reduce the methane emissions produced by dairy cows and beef cattle,
-          the agriculture sector can take a massive leap in going sustainable.
+          the agriculture sector can take a massive leap in becoming
+          sustainable.
         </p>
 
         <p>
@@ -49,41 +50,39 @@ export default function About() {
         <p>
           As we refine our culturing model, the algae will be used to supplement
           cattle feed to reduce the methane emissions associated with beef and
-          dairy products, essentially creating a new supplement. This is a great
-          opportunity to get hands-on experience within the start-up environment
-          of a company positioned in an emerging field within aquaculture and
-          working in a commercial pilot plant.
+          dairy products, essentially creating a new supplement called Volta
+          Seaweed. This is a great opportunity to get hands-on experience within
+          the start-up environment of a company positioned in an emerging field
+          within aquaculture and working in a commercial pilot plant.
         </p>
 
         <h2 className={styles.secondaryTitle}>Job Description</h2>
         <p>
-          You will work on a project testing a new cultivation module. You will
-          work alongside our engineering, operational and science teams to
-          conduct and report on algae-growing experiments in this new module.
-          After training, you will share the responsibility for operating this
-          module with our operational team.
+          You will have responsibility for the day-to-day operation of our
+          cultivation system. After training, your tasks will include assisting
+          Volta Greentech’s production team with seaweed harvesting, basic
+          maintenance of cultures, performing water analysis data and mixing
+          solutions/growth media.
         </p>
 
         <p>
-          In addition, you will have responsibilities in the wider cultivation
-          system. These tasks include assisting Volta Greentech’s production
-          team with seaweed harvesting, basic maintenance of cultures,
-          performing water analysis data and mixing solutions/growth media.
-        </p>
-
-        <p>
-          There is a great opportunity for anyone who’s passionate about
-          aquaculture and production systems to learn about the aquaculture of
-          the species that we’re growing, use of instruments and testing of
-          water chemistry.
+          In addition, you will work on a project testing a new cultivation
+          module. You will work alongside our engineering, production and R&D
+          teams to conduct and report on algae-growing experiments in this new
+          module. You will share the responsibility for operating this module
+          with our production team. There is a great opportunity for anyone
+          who’s passionate about algae and/or production systems to learn about
+          the aquaculture of the species that we’re growing, use of instruments
+          and testing of water chemistry.
         </p>
 
         <h2 className={styles.secondaryTitle}>Requirements</h2>
         <ul className={styles.ul}>
-          <li>Strong technical background and hands-on approach/experience</li>
+          <li>Strong scientific or technical background</li>
+          <li>Independent problem solver</li>
           <li>English speaking and writing ability</li>
           <li>Disciplined, motivated team-worker</li>
-          <li>Independent problem solver</li>
+          <li>Hands-on approach/experience</li>
           <li>Passionate about climate solutions</li>
         </ul>
 
@@ -91,25 +90,18 @@ export default function About() {
           The ideal candidate could also have:
         </h2>
         <ul className={styles.ul}>
-          <li>Plumbing, building or DIY experience</li>
+          <li>Laboratory experience</li>
           <li>Background in aquaculture</li>
           <li>Background working in production facilities</li>
-          <li>
-            Good mechanical understanding and ability to conceptualise
-            production systems
-          </li>
         </ul>
 
         <h2 className={styles.secondaryTitle}>Duties & Responsibilities</h2>
         <ul className={styles.ul}>
           <li>
-            Conduct and report data on algae-growing experiments in new
-            cultivation module
+            Operate the current Volta Greentech system. This includes seaweed
+            harvesting, culture maintenance and water analysis
           </li>
-          <li>Operate a new cultivation module</li>
-          <li>Seaweed culture monitoring and management</li>
-          <li>Production equipment maintenance and monitoring</li>
-          <li>Water quality measurement and recording</li>
+          <li>Data gathering and reporting in a new cultivation module</li>
         </ul>
 
         <h2 className={styles.secondaryTitle}>What’s in it for you?</h2>
@@ -125,9 +117,9 @@ export default function About() {
 
         <h2 className={styles.secondaryTitle}>About the role</h2>
         <ul className={styles.ul}>
-          <li>Start date: June 2022 (exact date flexible)</li>
-          <li>Contract length: 2-3 months</li>
-          <li>Work type: Paid. Part time/full time</li>
+          <li>Start date: September 2022 </li>
+          <li>Contract length: 3-4 months</li>
+          <li>Work type: Paid, full time</li>
           <li>Location: Lysekil, Sweden</li>
         </ul>
 
@@ -140,9 +132,8 @@ export default function About() {
             >
               careers@voltagreentech.com
             </a>
-          </span>{" "}
-          before 9th May 2022. Please indicate in your application if you are
-          able to work part time, full time or either.
+          </span>
+          .Interviews are conducted on a rolling basis.
         </p>
       </div>
     </Layout>
