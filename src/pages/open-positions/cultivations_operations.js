@@ -16,12 +16,28 @@ export default function About() {
           Cultivations Operations - Paid Internship
         </h1>
         <h2 className={styles.jobSubTitle}>Lysekil, Sweden</h2>
-        <h2 className={styles.secondaryTitle}>Background</h2>
+
+        <h2 className={styles.secondaryTitle}>Job Description</h2>
         <p>
-          Volta Greentech is looking for a motivated, solution-oriented
-          technician to join our team part-time to support the work of building
-          up large scale seaweed production.
+          You will have responsibility for the day-to-day operation of our
+          cultivation system. After training, your tasks will include assisting
+          Volta Greentech’s production team with seaweed harvesting, basic
+          maintenance of cultures, performing water analysis data and mixing
+          solutions/growth media.
         </p>
+
+        <p>
+          In addition, you will work on a project testing a new cultivation
+          module. You will work alongside our engineering, production and R&D
+          teams to conduct and report on algae-growing experiments in this new
+          module. You will share the responsibility for operating this module
+          with our production team. There is a great opportunity for anyone
+          who’s passionate about algae and/or production systems to learn about
+          the aquaculture of the species that we’re growing, use of instruments
+          and testing of water chemistry.
+        </p>
+
+        <h2 className={styles.secondaryTitle}>Background</h2>
 
         <p>
           There are 1.5 billion cows on the planet that together burp out 5% of
@@ -54,26 +70,6 @@ export default function About() {
           Seaweed. This is a great opportunity to get hands-on experience within
           the start-up environment of a company positioned in an emerging field
           within aquaculture and working in a commercial pilot plant.
-        </p>
-
-        <h2 className={styles.secondaryTitle}>Job Description</h2>
-        <p>
-          You will have responsibility for the day-to-day operation of our
-          cultivation system. After training, your tasks will include assisting
-          Volta Greentech’s production team with seaweed harvesting, basic
-          maintenance of cultures, performing water analysis data and mixing
-          solutions/growth media.
-        </p>
-
-        <p>
-          In addition, you will work on a project testing a new cultivation
-          module. You will work alongside our engineering, production and R&D
-          teams to conduct and report on algae-growing experiments in this new
-          module. You will share the responsibility for operating this module
-          with our production team. There is a great opportunity for anyone
-          who’s passionate about algae and/or production systems to learn about
-          the aquaculture of the species that we’re growing, use of instruments
-          and testing of water chemistry.
         </p>
 
         <h2 className={styles.secondaryTitle}>Requirements</h2>
