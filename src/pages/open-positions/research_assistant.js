@@ -32,9 +32,7 @@ export default function About() {
           <br />
           Volta Greentech has an immediate opening for a research assistant
           position to join the R&D team in Stockholm and provide critical
-          support to the macroalgal research projects and lab operations for a 3
-          to 6 months period. The short-term contract can after completion
-          potentially be extended to a full-time long-term contract.
+          support to the macroalgal research projects and lab operations.
         </p>
 
         <h2 className={styles.secondaryTitle}>
