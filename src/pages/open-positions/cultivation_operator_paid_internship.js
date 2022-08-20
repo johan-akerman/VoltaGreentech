@@ -13,7 +13,7 @@ export default function About() {
           <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
         <h1 className={styles.jobTitle}>
-          Cultivations Operations - Paid Internship
+          Cultivation Operator - Paid Internship
         </h1>
         <h2 className={styles.jobSubTitle}>Lysekil, Sweden</h2>
 
@@ -113,7 +113,7 @@ export default function About() {
 
         <h2 className={styles.secondaryTitle}>About the role</h2>
         <ul className={styles.ul}>
-          <li>Start date: September 2022 </li>
+          <li>Start date: January 2023 </li>
           <li>Contract length: 3-4 months</li>
           <li>Work type: Paid, full time</li>
           <li>Location: Lysekil, Sweden</li>

@@ -37,9 +37,9 @@ export default function NewsContainer(props) {
         />
 
         <JobCard
-          jobTitle="Cultivation Operations - Paid Internship"
+          jobTitle="Cultivation Operator - Paid Internship"
           location="Lysekil, Sweden"
-          href="/open-positions/cultivations_operations"
+          href="/open-positions/cultivation_operator_paid_internship"
           delay="750"
         />
 
