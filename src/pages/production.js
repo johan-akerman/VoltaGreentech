@@ -14,7 +14,7 @@ import Layout from "../components/Layout"
 export default function Production() {
   const data = useStaticQuery(graphql`
     query {
-      jumbotron: file(relativePath: { eq: "factory_01_concept.jpg" }) {
+      jumbotron: file(relativePath: { eq: "volta_greenhouse_farm.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
