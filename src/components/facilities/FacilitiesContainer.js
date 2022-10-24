@@ -25,7 +25,7 @@ export default function TeamContainer(props) {
         }
       }
 
-      factory_02: file(relativePath: { eq: "articles/volta_factory_02.png" }) {
+      factory_02: file(relativePath: { eq: "factory_02.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
