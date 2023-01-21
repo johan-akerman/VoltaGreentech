@@ -56,6 +56,13 @@ export default function NewsContainer(props) {
           href="/open-positions/business_developer"
           delay="1250"
         />
+
+        <JobCard
+          jobTitle="R&D Assistant"
+          location="Lysekil, Sweden"
+          href="/open-positions/R&D_assistant"
+          delay="1500"
+        />
       </div>
     </div>
   )
