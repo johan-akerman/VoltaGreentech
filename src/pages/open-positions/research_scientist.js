@@ -13,139 +13,72 @@ export default function About() {
           <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
         <h1 className={styles.jobTitle}>Research Scientist</h1>
-        <h2 className={styles.jobSubTitle}>Stockholm, Sweden</h2>
+        <h2 className={styles.jobSubTitle}>Lysekil, Sweden</h2>
         <h2 className={styles.secondaryTitle}>Background</h2>
         <p>
-          Volta Greentech is a rapidly growing biotech company that produces
-          seaweed-based animal feed with anti-methanogenic properties. Founded
-          in 2019 in Sweden with a research lab in Stockholm and a land-based
-          seaweed cultivation facility in Lysekil. Our mission is to fight
-          climate change by curbing the massive methane emission by cattle by
-          adding seaweed to their feed. We are now well on our way to become the
-          largest producer of anti-methanogenic macroalgae in the world.
+          Do you want to work on solving one of the world’s most important
+          challenges together with a driven team in a fast moving environment?
           <br />
           <br />
-          Land-based macroalgae cultivation permits control during growth
-          conditions, which will generate better product yield and quality when
-          manipulated correctly. This strategy will help us achieve our goal
-          alongside strain development for increased biomass and product
-          biosynthesis.
+          Volta Greentech was founded with the mission to eliminate methane
+          emissions from cows by 2050. We develop and produce methane-reducing
+          feed supplements based on algae, which when fed to cows drastically
+          reduce their methane emissions. We are designing and scaling up our
+          algae production systems after having succeeded with several
+          commercial farm pilots showing consistent methane reductions of up to
+          90% per day using our product.
           <br />
           <br />
-          Volta Greentech has an immediate opening for a research scientist
-          position to join the R&D team focusing on macroalgal biology, growth,
-          and secondary metabolites projects.
+          We are looking for a Research Scientist to lead research from our
+          pilot factory in Lysekil. As a Research Scientist, you will work in
+          cross-functional teams focused on critical company objectives
+          advancing our algae production systems.
         </p>
 
         <h2 className={styles.secondaryTitle}>
-          What we expect from the successful candidate
+          Key responsibilities include but not limited to:
         </h2>
 
         <ul className={styles.ul}>
           <li>
-            Willingness to work in a dynamic start-up environment, being part of
-            a fast-growing company
+            Lead and project manage critical research projects on macroalgal
+            biology and growth, algae cultivation systems, and secondary
+            metabolites enhancement
           </li>
           <li>
-            Conducting critical research in one or several major R&D projects on
-            macroalgal biology and growth, cultivation system optimization,
-            and/or secondary metabolites enhancement
+            Have a key role in designing our cultivation strategy and
+            streamlining of cultivation processes
           </li>
           <li>
-            Project management, designing and setting the strategy for the R&D
-            project as well as required budget and resources with support from
-            R&D Director
+            Working hands-on running experiments in small to large scale
+            cultivation systems
           </li>
           <li>
-            Maintain and cultivate seaweed in both laboratory and production
-            environments.
+            Set the strategy, budget and resource allocation for R&D projects
           </li>
           <li>
-            Conduct advanced continuous physiological state- and nutrient uptake
-            monitoring
+            Write reports on research activities, conduct data processing and
+            statistical analysis, and present research findings in various
+            settings to drive progress
           </li>
           <li>
-            Write reports on research activities, literature review, conduct
-            data processing and statistical analysis, and present research
-            findings in various settings
-          </li>
-          <li>
-            Lead/coordinate a team of research assistants, interns, and
-            consultants and be responsible for supporting their growth in the
-            company
-          </li>
-          <li>
-            Flexibility towards the relocation and working at two different
-            sites in Sweden.
-          </li>
-          <li>Contribution to the development of the production blueprint</li>
-        </ul>
-
-        <h2 className={styles.secondaryTitle}>Required Qualifications</h2>
-
-        <ul className={styles.ul}>
-          <li>
-            Relevant Ph.D. or M.s. with extensive background knowledge and
-            research experience in algal biology and cultivation; in particular,
-            photophysiology, growth and nutrients optimization, secondary
-            metabolites production, photobioreactors
-          </li>
-          <li>
-            Know-how and proven experience in designing and conducting
-            experiments in a lab setup, data analysis, scientific reports
-            writing
-          </li>
-          <li>
-            Project management and organizational skills, good team-working
-            spirit
-          </li>
-          <li>
-            Ability to communicate science at ease in English, constructively
-            and convincingly in small and large group settings
-          </li>
-          <li>
-            Computer skills in MS Office and Google suites (documents,
-            spreadsheets, presentations), statistical analysis tools
+            Work closely together with engineers, product developers,
+            cultivation specialists and production technicians on developing our
+            algae production systems and production capacities
           </li>
         </ul>
-
-        <h2 className={styles.secondaryTitle}>Preferred Qualifications</h2>
-
-        <ul className={styles.ul}>
-          <li>
-            A Ph.D. in macroalgal biology or biotechnology, ideally on red
-            seaweed growth and secondary metabolites formation
-          </li>
-          <li>
-            Working knowledge in marine biology and ecology, such as effects of
-            biotic and abiotic factors on seaweed, interactions with other
-            species and parasites
-          </li>
-          <li>
-            Experience in photobioreactor design and large-scale cultivation
-            systems for macroalgae
-          </li>
-          <li>
-            Working knowledge of the metabolomics of photosynthetic organisms,
-            ideally of halogenated analog metabolite secretion, and primary
-            carbon and nitrogen assimilation biochemical and metabolic pathways
-          </li>
-          <li>
-            Analytical method development skills for monitoring of secondary
-            metabolites and biomass compositional changes in macroalgae
-          </li>
-          <li>
-            A successful track record of closing or manipulating the life cycle
-            of red macroalgae and/or genetic engineering, vector design, and
-            genetic tractability of a range of different organisms
-          </li>
-        </ul>
-
-        <h2 className={styles.secondaryTitle}>Procedure</h2>
 
         <p>
-          Please send your cover letter, resume, and contact info of two
-          references to{" "}
+          The role is a full–time position based in Lysekil, Sweden and the role
+          reports to our R&D Director. Work travel is required on a monthly
+          basis.
+          <br />
+          <br />
+          Planned start date is as soon as possible.
+          <br />
+          <br />
+          Apply with CV and Cover Letter in English and/or your complete
+          LinkedIn profile to{" "}
           <span>
             <a
               className={typography.link}
@@ -154,12 +87,65 @@ export default function About() {
               careers@voltagreentech.com
             </a>
           </span>
-          . References will be contacted only after the candidate has been
-          interviewed and selected for further evaluation. The selected
-          candidate will be appointed for a six-month probation period and be
-          offered a long-term position if concluded with satisfaction.
-          Applications are to be reviewed immediately with starting date
-          negotiable.
+        </p>
+
+        <h2 className={styles.secondaryTitle}>Skills & Requirements</h2>
+
+        <ul className={styles.ul}>
+          <li>
+            +4 years of experience working in a similar role in industry or in
+            academia doing a phd
+          </li>
+          <li>
+            A masters degree in biology, biotechnology or related field and
+            extensive knowledge and research experience in algal or plant
+            biology and cultivation; in particular, photophysiology, growth and
+            nutrients optimization
+          </li>
+          <li>
+            Hands-on experience researching algae cultivation in mid to large
+            scale photobioreactors and/or raceways is a big plus, but not a
+            requirement
+          </li>
+          <li>
+            Know-how and proven track-record of successfully designing and
+            conducting experiments, data gathering, data analysis and scientific
+            reports writing
+          </li>
+          <li>Experience of effectively managing projects and a team</li>
+          <li>Strong written and verbal communication skills in English</li>
+          <li>
+            Ability to drive work independently and lead others in a fast-paced,
+            deadline-driven environment
+          </li>
+          <li>Possess an extraordinary ability and drive to solve problems</li>
+        </ul>
+
+        <h2 className={styles.secondaryTitle}>What’s in it for you?</h2>
+
+        <ul className={styles.ul}>
+          <li>
+            An opportunity to work in an innovative, potentially world-changing,
+            start-up company
+          </li>
+          <li>High levels of responsibility and decision-making</li>
+          <li>Work in a close-knit and motivated team</li>
+          <li>Competitive salary and company stocks</li>
+        </ul>
+
+        <h2 className={styles.secondaryTitle}>Procedure</h2>
+
+        <p>
+          To apply, send a motivation letter and CV to{" "}
+          <span>
+            <a
+              className={typography.link}
+              href="mailto:careers@voltagreentech.com"
+            >
+              careers@voltagreentech.com
+            </a>
+          </span>
+          .
         </p>
       </div>
     </Layout>
