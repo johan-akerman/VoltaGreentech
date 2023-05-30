@@ -52,10 +52,10 @@ class OurMission extends React.Component {
             <p>
               Volta Greentech is on a mission to reduce these emissions to
               mitigate global warming. By providing farmers with an entirely
-              natural seaweed-based feed supplement to drastically reduce the
-              methane emissions produced by dairy cows and beef cattle, Volta
-              Greentech is supporting the agriculture sector in taking a massive
-              leap in going sustainable.
+              natural seaweed-based feed supplement Lome™ to drastically reduce
+              the methane emissions produced by dairy cows and beef cattle,
+              Volta Greentech is supporting the agriculture sector in taking a
+              massive leap in going sustainable.
             </p>
           </Fade>
 

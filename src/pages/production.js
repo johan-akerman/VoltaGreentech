@@ -86,8 +86,8 @@ export default function Production() {
           chapterTitle="The production process"
           text="To ensure a sustainable footprint in the production and viable production economics, our seaweed is produced using renewable electricity, waste heat, and CO2 from nearby industries.  "
           imageOne={data.iconOne.childImageSharp.fluid}
-          titleOne="Vertical production in bioreactors"
-          textOne="The red seaweed is grown in vertical bioreactors with sensors and automation in a controlled environment to maximize seaweed growth and quality to lower production costs. "
+          titleOne="Production in bioreactors"
+          textOne="The red seaweed is grown in tanks with sensors and automation in a controlled environment to maximize seaweed growth and quality to lower production costs. "
           imageTwo={data.iconTwo.childImageSharp.fluid}
           titleTwo="Cultivation media"
           textTwo="Seawater is used as cultivation media and is naturally rich in nutrients. The seawater is recirculated in the system, and extra nutrients and CO2 are added to boost seaweed growth."

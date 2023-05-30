@@ -23,7 +23,7 @@ export default function Press() {
         }
       }
 
-      leo_and_angelo: file(relativePath: { eq: "team/leo_and_angelo.jpeg" }) {
+      lome_cow: file(relativePath: { eq: "lome-cow.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -43,11 +43,10 @@ export default function Press() {
         <FeaturedIn />
         <Grid
           positionLeft={true}
-          image={data.leo_and_angelo.childImageSharp.fluid}
+          image={data.lome_cow.childImageSharp.fluid}
           chapterTitle="Press contact and press kit"
           text="For press inquires, contact press@voltagreentech.com. In our press kit you can find a collection of assets for our product, production, team and logos."
           link="Download press kit"
-          caption="Leo & Angelo"
           href="https://drive.google.com/drive/folders/1FfrjtBbEdGrWRS5iDzVNIklcPEH21b_y?usp=sharing"
         />
 
