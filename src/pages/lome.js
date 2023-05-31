@@ -91,7 +91,7 @@ export default function Farms() {
           gatsbyImage={data.fourth.childImageSharp.fluid}
           chapterTitle="Climate-friendlier beef from seaweed-fed cows"
           caption="Lome™ Beef"
-          text="Lome™ beef offers a special food experience filled with rich flavor, story, and an important message. We use our groundbreaking seaweedbased feed supplements to reduce methane emissions in beef cattle and lower the climate footprint. Produced locally with care for our planet, Lome beef is available in selected supermarkets and restaurants."
+          text="Lome™ beef offers a special food experience filled with rich flavor, story, and an important message. We use our groundbreaking seaweed-based feed supplements to reduce methane emissions in beef cattle and lower the climate footprint. Produced locally with care for our planet, Lome beef is available in selected supermarkets and restaurants."
         />
 
         <Grid
