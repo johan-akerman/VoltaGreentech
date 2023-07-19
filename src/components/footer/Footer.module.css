@@ -1,6 +1,16 @@
 .footerContainer {
   width: 100%;
   padding: 75px 4% 16px 4%;
+  position: relative;
+}
+
+.eu {
+  position: absolute;
+  right: 4%;
+  bottom: 24px;
+  width: 72px;
+  height: 72px;
+  border-radius: 4px;
 }
 
 .logo {
@@ -38,8 +48,7 @@ a.link:focus {
 
 @media only screen and (max-width: 600px) {
   .footerContainer {
-    padding: 0px 16px 46px 16px;
-    margin-bottom: 0;
+    padding: 0px 16px 150px 16px;
   }
 
   .footerTitle {

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./Footer.module.css"
+import eu from "../../images/eu.png"
 
 const ListLink = props => (
   <li style={{ display: `inline-block` }}>
@@ -122,6 +123,7 @@ export default function Footer(props) {
           </a>
         </div>
       </div>
+      <img src={eu} className={styles.eu} />
     </div>
   )
 }
