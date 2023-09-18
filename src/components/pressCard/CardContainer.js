@@ -8,7 +8,7 @@ import { useStaticQuery, graphql } from "gatsby"
 export default function CenteredTextAndImage(props) {
   const data = useStaticQuery(graphql`
     query {
-      article1: file(relativePath: { eq: "articles/lome.png" }) {
+      article1: file(relativePath: { eq: "articles/orkla_collaboration.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -44,25 +44,25 @@ export default function CenteredTextAndImage(props) {
       </Fade>
       <div className="row">
         <Card
+          gatsbyImage={data.article1.childImageSharp.fluid}
+          title="Kan färre rapar minska Felix köttbullars klimatavtryck?"
+          date="2023.09.18"
+          href="https://medium.com/@VGreentech/kan-f%C3%A4rre-rapar-minska-felix-k%C3%B6ttbullars-klimatavtryck-42b6cead334f"
+          delay="250"
+        />
+
+        <Card
           gatsbyImage={data.article3.childImageSharp.fluid}
           title="Launch of Lome Beef at Hemköp. Probably the most climate-friendly beef on the planet."
           date="2023.06.07"
           href="https://medium.com/@VGreentech/press-release-2023-06-07-english-928e79a4bb97"
-          delay="250"
+          delay="500"
         />
         <Card
           gatsbyImage={data.article2.childImageSharp.fluid}
           title="Volta Greentech gears up: Swedish food companies join forces to reduce climate impact from cattle"
           date="2022.11.16"
           href="https://medium.com/@VGreentech/volta-greentech-gears-up-swedish-food-companies-join-forces-to-reduce-climate-impact-from-cattle-8abb1409531a"
-          delay="500"
-        />
-
-        <Card
-          gatsbyImage={data.article1.childImageSharp.fluid}
-          title="World's first methane reduced beef in Swedish supermarkets"
-          date="2022.06.21"
-          href="https://medium.com/@VGreentech/v%C3%A4rldens-f%C3%B6rsta-metanreducerade-n%C3%B6tk%C3%B6tt-nu-i-butik-d16642cd8db0"
           delay="750"
         />
       </div>
