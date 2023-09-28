@@ -17,13 +17,13 @@ export default function NewsContainer(props) {
       </Fade>
 
       <div className="row" style={{ marginTop: "72px" }}>
-        <p>Sorry, we have no job openings right now. </p>
-        {/* <JobCard
-          jobTitle="Research Scientist"
-          location="Lysekil, Sweden"
-          href="/open-positions/research_scientist"
+        {/* <p>Sorry, we have no job openings right now. </p> */}
+        <JobCard
+          jobTitle="Chief Operating Officer (COO)"
+          location="Stockholm, Sweden"
+          href="/open-positions/coo"
           delay="000"
-        /> */}
+        />
       </div>
     </div>
   )
