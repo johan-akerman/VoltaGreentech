@@ -24,6 +24,12 @@ export default function NewsContainer(props) {
           href="/open-positions/coo"
           delay="000"
         />
+        <JobCard
+          jobTitle="Cultivation Technician Internship"
+          location="Lysekil, Sweden"
+          href="/open-positions/cultivation_technician_internship"
+          delay="000"
+        />
       </div>
     </div>
   )
