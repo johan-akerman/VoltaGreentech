@@ -18,12 +18,7 @@ export default function NewsContainer(props) {
 
       <div className="row" style={{ marginTop: "72px" }}>
         {/* <p>Sorry, we have no job openings right now. </p> */}
-        <JobCard
-          jobTitle="Chief Operating Officer (COO)"
-          location="Stockholm, Sweden"
-          href="/open-positions/coo"
-          delay="000"
-        />
+
         <JobCard
           jobTitle="Cultivation Technician Internship"
           location="Lysekil, Sweden"
