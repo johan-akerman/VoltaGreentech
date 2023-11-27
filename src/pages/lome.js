@@ -143,6 +143,20 @@ export default function Farms() {
           caption="Pontus and Märtha from Ejmunds Farm."
           href="https://docsend.com/view/s/m75c3wsrretjiv3b"
         />
+
+        <Fade up>
+          <br />
+          <br />
+          <br />
+          <div className={styles.textContainer}>
+            <p>
+              The Lome projects have been supported financially by the Swedish
+              Board of Agriculture (Jordbruksverket). Part of the financed
+              project has also been to develop our algae cultivation systems and
+              conduct commercial studies.
+            </p>
+          </div>
+        </Fade>
       </div>
     </Layout>
   )
