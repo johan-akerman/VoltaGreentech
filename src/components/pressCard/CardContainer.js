@@ -42,18 +42,19 @@ export default function CenteredTextAndImage(props) {
       </Fade>
       <div className="row">
         <Card
+          gatsbyImage={data.article2.childImageSharp.fluid}
+          title="Denmark's strategy for a world-first tax in agriculture
+          "
+          date="2024.02.29"
+          href="https://medium.com/@VGreentech/on-wednesday-last-week-a-long-awaited-report-commissioned-by-the-danish-government-was-released-c6c21f0223f8"
+          delay="250"
+        />
+
+        <Card
           gatsbyImage={data.article3.childImageSharp.fluid}
           title="UK Government plowing ahead with methane-suppressing feed products for cows"
           date="2023.11.01"
           href="https://medium.com/@VGreentech/uk-government-plowing-ahead-with-methane-suppressing-feed-products-for-cows-e07179ac0245"
-          delay="250"
-        />
-        <Card
-          gatsbyImage={data.article2.childImageSharp.fluid}
-          title="Swedish government advised to feed cows methane-reducing additives to meet climate targets
-          "
-          date="2023.10.04"
-          href="https://medium.com/@VGreentech/swedish-government-advised-to-feed-cows-methane-reducing-additives-to-meet-climate-targets-8b84a0e87f21"
           delay="500"
         />
 

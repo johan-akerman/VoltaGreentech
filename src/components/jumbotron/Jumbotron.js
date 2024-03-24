@@ -9,8 +9,7 @@ export default function Jumbotron(props) {
       return (
         <>
           <h1 className={styles.title}>
-            A swedish greentech company <TextDecoration text=" committed " /> to
-            change.
+            A swedish <TextDecoration text=" greentech " /> company
           </h1>
         </>
       )
@@ -18,8 +17,9 @@ export default function Jumbotron(props) {
       return (
         <>
           <h1 className={styles.title}>
-            A<TextDecoration text=" miracle " />
-            from the bottom of the ocean.
+            The
+            <TextDecoration text=" solution " />
+            to reach climate targets
           </h1>
         </>
       )

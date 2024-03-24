@@ -60,9 +60,9 @@ export default function Home() {
         <Grid
           positionLeft={true}
           image={data.solution.childImageSharp.fluid}
-          lowerLevelHeader="Our solution"
-          chapterTitle="A fully natural seaweed-based feed supplement for cows"
-          text="Our product Lome™ is an entirely natural seaweed-based feed supplement for cows that, at a daily dose of around 100 grams, can reduce up to 90% of their methane emissions."
+          lowerLevelHeader="Lome™"
+          chapterTitle="THE SOLUTION TO REACH CLIMATE TARGETS"
+          text="Our product Lome™ is a feed additive for cows that reduces up to 90% of their methane emissions."
           link="Read more"
           href="/solution/"
           caption="Lome™"
@@ -79,16 +79,6 @@ export default function Home() {
           link="Read more"
           href="/lome/"
           caption="Lome Beef"
-        />
-
-        <CenteredTextAndImage
-          lowerLevelHeader="Production designed to scale"
-          chapterTitle="Volta Factory 01"
-          text="There are more than one billion cows on the planet. Looking at existing production methods for seaweed, we quickly realized that we needed to take a different approach to reach the scale we are aiming for. Therefore, Volta Greentech is developing an automated land-based seaweed factory on the Swedish West Coast. With a blueprint specifically designed to be replicated at scale, Volta Factory 01 will supply Volta Greentech’s first commercial partnerships and lay the technical foundation for the coming large scale factories."
-          gatsbyImage={data.production.childImageSharp.fluid}
-          caption="Production inside Volta Factory 01"
-          link="Read more"
-          href="/production/"
         />
 
         <CardContainer />

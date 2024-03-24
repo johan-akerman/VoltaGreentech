@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Volta Greentech",
     description:
-      "On a mission to battle global warming by making cows fart and burp less methane gas, using seaweed.",
+      "On a mission to battle global warming by making cows fart and burp less methane gas, using feed additives.",
     url: "https://www.voltagreentech.com",
     image: "/solution.jpeg",
     twitterUsername: "@vgreentech",

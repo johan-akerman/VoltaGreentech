@@ -16,7 +16,7 @@ import Layout from "../components/Layout"
 export default function About() {
   const data = useStaticQuery(graphql`
     query {
-      jumbotron: file(relativePath: { eq: "production.jpg" }) {
+      jumbotron: file(relativePath: { eq: "team.jpeg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -96,7 +96,7 @@ export default function About() {
           gatsbyImage={data.brilliantMinds.childImageSharp.fluid}
           chapterTitle="Humans commited to change"
           text="On the surface, we are a Swedish greentech company on a mission to reduce methane emissions from the world's cows. Under the surface, we are more than that. We are a growing team of innovators from over five nationalities who all share a commitment and passion for using our personal gifts and skills to bring climate innovations to the market at scale and create real measurable impact. Many solutions to help battle climate change are already out there – what we need are humans who are ready to do whatever it takes to implement them at scale. So, we rolled up our sleeves and founded Volta Greentech, a tech company by heart, run by humans dedicating their actions and their love for technology to saving and preserving our only home, planet earth."
-          caption="Volta Greentech explained at Brilliant Minds 2019"
+          caption="Volta Greentech's mission presented at Brilliant Minds 2019 just after founding"
         />
 
         <Quote
@@ -110,7 +110,7 @@ export default function About() {
           lowerLevelHeader="Our mission"
           chapterTitle="REDUCE METHANE EMISSIONS FROM COWS"
           text="There are around 1 billion cows on planet earth. Together they produce over 4% of the world’s greenhouse gas emissions just by farting and burping methane gas. That’s 2x more emissions than the world’s fleet of airplanes."
-          text2="Volta Greentech is on a mission to reduce these emissions to mitigate global warming. By providing farmers with an entirely natural seaweed-based feed supplement to drastically reduce the methane emissions produced by dairy cows and beef cattle, the agriculture sector can take a massive leap in going sustainable."
+          text2="Volta Greentech is on a mission to reduce these emissions to mitigate global warming. By providing farmers with feed additives to drastically reduce the methane emissions produced by dairy cows and beef cattle, the agriculture sector can take a massive leap in going sustainable."
           link="our solution"
           href="/solution/"
         />

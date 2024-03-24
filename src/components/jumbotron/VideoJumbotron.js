@@ -29,7 +29,7 @@ export default function VideoJumbotron(props) {
         </h1>
         <p className={styles.text}>
           On a mission to battle global warming by making cows fart and burp
-          less methane gas, using seaweed.
+          less methane gas, using feed additives.
         </p>
         <div className={styles.customLink}>
           <Link to="/solution" className={styles.link}>

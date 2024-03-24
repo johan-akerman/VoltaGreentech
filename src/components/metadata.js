@@ -18,7 +18,7 @@ const Metadata = () => (
       <meta property="og:title" content="Volta Greentech" />
       <meta
         property="og:description"
-        content="On a mission to battle global warming by making cows fart and burp less methane gas, using seaweed."
+        content="On a mission to battle global warming by making cows fart and burp less methane gas, using feed additives."
       />
       <meta property="og:url" content="https://www.voltagreentech.com" />
     </Helmet>

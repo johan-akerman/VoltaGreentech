@@ -34,9 +34,9 @@ export default function Manifesto() {
           <br /> <br />
           What we do know is that there are 1 billion cows in the world today
           that vastly contribute to warming the planet. And we are in a global
-          climate crisis that will soon be irreversible. With our solution of
-          feeding a daily supplement of natural red seaweed we can more or less
-          eliminate enteric methane emissions from a cow.
+          climate crisis that will soon be irreversible. With our solution,
+          using feed addtiives, we can drastically reduce the enteric methane
+          emissions from a cow.
           <br /> <br />
           Doing this at a large scale, fast enough to make a positive impact on
           the climate, is not going to be easy. But it’s important that it gets
@@ -63,17 +63,17 @@ export default function Manifesto() {
           <br /> <br />
           With our consumer brand LOME (Low Methane) we are part of influencing
           what people choose to eat. LOME was not part of our initial plan. We
-          focused on seaweed production, product development and to find ways to
-          partner with existing beef and dairy brands to implement our solution
-          to reduce emissions. We learned that the industry will not decide on
-          reducing emissions if there are no incentives and no push by consumers
-          or legislators. And there will be no push by consumers or legislators
-          if there is no brand leading the way showing it is possible. A
-          classical chicken and egg problem. We therefore had to create LOME to
-          act as the catalyst of getting consumers and legislators to see that
-          it is possible to reduce emissions from beef and dairy. With LOME we
-          hope to inspire consumers that they have the power with their choices
-          to improve how food is produced.
+          focused on product development and to find ways to partner with
+          existing beef and dairy brands to implement our solution to reduce
+          emissions. We learned that the industry will not decide on reducing
+          emissions if there are no incentives and no push by consumers or
+          legislators. And there will be no push by consumers or legislators if
+          there is no brand leading the way showing it is possible. A classical
+          chicken and egg problem. We therefore had to create LOME to act as the
+          catalyst of getting consumers and legislators to see that it is
+          possible to reduce emissions from beef and dairy. With LOME we hope to
+          inspire consumers that they have the power with their choices to
+          improve how food is produced.
           <br /> <br />
           This puts an enormous responsibility on our shoulders.
           <br /> <br />
@@ -90,8 +90,8 @@ export default function Manifesto() {
           enable reduction of methane emissions but at the same time through
           LOME support bad practices we would again have failed our mission.
           <br /> <br />
-          Thirdly, we need to make sure our own work of producing marine red
-          seaweed is done with as low environmental footprint as possible.
+          Thirdly, we need to make sure our own work of producing our feed
+          additives is done with as low environmental footprint as possible.
           <br /> <br />
           In all these areas we will always need to improve. They will be on top
           of our minds to make sure our solution to reduce methane emissions

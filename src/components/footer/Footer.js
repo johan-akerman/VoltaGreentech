@@ -53,11 +53,6 @@ export default function Footer(props) {
 
           <br />
 
-          <ListLink to="/production/" className={styles.link}>
-            Production
-          </ListLink>
-          <br />
-
           <ListLink to="/press/" className={styles.link}>
             Press
           </ListLink>

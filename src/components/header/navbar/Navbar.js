@@ -36,7 +36,6 @@ export default function Header() {
         <Nav>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/solution/">Solution</ListLink>
-          <ListLink to="/production/">Production</ListLink>
           <ListLink to="/lome/">Lome</ListLink>
           <ListLink to="/press/">Press</ListLink>
           <ListLink to="/careers/">Careers</ListLink>

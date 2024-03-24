@@ -89,9 +89,9 @@ export default function Farms() {
         <CenteredTextAndImage
           lowerLevelHeader=""
           gatsbyImage={data.fourth.childImageSharp.fluid}
-          chapterTitle="Climate-friendlier beef from seaweed-fed cows"
+          chapterTitle="Climate-friendlier beef"
           caption="Lome™ Beef"
-          text="Lome™ beef offers a special food experience filled with rich flavor, story, and an important message. We use our groundbreaking seaweed-based feed supplements to reduce methane emissions in beef cattle and lower the climate footprint. Produced locally with care for our planet, Lome beef is available in selected supermarkets and restaurants."
+          text="Lome™ beef offers a special food experience filled with rich flavor, story, and an important message. We use our groundbreaking feed additives to reduce methane emissions in beef cattle and lower the climate footprint. Produced locally with care for our planet, Lome beef is available in selected supermarkets and restaurants."
         />
 
         <Grid
@@ -124,7 +124,7 @@ export default function Farms() {
           lowerLevelHeader="Eskiltuna, Sweden"
           chapterTitle="Tre Bönder"
           text="In the forests of Näshulta, Fredrik and Helena were the first commercial farmers in
-          the world to start feeding Lome™ to their beef cattle. The results were groundbreaking
+          the world to start feeding our feed additives to their beef cattle. The results were groundbreaking
           and showed around an 80% reduction in methane emissions for every day of feeding. "
           link="Read climate report"
           caption="Micke, Lisa and Fredrik from Tre Bönder."
@@ -137,7 +137,7 @@ export default function Farms() {
           lowerLevelHeader="Gotland, Sweden"
           chapterTitle="Ejmunds Farm"
           text="On the island Gotland on the east coast of Sweden, Märtha and Pontus have fed their
-          beef cattle with Lome™ during two seasons and continuously reduced 70-90%
+          beef cattle with our feed additives during two seasons and continuously reduced 70-90%
           of the methane emissions for every day of feeding."
           link="Read climate report"
           caption="Pontus and Märtha from Ejmunds Farm."
@@ -146,16 +146,16 @@ export default function Farms() {
 
         <Fade up>
           <br />
-          <br />
-          <br />
-          <div className={styles.textContainer}>
+          {/* <br />
+          <br /> */}
+          {/* <div className={styles.textContainer}>
             <p>
               The Lome projects have been supported financially by the Swedish
               Board of Agriculture (Jordbruksverket). Part of the financed
               project has also been to develop our algae cultivation systems and
               conduct commercial studies.
             </p>
-          </div>
+          </div> */}
         </Fade>
       </div>
     </Layout>
