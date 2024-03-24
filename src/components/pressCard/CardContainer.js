@@ -43,8 +43,7 @@ export default function CenteredTextAndImage(props) {
       <div className="row">
         <Card
           gatsbyImage={data.article2.childImageSharp.fluid}
-          title="Denmark's strategy for a world-first tax in agriculture
-          "
+          title="Denmark's strategy for a world-first tax in agriculture"
           date="2024.02.29"
           href="https://medium.com/@VGreentech/on-wednesday-last-week-a-long-awaited-report-commissioned-by-the-danish-government-was-released-c6c21f0223f8"
           delay="250"

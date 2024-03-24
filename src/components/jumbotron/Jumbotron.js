@@ -19,7 +19,7 @@ export default function Jumbotron(props) {
           <h1 className={styles.title}>
             The
             <TextDecoration text=" solution " />
-            to reach climate targets
+            to reach climate targets in agriculture
           </h1>
         </>
       )
