@@ -108,11 +108,12 @@ export default function Footer(props) {
 
           <a
             className={styles.link}
-            href="https://goo.gl/maps/orSRvzAfGB2fwB8d7"
+            href="https://www.google.com/maps/place/WeWork/@59.3320108,18.0679293,15z/data=!4m2!3m1!1s0x0:0xc791fe5e927a2cda?sa=X&ved=1t:2428&ictx=111"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Nanna Svartz väg 4 <br /> 171 65 Solna, Sweden
+            Volta Greentech AB c/o WeWork. Regeringsgatan 29, 5th Floor. 111 53
+            Stockholm.
           </a>
         </div>
 
