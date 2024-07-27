@@ -13,7 +13,7 @@ export default function About() {
           <img alt="go back" className={styles.goBack} src={goBack} />
         </Link>
         <h1 className={styles.jobTitle}>Senior Product Developer</h1>
-        <h2 className={styles.jobSubTitle}>Göteborg or Stockholm, Sweden</h2>
+        <h2 className={styles.jobSubTitle}>Göteborg, Sweden</h2>
         <h2 className={styles.secondaryTitle}>Background</h2>
         <p>
           Do you want to work on solving one of the world’s most important
@@ -110,7 +110,7 @@ export default function About() {
         </ul>
 
         <p>
-          The role is a full-time position based in our office in Stockholm or
+          The role is a full-time position based in our office and lab in 
           Göteborg, Sweden, and is an integral part of the Product team,
           reporting to our Chief Product Officer. Up to 30% work travel is
           required to our R&D and production sites, as well as to partners and

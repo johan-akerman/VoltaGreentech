@@ -21,7 +21,7 @@ export default function NewsContainer(props) {
 
         <JobCard
           jobTitle="Senior Product Developer"
-          location="Göteborg or Stockholm, Sweden"
+          location="Göteborg, Sweden"
           href="/open-positions/senior_product_developer"
           delay="000"
         />
