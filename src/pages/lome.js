@@ -146,16 +146,16 @@ export default function Farms() {
 
         <Fade up>
           <br />
-          {/* <br />
-          <br /> */}
-          {/* <div className={styles.textContainer}>
+           <br />
+          <br /> 
+           <div className={styles.textContainer}>
             <p>
               The Lome projects have been supported financially by the Swedish
               Board of Agriculture (Jordbruksverket). Part of the financed
               project has also been to develop our algae cultivation systems and
               conduct commercial studies.
             </p>
-          </div> */}
+          </div> 
         </Fade>
       </div>
     </Layout>
